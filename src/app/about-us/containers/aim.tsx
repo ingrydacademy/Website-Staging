@@ -4,11 +4,11 @@ import imgCurve from '@/assets/curves2.svg'
 
 const Aim = () => {
     return (
-        <section className='bg-[#FEECFF] lg:h-screen text-center lg:text-left relative flex flex-col lg:grid lg:grid-flow-row lg:grid-rows-3'>
-            <div className='hidden lg:flex bg-[#1A183E] h-1/2 top-0 absolute w-full -z-0'></div>
+        <section className='bg-[#FEECFF] lg:min-h-screen text-center lg:text-left relative flex flex-col lg:grid lg:grid-flow-row lg:grid-rows-3'>
+            <div className='hidden lg:flex bg-secondary h-1/2 top-0 absolute w-full -z-0'></div>
             {/* <div className='bg-[#FEECFF] h-1/2 bottom-0 absolute w-full -z-0'></div> */}
             <Image src={imgCurve} alt="curve image" className="hidden lg:flex object-contain object-center absolute inset-0 -z-0" fill />
-            <article className='bg-[#1A183E] lg:bg-transparent text-white px-6 lg:px-36 py-24 z-10'>
+            <article className='bg-secondary lg:bg-transparent text-white px-6 lg:px-36 py-24 z-10'>
                 <div className='flex flex-col lg:flex-row gap-8 lg:gap-36 grow lg:items-center'>
                     <h1 className='text-3xl lg:text-5xl font-semibold'>Our Mission</h1>
                     <p className='text-lg lg:text-2xl'>To produce highly trained tech talent with the right expertise,<br />

@@ -5,7 +5,8 @@ import img1 from "@/assets/team1.png"
 import img2 from "@/assets/team2.png"
 import img3 from "@/assets/team3.png"
 import img4 from "@/assets/team4.png"
-import { Linkedin } from "lucide-react"
+import { Linkedin, LinkedinIcon, LucideLinkedin } from "lucide-react"
+import iconLinkedIn from '@/assets/akar-icons_linkedin-fill.svg'
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -19,9 +20,9 @@ const MeetTeam = () => {
                         <Image src={img1} alt="team image" className="h-40 aspect-square bg-gray-200 rounded-lg" />
                         <h1 className="font-semibold text-xl">Khadijar Abdulkadril</h1>
                         <p className="text-gray-700">CEO</p>
-                        <Button variant={"outline"} asChild size={"icon"} className="rounded-full mt-auto">
-                            <Link href={''} className="">
-                                <Linkedin className="w-4 h-4" />
+                        <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2 mt-auto">
+                            <Link href={''} className="p-2">
+                                <Image src={iconLinkedIn} alt="icon" className="w-5 h-5" />
                             </Link>
 
                         </Button>
@@ -31,9 +32,9 @@ const MeetTeam = () => {
                         <Image src={img2} alt="team image" className="h-40 aspect-square bg-gray-200 rounded-lg" />
                         <h1 className="font-semibold text-xl">Osagie Aghado</h1>
                         <p className="text-gray-700">CDO</p>
-                        <Button variant={"outline"} asChild size={"icon"} className="rounded-full mt-auto">
-                            <Link href={''} className="">
-                                <Linkedin className="w-4 h-4" />
+                        <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2 mt-auto">
+                            <Link href={''} className="p-2">
+                                <Image src={iconLinkedIn} alt="icon" className="w-5 h-5" />
                             </Link>
 
                         </Button>
@@ -43,9 +44,9 @@ const MeetTeam = () => {
                         <Image src={img3} alt="team image" className="h-40 aspect-square bg-gray-200 rounded-lg" />
                         <h1 className="font-semibold text-xl">Oluwafemi Ojo</h1>
                         <p className="text-gray-700">Business Development</p>
-                        <Button variant={"outline"} asChild size={"icon"} className="rounded-full mt-auto">
-                            <Link href={''} className="">
-                                <Linkedin className="w-4 h-4" />
+                        <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2 mt-auto">
+                            <Link href={''} className="p-2">
+                                <Image src={iconLinkedIn} alt="icon" className="w-5 h-5" />
                             </Link>
 
                         </Button>
@@ -55,9 +56,9 @@ const MeetTeam = () => {
                         <Image src={img4} alt="team image" className="h-40 aspect-square bg-gray-200 rounded-lg" />
                         <h1 className="font-semibold text-xl">Doris Theophilus</h1>
                         <p className="text-gray-700">Business Development</p>
-                        <Button variant={"outline"} asChild size={"icon"} className="rounded-full mt-auto">
-                            <Link href={''} className="">
-                                <Linkedin className="w-4 h-4" />
+                        <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2 mt-auto">
+                            <Link href={''} className="p-2">
+                                <Image src={iconLinkedIn} alt="icon" className="w-5 h-5" />
                             </Link>
 
                         </Button>

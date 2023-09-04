@@ -4,11 +4,12 @@ import Link from 'next/link'
 
 import imgHow from '@/assets/inghow.png'
 import logo from '@/assets/logo.png'
+import { ArrowRightIcon } from '@heroicons/react/24/outline'
 
 const HowTo = () => {
     return (
         <section className='bg-[#F4DCFF] flex flex-col gap-6 py-16 px-8'>
-            <h1 className='text-4xl lg:text-5xl text-center font-semibold mb-12'>How to get started:</h1>
+            <h1 className='text-4xl lg:text-5xl text-center font-semibold mb-12'>How to get started with the INGRYD <br /> scholarship program</h1>
             <ul className='flex flex-col lg:flex-row gap-16'>
                 <li className='lg:w-2/6 aspect-[9/12] hidden relative lg:flex flex-col items-center justify-center'>
                     <div className='bg-gradient-to-b from-[#1D63FE]  to-[#B900B4] rounded-xl w-full h-full'></div>
@@ -16,11 +17,10 @@ const HowTo = () => {
                     <Image alt='image' src={logo} className='absolute object-contain left mx-auto h-24 w-auto' />
                 </li>
                 <li className="lg:w-4/6 text-xl flex flex-col gap-6">
-                    <h1 className='font-semibold'>
-                        How to apply for the INGRYD Scholarship Program
-                    </h1>
+                    
                     <ul className='flex flex-col gap-6'>
-                        <li>
+                        <li className='flex gap-4 items-center'>
+                            <ArrowRightIcon className='w-5 h-5 text-primary' />
                             <p>
                                 <b>
                                     Requirements:
@@ -28,7 +28,8 @@ const HowTo = () => {
                                 Begin your journey by checking the pre-qualification requirements . FAQ
                             </p>
                         </li>
-                        <li>
+                        <li className='flex gap-4 items-center'>
+                            <ArrowRightIcon className='w-5 h-5 text-primary' />
                             <p>
                                 <b>
                                     Sign Up:
@@ -37,7 +38,8 @@ const HowTo = () => {
                                 Sign up to the platform.
                             </p>
                         </li>
-                        <li>
+                        <li className='flex gap-4 items-center'>
+                            <ArrowRightIcon className='w-5 h-5 text-primary' />
                             <p>
                                 <b>
                                     Take and Pass the Assessment:
@@ -45,7 +47,8 @@ const HowTo = () => {
                                 Demonstrate your skills and knowledge through our assessment.
                             </p>
                         </li>
-                        <li>
+                        <li className='flex gap-4 items-center'>
+                            <ArrowRightIcon className='w-5 h-5 text-primary' />
                             <p>
                                 <b>
                                     Enroll into Program:
