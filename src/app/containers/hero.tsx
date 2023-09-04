@@ -150,8 +150,6 @@ const Hero = () => {
 
 
 
-
-
                     <p className="text-lg lg:text-2xl">We help forward-thinking companies build top-level teams <br /> by recruiting and training skilled tech talents</p>
                     <Button asChild className='bg-primary w-fit mt-6'>
                         <Link href={''} className="flex gap-8 items-center py-8 px-12">
@@ -160,6 +158,16 @@ const Hero = () => {
                             </p>
                         </Link>
                     </Button>
+
+                    <div className="w-full flex justify-center gap-2 p-4">
+                        {slides.map((slide, slideIndex) => (
+                            <div
+                                key={slideIndex}
+                                className={`transition-all ease-in-out rounded-full h-3 ${slideIndex === currentIndex ? 'bg-white w-9' : 'bg-[#F4DCFF]/60 w-3'
+                                    }`}
+                            ></div>
+                        ))}
+                    </div>
                 </div>
 
             </div>
