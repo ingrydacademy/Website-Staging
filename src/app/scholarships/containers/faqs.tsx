@@ -68,15 +68,43 @@ const Faqs = () => {
                             <AccordionContent className="text-lg">
                                 The prerequisites for joining the INGRYD Academy vary depending on the program.
                                 However, the following are standard requirements to join the INGRYD Academy.
-                                - Must be between the age of 18 - 35
-                                - Must be a graduate in computer sciences, business, and related courses.
-                                - Has completed youth service or currently serving (with some exceptions)
-                                - Be available for training for the entire duration of the training.
-                                - Must be willing to wait a three-month period after training for job placements
-                                - Must be willing to sign a post-dated cheque with full training fee.
-                                - Must be willing to attend the additional job fitness training and mentorship
-                                - Be of proven integrity, with sensitivity to confidentiality requirements.
-                                - Be a team player and self-motivated.
+                                <ul>
+                                    <li>
+                                        - Must be between the age of 18 - 35
+                                    </li>
+                                    <li>
+                                        - Must be a graduate in computer sciences, business, and related courses.
+
+                                    </li>
+                                    <li>
+                                        - Has completed youth service or currently serving (with some exceptions)
+
+                                    </li>
+                                    <li>
+                                        - Be available for training for the entire duration of the training.
+
+                                    </li>
+                                    <li>
+                                        - Must be willing to wait a three-month period after training for job placements
+
+                                    </li>
+                                    <li>
+                                        - Must be willing to sign a post-dated cheque with full training fee.
+
+                                    </li>
+                                    <li>
+                                        - Must be willing to attend the additional job fitness training and mentorship
+
+                                    </li>
+                                    <li>
+                                        - Be of proven integrity, with sensitivity to confidentiality requirements.
+
+                                    </li>
+                                    <li>
+                                        - Be a team player and self-motivated.
+
+                                    </li>
+                                </ul>
                             </AccordionContent>
                         </AccordionItem>
 
