@@ -9,7 +9,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline'
 const HowTo = () => {
     return (
         <section className='bg-[#F4DCFF] flex flex-col gap-6 py-16 px-8'>
-            <h1 className='text-4xl lg:text-5xl text-center font-semibold mb-12'>How to get started with the INGRYD <br /> scholarship program</h1>
+            <h1 className='text-3xl lg:text-5xl text-center font-semibold mb-12'>How to get started with the INGRYD <br /> scholarship program</h1>
             <ul className='flex flex-col lg:flex-row gap-16'>
                 <li className='lg:w-2/6 aspect-[9/12] hidden relative lg:flex flex-col items-center justify-center'>
                     <div className='bg-gradient-to-b from-[#1D63FE]  to-[#B900B4] rounded-xl w-full h-full'></div>
@@ -20,7 +20,7 @@ const HowTo = () => {
                     
                     <ul className='flex flex-col gap-6'>
                         <li className='flex gap-4 items-center'>
-                            <ArrowRightIcon className='w-5 h-5 text-primary' />
+                            <ArrowRightIcon className='w-5 h-5 shrink-0 text-primary' />
                             <p>
                                 <b>
                                     Requirements:
@@ -29,7 +29,7 @@ const HowTo = () => {
                             </p>
                         </li>
                         <li className='flex gap-4 items-center'>
-                            <ArrowRightIcon className='w-5 h-5 text-primary' />
+                            <ArrowRightIcon className='w-5 h-5 shrink-0 text-primary' />
                             <p>
                                 <b>
                                     Sign Up:
@@ -39,7 +39,7 @@ const HowTo = () => {
                             </p>
                         </li>
                         <li className='flex gap-4 items-center'>
-                            <ArrowRightIcon className='w-5 h-5 text-primary' />
+                            <ArrowRightIcon className='w-5 h-5 shrink-0 text-primary' />
                             <p>
                                 <b>
                                     Take and Pass the Assessment:
@@ -48,7 +48,7 @@ const HowTo = () => {
                             </p>
                         </li>
                         <li className='flex gap-4 items-center'>
-                            <ArrowRightIcon className='w-5 h-5 text-primary' />
+                            <ArrowRightIcon className='w-5 h-5 shrink-0 text-primary' />
                             <p>
                                 <b>
                                     Enroll into Program:
@@ -64,7 +64,7 @@ const HowTo = () => {
                     </Button>
 
                     <div className='flex flex-col gap-8 mt-8'>
-                        <h1 className='font-semibold'>
+                        <h1 className='font-semibold text-lg'>
                             Partnering for Success:
                         </h1>
                         <p>

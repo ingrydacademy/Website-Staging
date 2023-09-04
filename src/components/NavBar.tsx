@@ -73,13 +73,13 @@ const NavBar = () => {
 
                                 <div className="flex flex-col gap-6">
                                     <Button asChild variant={'outline'} className='border-primary text-primary hover:text-primary'>
-                                        <Link href="/login" className="">
+                                        <Link href="lms.ingrydacademy.com/login" className="">
                                             Sign In
                                         </Link>
 
                                     </Button>
                                     <Button asChild className='bg-primary'>
-                                        <Link href="/signup" className="">
+                                        <Link href="lms.ingrydacademy.com/signup" className="">
                                             Sign up
                                         </Link>
 
