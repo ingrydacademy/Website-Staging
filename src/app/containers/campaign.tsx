@@ -3,6 +3,8 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 
 const Campaign = () => {
+
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
     return (
         <section className='flex p-6 lg:p-32'>
             <article className='bg-gradient-to-r from-[#1D63FE]  to-[#B900B4]
@@ -10,7 +12,7 @@ const Campaign = () => {
                 <h1 className='text-3xl lg:text-4xl italic text-center font-semibold'>Innovate faster with the right talent </h1>
                 <div className='flex gap-6 '>
                     <Button className='bg-[#1A183E] w-fit' asChild>
-                        <Link href={'/signup'} className='flex gap-3 items-center py-6 px-8'>
+                        <Link href={`${baseUrl}/signup`} className='flex gap-3 items-center py-6 px-8'>
                             Start Here 
                             <ArrowRightIcon className="w-4 h-4" />
                         </Link>
