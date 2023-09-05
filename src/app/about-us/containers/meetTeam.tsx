@@ -18,10 +18,10 @@ const MeetTeam = () => {
                 <ul className="w-full px-6 lg:px-36 grid grid-cols-2 text-center lg:grid-cols-4 gap-8">
                     <li className="flex flex-col items-center gap-2">
                         <Image src={img1} alt="team image" className="h-40 aspect-square bg-gray-200 rounded-lg" />
-                        <h1 className="font-semibold text-xl">Khadijat Abdulkadril</h1>
+                        <h1 className="font-semibold text-xl">Khadijat Abdulkadir</h1>
                         <p className="text-gray-700">CEO</p>
                         <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2 mt-auto">
-                            <Link href={''} className="p-2">
+                            <Link href={`https://www.linkedin.com/in/khadijat-abdulkadir/`} className="p-2">
                                 <Image src={iconLinkedIn} alt="icon" className="w-5 h-5" />
                             </Link>
 
@@ -33,7 +33,7 @@ const MeetTeam = () => {
                         <h1 className="font-semibold text-xl">Osagie Aghado</h1>
                         <p className="text-gray-700">COO</p>
                         <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2 mt-auto">
-                            <Link href={''} className="p-2">
+                            <Link href={`https://www.linkedin.com/in/osagie-a-03739b32/`} className="p-2">
                                 <Image src={iconLinkedIn} alt="icon" className="w-5 h-5" />
                             </Link>
 
@@ -45,7 +45,7 @@ const MeetTeam = () => {
                         <h1 className="font-semibold text-xl">Oluwafemi Ojo</h1>
                         <p className="text-gray-700">Business Development</p>
                         <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2 mt-auto">
-                            <Link href={''} className="p-2">
+                            <Link href={`https://www.linkedin.com/in/femi-ojo-58537b163/`} className="p-2">
                                 <Image src={iconLinkedIn} alt="icon" className="w-5 h-5" />
                             </Link>
 
@@ -57,7 +57,7 @@ const MeetTeam = () => {
                         <h1 className="font-semibold text-xl">Doris Theophilus</h1>
                         <p className="text-gray-700">Program Manager/Advisor</p>
                         <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2 mt-auto">
-                            <Link href={''} className="p-2">
+                            <Link href={`https://www.linkedin.com/in/doris-theophilus/`} className="p-2">
                                 <Image src={iconLinkedIn} alt="icon" className="w-5 h-5" />
                             </Link>
 
