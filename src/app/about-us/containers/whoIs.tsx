@@ -9,7 +9,7 @@ const WhoIs = () => {
             <div>
                 <ul className='flex flex-col lg:flex-row gap-4 px-6'>
                     <li className='w-full lg:w-1/2 shrink-0 lg:px-16 flex flex-col justify-center lg:border-r border-gray-400'>
-                        <h1 className='text-5xl mb-4 font-semibold'>
+                        <h1 className='text-3xl lg:text-5xl mb-4 font-semibold'>
                             Who we are?
                         </h1>
                         <p className="text-lg lg:text-xl">
