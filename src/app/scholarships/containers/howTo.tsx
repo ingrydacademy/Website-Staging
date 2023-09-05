@@ -82,7 +82,7 @@ const HowTo = () => {
                         that matter and contributing to their innovative initiatives.
                     </p>
                     <Button className="bg-[#1A183E] mt-6 flex h-fit w-fit" asChild>
-                        <Link href={`#`} className='text-xl py-3 px-6'>
+                        <Link href={``} className='text-xl py-3 px-6'>
                             Partner with us
                         </Link>
                     </Button>
