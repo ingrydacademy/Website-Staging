@@ -7,7 +7,7 @@ const UnlockTalent = () => {
             <h1 className="text-4xl lg:text-5xl font-bold">
                 Unlock <span className="text-gray-500"> hidden </span> tech talents
             </h1>                       
-            <p className='text-lg text-center'>Welcome to INGRYD academy, Africa&nbsp;s number one tech talent partner, helping organizations <br /> transform their businesses..</p>
+            <p className='text-lg text-center'>Welcome to INGRYD academy, Africa's number one tech talent partner, helping organizations <br /> transform their businesses..</p>
 
             <CourseHighllight />
         </section>
