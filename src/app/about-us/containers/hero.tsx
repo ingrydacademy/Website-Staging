@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
 const Hero = () => {
+    
     return (
         <section className='flex flex-col shrink-0 grow h-full min-h-screen relative'>
             <Image src={heroImage1} alt="hero image" className="object-cover absolute inset-0 -z-10" fill />

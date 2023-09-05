@@ -14,6 +14,8 @@ import { AnimatePresence, motion } from "framer-motion"
 
 const Hero = () => {
 
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+
     const slides = [
         "",
         "",
@@ -152,9 +154,9 @@ const Hero = () => {
 
                     <p className="text-lg lg:text-2xl">We help forward-thinking companies build top-level teams <br /> by recruiting and training skilled tech talents</p>
                     <Button asChild className='bg-primary w-fit mt-6'>
-                        <Link href={''} className="flex gap-8 items-center py-8 px-12">
+                        <Link href={`${baseUrl}/signup`} className="flex gap-8 items-center py-8 px-12">
                             <p className='text-2xl font-semibold'>
-                                Get Started
+                                Register
                             </p>
                         </Link>
                     </Button>

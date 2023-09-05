@@ -9,7 +9,7 @@ const AboutProgram = () => {
     return (
         <section className='py-24 px-6 lg:px-48 flex flex-col gap-12'>
             <div className='flex flex-col gap-4 items-center text-center'>
-                <h1 className='text-5xl font-semibold'>About INGRYD Scholarship Program</h1>
+                <h1 className='text-3xl lg:text-5xl font-semibold'>About INGRYD Scholarship Program</h1>
                 <p className='text-xl'>Empowering Africa&apos;s Tech Ecosystem with the INGRYD Scholarship Program.</p>
             </div>
             <ul className='flex flex-col-reverse lg:flex-row gap-12 py-8'>

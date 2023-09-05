@@ -3,10 +3,14 @@ import ch2 from '@/assets/ch-2.png'
 import ch3 from '@/assets/ch-3.png'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { Book, Calendar, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 const CourseHighllight = () => {
+
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+
     return (
         <section className='flex flex-row items-center gap-8 lg:px-36 py-6 max-w-full overflow-x-scroll'>
             <Button variant={'ghost'} className='hidden lg:flex text-forground rounded-full hover:bg-gray-200' size={'icon'}>
@@ -30,7 +34,11 @@ const CourseHighllight = () => {
                             <p className="flex items-center"><Book className='text-primary h-4' /> Virtual</p>
                         </div>
                         <div className='flex px-2 gap-4 mt-4 items-center'>
-                            <Button className="bg-secondary">Enroll</Button>
+                            <Button className="bg-secondary" asChild>
+                                <Link href={`${baseUrl}/signup`}>
+                                    Enroll
+                                </Link>
+                            </Button>
                             <p className='text-xl font-bold line-through'>550,000</p>
                             <p className='text-xs font-semibold text-right'>Free with scholarship</p>
                         </div>
@@ -53,7 +61,11 @@ const CourseHighllight = () => {
                             <p className="flex items-center"><Book className='text-primary h-4' /> Virtual</p>
                         </div>
                         <div className='flex px-2 gap-4 mt-4 items-center'>
-                            <Button className="bg-secondary">Enroll</Button>
+                            <Button className="bg-secondary" asChild>
+                                <Link href={`${baseUrl}/signup`}>
+                                    Enroll
+                                </Link>
+                            </Button>
                             <p className='text-xl font-bold line-through'>300,000</p>
                             <p className='text-xs font-semibold text-right'>Free with scholarship</p>
                         </div>
@@ -76,7 +88,11 @@ const CourseHighllight = () => {
                             <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
                         </div>
                         <div className='flex px-2 gap-4 mt-4 items-center'>
-                            <Button className="bg-secondary">Enroll</Button>
+                            <Button className="bg-secondary" asChild>
+                                <Link href={`${baseUrl}/signup`}>
+                                    Enroll
+                                </Link>
+                            </Button>
                             <p className='text-xl font-bold line-through'>175,000</p>
                             <p className='text-xs font-semibold text-right'>Free with scholarship</p>
                         </div>

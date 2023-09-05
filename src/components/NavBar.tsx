@@ -18,12 +18,14 @@ const navigation = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about-us' },
     { name: 'Scholarships', href: '/scholarships' },
-    
+
 ]
 
 
 const NavBar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
     return (
         <header className="flex flex-col z-50">
@@ -73,13 +75,13 @@ const NavBar = () => {
 
                                 <div className="flex flex-col gap-6">
                                     <Button asChild variant={'outline'} className='border-primary text-primary hover:text-primary'>
-                                        <Link href="lms.ingrydacademy.com/login" className="">
+                                        <Link href={`${baseUrl}/login`} className="">
                                             Sign In
                                         </Link>
 
                                     </Button>
                                     <Button asChild className='bg-primary'>
-                                        <Link href="lms.ingrydacademy.com/signup" className="">
+                                        <Link href={`${baseUrl}/signup`} className="">
                                             Sign up
                                         </Link>
 
@@ -105,13 +107,13 @@ const NavBar = () => {
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-6">
                     <Button asChild variant={'outline'} className='border-primary text-primary hover:text-primary'>
-                        <Link href="/login" className="">
+                        <Link href={`${baseUrl}/login`} className="">
                             Sign In
                         </Link>
 
                     </Button>
                     <Button asChild className='bg-primary'>
-                        <Link href="/signup" className="">
+                        <Link href={`${baseUrl}/signup`} className="">
                             Sign up
                         </Link>
 
