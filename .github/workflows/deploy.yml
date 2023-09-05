@@ -17,7 +17,7 @@ jobs:
           key: ${{ secrets.PROD_SSH_PRIVATE_KEY }}
           port: ${{ secrets.PROD_SSH_PORT }}
           script: |
-            cd ~/ingryd-lms-new-ui
+            cd ~/ingryd-lms-landing-page
 
             sudo bash deploy.sh
 
