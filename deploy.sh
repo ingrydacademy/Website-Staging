@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git pull origin main
+git pull origin prod-release
 
 docker-compose up -d --build 
 
