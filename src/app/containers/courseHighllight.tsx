@@ -81,7 +81,7 @@ const CourseHighllight = () => {
                             <p className='text-2xl font-semibold'>{'Java '}</p>
                         </div>
                         <p className='p-2 text-left'>
-                            {'In this intensive Java programming course, you&apos;ll learn the fundamentals of object-oriented programming and master the Java syntax. From variables and loops to classes and objects, you&apos;ll gain a deep understanding of the Java...'}
+                            {`In this intensive Java programming course, you'll learn the fundamentals of object-oriented programming and master the Java syntax. From variables and loops to classes and objects, you'll gain a deep understanding of the Java...`}
                         </p>
                         <div className='flex gap-8 mt-6 text-sm px-2 justify-between'>
                             <p className="flex items-center"><Calendar className='text-primary h-4' /> 12 Weeks</p>
