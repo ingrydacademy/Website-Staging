@@ -6,12 +6,12 @@ import img1 from '@/assets/Rectangle 50.png'
 
 const Benefit = () => {
     return (
-        <section className="py-32 px-6 lg:px-24 flex flex-col relative">
+        <section className="py-24 px-6 lg:px-24 flex flex-col relative">
             <Image src={img1} alt="image" className="object-cover absolute inset-0 -z-10 " fill />
             <div className="flex flex-col gap-16 items-center">
                 <div className='text-center flex flex-col gap-4'>
-                    <h1 className="text-4xl lg:text-5xl font-semibold text-white">Program Benefit</h1>
-                    <p className='text-white text-xl lg:text-2xl font-light'>Unearthing the valuable returns of partnering with INGRYD</p>
+                    <h1 className="text-3xl lg:text-5xl font-semibold text-white">Program Benefit</h1>
+                    <p className='text-white text-lg lg:text-2xl font-light'>Unearthing the valuable returns of partnering with INGRYD</p>
 
                 </div>
                 <ul className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-24">

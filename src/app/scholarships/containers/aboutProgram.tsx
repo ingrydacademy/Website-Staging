@@ -14,7 +14,7 @@ const AboutProgram = () => {
             </div>
             <ul className='flex flex-col-reverse lg:flex-row gap-12 py-8'>
                 <li className='grow lg:py-16'>
-                    <p className='text-2xl'>In an effort to close the gap for organizations that need access to more Advanced level software engineers,
+                    <p className='text-lg lg:text-2xl'>In an effort to close the gap for organizations that need access to more Advanced level software engineers,
                         INGRYD in partnership with the Lagos State employment
                         Trust Fund will be providing access to scholarships for 1000 software engineers who meet our program criteria.
                     </p>
@@ -26,7 +26,7 @@ const AboutProgram = () => {
             <hr />
             <ul className='flex flex-col-reverse lg:flex-row-reverse gap-12 py-8'>
                 <li className='grow lg:py-16'>
-                    <p className='text-2xl'>We will assess candidates based on a series of theoretical and quantitative tests including
+                    <p className='text-lg lg:text-2xl'>We will assess candidates based on a series of theoretical and quantitative tests including
                         IQ testing to help us select the most competitive talents who will be trained and provided with job placement in
                         the most competitive organizations.
                     </p>

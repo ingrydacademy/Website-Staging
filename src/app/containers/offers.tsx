@@ -19,10 +19,10 @@ const Offers = () => {
                 <Image src={img1} alt="heroImage" fill className='object-cover' />
             </div>
             <div className='flex flex-col gap-10 grow bg-secondary p-8 py-16 lg:p-16'>
-                <h1 className='text-3xl lg:text-4xl font-bold'><span className='text-primary'>Your search</span>  for the right <br /> tech talent <span className='text-primary'> ends here</span></h1>
+                <h1 className='text-2xl lg:text-4xl font-semibold'><span className='text-primary'>Your search</span>  for the right <br /> tech talent <span className='text-primary'> ends here</span></h1>
                 <ul className='flex flex-col gap-6'>
                     <li className='flex gap-4'>
-                        <Image src={icon2} alt='image' className="h-20 aspect-square rounded-lg bg-primary p-3" />
+                        <Image src={icon1} alt='image' className="h-20 aspect-square rounded-lg bg-primary p-3" />
                         <div className='flex flex-col gap-1'>
                             <h1 className='font-semibold text-xl'>
                                 Training on request
@@ -37,7 +37,7 @@ const Offers = () => {
                         </div>
                     </li>
                     <li className='flex gap-4'>
-                        <Image src={icon1} alt='image' className="h-20 aspect-square rounded-lg bg-primary p-3" />
+                        <Image src={icon2} alt='image' className="h-20 aspect-square rounded-lg bg-primary p-3" />
                         <div className='flex flex-col gap-1'>
                             <h1 className='font-semibold text-xl'>
                                 Outsourcing

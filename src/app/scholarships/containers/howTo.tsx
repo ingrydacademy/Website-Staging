@@ -13,10 +13,10 @@ const HowTo = () => {
             <section className='bg-[#F4DCFF] flex flex-col gap-6 py-16 px-8'>
                 <h1 className='text-3xl lg:text-5xl text-center font-semibold mb-12'>How to get started with the INGRYD <br /> scholarship program</h1>
                 <ul className='flex flex-col lg:flex-row gap-16'>
-                    <li className='lg:w-2/6 aspect-square hidden relative lg:flex flex-col items-center justify-center'>
-                        <div className='bg-foreground rounded-xl w-full h-full'></div>
-                        <Image alt='image' src={imgHow} fill className='object-cover -z-0 rounded-lg translate-x-8 -translate-y-8' />
-                        <Image alt='image' src={logo} className='absolute object-contain left mx-auto h-24 w-auto' />
+                    <li className='lg:w-2/6 aspect-square relative lg:flex flex-col items-center justify-center'>
+                        <div className='hidden lg:flex bg-foreground rounded-xl w-full h-full'></div>
+                        <Image alt='image' src={imgHow} fill className='object-cover -z-0 rounded-lg lg:translate-x-8 lg:-translate-y-8' />
+                        <Image alt='image' src={logo} className='absolute object-contain p-[20%] inset-0  mx-auto h-full w-auto' />
                     </li>
                     <li className="lg:w-4/6 text-xl flex flex-col gap-6">
 
@@ -71,10 +71,10 @@ const HowTo = () => {
             </section >
             <section className='flex flex-col items-center gap-4 py-16 px-6 lg:px-24'>
                 <div className='flex flex-col items-center gap-4 mt-8'>
-                    <h1 className='font-semibold text-center text-4xl lg:text-5xl'>
+                    <h1 className='font-semibold text-center text-3xl lg:text-5xl'>
                         Partnering for Success:
                     </h1>
-                    <p className='text-xl text-center'>
+                    <p className='text-base lg:text-xl text-center'>
                         At INGRYD Academy, we&apos;ve established strong partnerships with industry leaders,
                         startups, and organizations who share our commitment to empowering tech professionals
                         offering opportunities to work on meaningful projects. These partners provide

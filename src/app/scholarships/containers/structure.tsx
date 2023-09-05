@@ -13,14 +13,14 @@ const Structure = () => {
         <section className='px-6 py-16 flex flex-col items-center lg:px-36 gap-16 text-white relative'>
             <Image src={heroImage1} alt="hero image" className="object-cover absolute inset-0 -z-10" fill />
             <div className='flex flex-col gap-3'>
-                <h1 className='text-5xl text-center font-semibold'>Program Structure</h1>
-                <p className='text-xl text-center'>At INGRYD Academy, our scholarship program empowers individuals for thriving careers in the Tech Ecosystem</p>
+                <h1 className='text-3xl lg:text-5xl text-center font-semibold'>Program Structure</h1>
+                <p className='text-base lg:text-xl text-center'>At INGRYD Academy, our scholarship program empowers individuals for thriving careers in the Tech Ecosystem</p>
             </div>
 
             <div className='flex flex-col gap-6'>
                 <h1 className='text-3xl text-center font-semibold'>Learning Path</h1>
                 <ul className='grid lg:grid-cols-3 gap-8'>
-                    <li className='flex items-center justify-between bg-[#1A183E] px-4 py-8 rounded-lg'>
+                    <li className='flex items-center gap-3 justify-between bg-[#1A183E] px-4 py-8 rounded-lg'>
                         <div className=''>
                             <h1 className='text-xl mb-4 font-semibold'>Duration</h1>
                             <p>3 - 6 months</p>
@@ -29,7 +29,7 @@ const Structure = () => {
                             <Image src={icon1} alt='icon image' className='h-14 w-auto' />
                         </div>
                     </li>
-                    <li className='flex items-center justify-between bg-[#1A183E] px-4 py-8 rounded-lg'>
+                    <li className='flex items-center gap-3 justify-between bg-[#1A183E] px-4 py-8 rounded-lg'>
                         <div className=''>
                             <h1 className='text-xl mb-4 font-semibold'>Program Structure</h1>
                             <p>Hybrid (Virtual and Physical)</p>
@@ -39,7 +39,7 @@ const Structure = () => {
                             <Image src={icon2} alt='icon image' className='h-14 w-auto' />
                         </div>
                     </li>
-                    <li className='flex items-center justify-between bg-[#1A183E] px-4 py-8 rounded-lg'>
+                    <li className='flex items-center gap-3 justify-between bg-[#1A183E] px-4 py-8 rounded-lg'>
                         <div className=''>
                             <h1 className='text-xl mb-4 font-semibold'>Program Structure</h1>
                             <p>Gain additional 3 month hands on experience with the INGRYD innovation hub</p>
