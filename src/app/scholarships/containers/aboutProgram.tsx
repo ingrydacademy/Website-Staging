@@ -14,9 +14,9 @@ const AboutProgram = () => {
             </div>
             <ul className='flex flex-col-reverse lg:flex-row gap-12 py-8'>
                 <li className='grow lg:py-16'>
-                    <p className='text-lg lg:text-2xl'>The Ingryd Scholarship Program (ISP) is an initiative designed to equip mid-level tech talents with
+                    <p className='text-lg lg:text-2xl'>{`The Ingryd Scholarship Program (ISP) is an initiative designed to equip mid-level tech talents with
                      in-demand tech skills such as Java, Linux, Cybersecurity, and  Data Science;
-                      and offer them job placements after training.
+                      and offer them job placements after training.`}
                     </p>
                 </li>
                 <li className='relative w-full aspect-video lg:w-1/2 shrink-0'>
@@ -26,9 +26,9 @@ const AboutProgram = () => {
             <hr />
             <ul className='flex flex-col-reverse lg:flex-row-reverse gap-12 py-8'>
                 <li className='grow lg:py-16'>
-                    <p className='text-lg lg:text-2xl'>INGRYD is set to train 4,000 individuals annually. 
+                    <p className='text-lg lg:text-2xl'>{`INGRYD is set to train 4,000 individuals annually. 
                     The program's six-month curriculum includes a three-month paid internship, 
-                    enabling participants to gain practical experience and apply their newly acquired skills.
+                    enabling participants to gain practical experience and apply their newly acquired skills.`}
                     </p>
                 </li>
                 <li className='relative w-full aspect-video lg:w-1/2 shrink-0'>
