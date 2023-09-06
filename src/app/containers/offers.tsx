@@ -30,7 +30,7 @@ const Offers = () => {
                             <p className='font-light'>
                                 Request custom training for your organization
                             </p>
-                            <Link href={'/'} className='flex gap-2 font-light underline items-center'>
+                            <Link href={'/about-us'} className='flex gap-2 font-light underline items-center'>
                                 <span> Learn More</span> 
                                 <ArrowRightIcon className='w-4  h-4' />
                             </Link>
