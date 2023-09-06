@@ -27,7 +27,7 @@ const HowTo = () => {
                                     <b>
                                         Requirements:
                                     </b>
-                                    Begin your journey by checking the pre-qualification requirements . FAQ
+                                    Begin your journey by checking the pre-qualification requirements . <a className='font-semibold' href='#faq'>FAQ</a> 
                                 </p>
                             </li>
                             <li className='flex gap-4 items-center'>
