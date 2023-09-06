@@ -7,10 +7,7 @@ const UnlockTalent = () => {
             <h1 className="text-4xl lg:text-5xl font-bold">
                 Available Courses
             </h1>
-            <p className='text-lg text-center lg:px-36'>In a world where technology reigns supreme,
-                the demand for skilled professionals is unrelenting. Our training programs are more
-                than just courses; they are gateways to a world of opportunity.
-                We specialize in training young talents in the following programmes:
+            <p className='text-lg text-center lg:px-36'>Beginning this October, the program will welcome its first cohort of 1,000 participants, followed by three additional cohorts over the next 12 months. To be qualified for the INGRYD scholarship, participants must pass the application assessment with a minimum average score of 65%.
             </p>
 
             <CourseHighllight />
