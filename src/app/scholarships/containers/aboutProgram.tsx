@@ -27,7 +27,7 @@ const AboutProgram = () => {
             <ul className='flex flex-col-reverse lg:flex-row-reverse gap-12 py-8'>
                 <li className='grow lg:py-16'>
                     <p className='text-lg lg:text-2xl'>INGRYD is set to train 4,000 individuals annually. 
-                    The program's six-month curriculum includes a three-month paid internship, 
+                    The program&apos;s six-month curriculum includes a three-month paid internship, 
                     enabling participants to gain practical experience and apply their newly acquired skills.
                     </p>
                 </li>
