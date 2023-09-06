@@ -314,7 +314,7 @@ const CourseHighllight = () => {
                 </SwiperSlide>
 
             </Swiper>
-            <div className="swiper-button-p">
+            <div className="swiper-button-n">
                 <Button variant={'ghost'} className=' hidden lg:flex text-forground rounded-full hover:bg-gray-200' size={'icon'}
                     onClick={handleNext}
                 >
