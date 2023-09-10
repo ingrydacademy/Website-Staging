@@ -117,7 +117,7 @@ const CourseHighllight = () => {
                                                 Enroll
                                             </Link>
                                         </Button>
-                                        <p className='text-xl font-bold line-through'>550,000</p>
+                                        <p className='text-xl font-bold'>550,000</p>
                                         <p className='text-xs font-semibold line-through'>750,000</p>
                                     </div>
                                 </div>
@@ -150,7 +150,7 @@ const CourseHighllight = () => {
                                                 Enroll
                                             </Link>
                                         </Button>
-                                        <p className='text-xl font-bold line-through'>300,000</p>
+                                        <p className='text-xl font-bold'>300,000</p>
                                         <p className='text-xs font-semibold line-through'>550,000</p>
                                     </div>
                                 </div>
@@ -182,7 +182,7 @@ const CourseHighllight = () => {
                                                 Enroll
                                             </Link>
                                         </Button>
-                                        <p className='text-xl font-bold line-through'>175,000</p>
+                                        <p className='text-xl font-bold'>175,000</p>
                                         <p className='text-xs font-semibold line-through'>450,000</p>
                                     </div>
                                 </div>
@@ -214,7 +214,7 @@ const CourseHighllight = () => {
                                                 Enroll
                                             </Link>
                                         </Button>
-                                        <p className='text-xl font-bold line-through'>250,000</p>
+                                        <p className='text-xl font-bold'>250,000</p>
                                         <p className='text-xs font-semibold line-through'>350,000</p>
                                     </div>
                                 </div>
@@ -247,7 +247,7 @@ const CourseHighllight = () => {
                                                 Enroll
                                             </Link>
                                         </Button>
-                                        <p className='text-xl font-bold line-through'>150,000</p>
+                                        <p className='text-xl font-bold'>150,000</p>
                                         <p className='text-xs font-semibold line-through'>550,000</p>
                                     </div>
                                 </div>
@@ -279,7 +279,7 @@ const CourseHighllight = () => {
                                                 Enroll
                                             </Link>
                                         </Button>
-                                        <p className='text-xl font-bold line-through'>150,000</p>
+                                        <p className='text-xl font-bold'>150,000</p>
                                         <p className='text-xs font-semibold line-through'>250,000</p>
                                     </div>
                                 </div>
@@ -311,7 +311,7 @@ const CourseHighllight = () => {
                                                 Enroll
                                             </Link>
                                         </Button>
-                                        <p className='text-xl font-bold line-through'>350,000</p>
+                                        <p className='text-xl font-bold'>350,000</p>
                                         <p className='text-xs font-semibold line-through'>550,000</p>
                                     </div>
                                 </div>
