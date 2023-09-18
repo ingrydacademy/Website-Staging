@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="container px-5 mb-8 gap-8 flex flex-col lg:flex-row justify-between flex-wrap w-full">
                 <div className="w-64 flex-shrink-0 px-4">
                     <p className="mt-4 text-gray-200">4A Akiogun street New Market Road, Oniru Lagos State</p>
-                    <p className="mt-4 text-gray-200">08165883197</p>
+                    {/* <p className="mt-4 text-gray-200">08165883197</p> */}
                     <p className="mt-4 text-primary underline">support@ingrydacademy.com</p>
                 </div>
                 <div className="flex flex-col lg:items-end px-4 lg:text-right">
