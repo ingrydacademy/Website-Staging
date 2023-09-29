@@ -8,6 +8,13 @@ import MeetTeam from './containers/meetTeam'
 import Campaign from './containers/campaign'
 import Footer from '@/components/Footer'
 
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Ingryd | About-Us',
+  description: 'Acquire Borderless Tech Skills & Get Job Placements',
+}
+
 
 export default function AboutUs() {
   return (

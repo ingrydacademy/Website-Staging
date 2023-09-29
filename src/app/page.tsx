@@ -8,6 +8,12 @@ import NewsLetter from './containers/newsLetter'
 import Offers from './containers/offers'
 import Training from './containers/training'
 import UnlockTalent from './containers/unlockTalent'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Ingryd | Home',
+  description: 'Acquire Borderless Tech Skills & Get Job Placements',
+}
 
 
 export default function Home() {
