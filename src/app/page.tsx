@@ -8,12 +8,7 @@ import NewsLetter from './containers/newsLetter'
 import Offers from './containers/offers'
 import Training from './containers/training'
 import UnlockTalent from './containers/unlockTalent'
-import type { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: 'Ingryd | Home',
-  description: 'Acquire Borderless Tech Skills & Get Job Placements',
-}
+import WhatWeOffer from "./containers/what-we-offer"
 
 
 export default function Home() {
@@ -24,6 +19,7 @@ export default function Home() {
       <Offers />
       <GetTalent />
       <Benefit />
+      <WhatWeOffer />
       <Campaign />
       <Footer />
     </main>

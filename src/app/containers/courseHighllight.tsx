@@ -27,6 +27,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import SwiperComponent from '@/components/SwiperComponent'
 
 const CourseHighllight = () => {
 
@@ -46,6 +47,7 @@ const CourseHighllight = () => {
 
     return (
         <>
+            
             <section className='flex flex-row items-center gap-8 px-0 lg:px-16 py-6 max-w-full'>
                 <div className="swiper-button-p">
                     <Button variant={'ghost'} className=' hidden lg:flex text-forground rounded-full hover:bg-gray-200' size={'icon'}
@@ -335,6 +337,8 @@ const CourseHighllight = () => {
                 <Image src={iconHand} alt='desc' className='w-8 h-8' />
 
             </div>
+
+            
         </>
     )
 }
