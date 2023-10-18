@@ -28,8 +28,8 @@ const NavBar = () => {
     }
     return (
         <header>
-            <nav className="bg-transparent relative text-white lg:flex items-center gap-10 block px-6 py-6 lg:py-5 lg:px-5 " aria-label="Global">
-                <figure className='flex items-center justify-between'>
+            <nav className="bg-transparent relative text-white lg:grid grid-cols-6 items-center  block px-6 py-6 lg:py-5 lg:px-5 " aria-label="Global">
+                <figure className='flex col-span-1 items-center justify-between'>
                     <Link href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Ingryd</span>
                         <Image
@@ -46,7 +46,7 @@ const NavBar = () => {
                     />
                 </figure>
 
-                <ul className='hidden absolute top-0 left-0 w-full p-10 z-10 bg-black lg:p-0 l lg:bg-transparent lg:static lg:flex items-center gap-10 flex-1'>
+                <ul className='hidden absolute top-0 left-0 w-full p-10 z-50 col-span-5 bg-black lg:p-0 l lg:bg-transparent lg:static lg:flex items-center gap-10 md:justify-between lg:gap-5 '>
                     <XMarkIcon className='w-7 ml-auto cursor-pointer lg:hidden' />
                     {menuItems.map((item, index) => (
                         <NavMenuItem key={index} {...item} />
@@ -58,7 +58,7 @@ const NavBar = () => {
                                 Sign In
                             </Link>
                         </Button>
-                        <Button asChild className='bg-primary'>
+                        <Button asChild className='bg-primary ml-3'>
                             <Link href={`${baseUrl}/signup`} className="">
                                 Sign up
                             </Link>

@@ -9,10 +9,10 @@ import Facebook from "@/assets/facebook.png"
 const Footer = () => {
     return (
         <footer className=" bg-[#1A183E] flex flex-col  text-gray-200">
-            <div className=" gap-8 container lg:px-30 lg:pt-20 flex flex-col lg:flex-row justify-between flex-wrap w-full">
-                <div className="flex flex-col gap-3 flex-1 mr-32">
+            <div className=" gap-8 container lg:px-30 lg:pt-20 pt-10 flex flex-col lg:flex-row justify-between flex-wrap w-full">
+                <div className="flex flex-col gap-3 flex-1 lg:mr-32">
                     <Image src={imgLogo} alt='logo' className='w-40' />
-                    <p>4A Akiogun street New Market Road, Oniru Lagos State.</p>
+                    <p>4A Akiogun Street, New Market Road, Oniru, Lagos State.</p>
                     <p >08165883197</p>
                     <p className="text-primary underline underline-offset-4">support@ingrydacademy.com</p>
                     

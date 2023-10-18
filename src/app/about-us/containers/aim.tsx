@@ -1,4 +1,3 @@
-
 import Image from 'next/image'
 import imgCurve from '@/assets/curves2.svg'
 
@@ -15,7 +14,7 @@ const Aim = () => {
                         culture and work readiness to support the increasing demand from business globally</p>
                 </div>
             </article>
-            <article className='bg-white lg:bg-transparent px-6 lg:px-36 py-24 grow z-10'>
+            <article className='bg-white lg:bg-transparent px-6 lg:px-36 lg:my-20 py-24 grow z-10'>
                 <div className='flex flex-col lg:flex-row gap-8 lg:gap-36 text-foreground lg:items-center'>
                     <h1 className='text-3xl lg:text-5xl font-semibold'>Our Vision</h1>
                     <p className='text-lg lg:text-2xl'>To become the go to partner globally for <br /> business seeking top tech talent to drive innovative solutions.</p>
