@@ -47,7 +47,7 @@ const Hero = () => {
     });
 
     return (
-        <section className='flex flex-col shrink-0 grow h-full min-h-screen relative'>
+        <section className='flex flex-col shrink-0 grow lg:h-full lg:min-h-screen relative'>
             {
 
 

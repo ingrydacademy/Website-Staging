@@ -15,14 +15,19 @@ const Hero = () => {
             <div className='flex flex-col px-6 shrink-0 grow h-full relative z-10'>
             
                 <div className='w-full h-full shrink-0 grow text-white items-center justify-center flex flex-col gap-8 text-center'>
-                    <h1 className='text-3xl lg:text-6xl lg:w-4/5 font-semibold'>
-                    Building the next generation of Africa most competitive <span className='text-[#1F62FE]'>Talent</span>
+                    <h1 className='text-xl lg:text-6xl lg:w-4/5 font-semibold'>
+                    Get the right Talent you need, when you need it.
                     </h1>
-                    <p className="text-base lg:text-xl lg:w-1/2">We help forward-thinking companies build top-level teams by recruiting and training skilled tech talents</p>
-                    <div className='mb-10 lg:mb-0'>
-                        <Button  className='w-30 bg-primary text-white text-sm' asChild>
+                    <p className="text-sm lg:text-2xl lg:w-1/2">Unlock the power of flexible and efficient talent solutions with our technology outsourcing services.</p>
+                    <div className='mb-10 w-full flex flex-col lg:flex-row lg:justify-center lg:gap-10 gap-2 lg:mb-0'>
+                        <Button  className='text-white text-sm' asChild>
                             <Link href={'/signup'} className='py-3 px-5'>
                                 Register
+                            </Link>
+                        </Button>
+                        <Button  className='flex items-center bg-white border-2 border-primary text-primary font-bold text-sm' asChild>
+                            <Link href={'/signup'} className='py-3 px-5'>
+                                Hire Talents
                             </Link>
                         </Button>
 

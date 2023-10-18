@@ -31,9 +31,9 @@ const photoList = photos.map((photo, index) => {
 
 const MeetTeam = () => {
     return (
-        <section className="mt-24  md:w-90 text-[#2A0839] font-semibold bg-[#F4DCFF] px-8  py-10 lg:py-20 rounded  md:mx-auto">
-             <h1 className="text-2xl lg:text-4xl mb-10">The team behind it all</h1>
-            <ul className="grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-4 lg:gap-3">
+        <section className="mt-10 lg:mt-24  md:w-90 text-white font-semibold bg-gradient-to-r from-[#1D63FE] to-[#FF00F8] w-90 px-8 py-10 lg:py-20 rounded  mx-auto">
+             <h1 className="text-xl lg:text-4xl mb-5 lg:mb-20">The team behind it all</h1>
+            <ul className="grid grid-cols-2 gap-4  lg:grid-cols-4 lg:gap-3">
                 {photoList}
             </ul>
         </section>

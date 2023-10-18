@@ -21,28 +21,28 @@ const col3 = [
 ]
 
 const col1List = col1.map((photo, index) => {
-    return <Image key={index} src={photo} alt="photo"/>
+    return <Image key={index} src={photo} alt="photo" className="rounded"/>
 }
 )
 const col2List = col2.map((photo, index) => {
-    return <Image key={index} src={photo} alt="photo" />
+    return <Image key={index} src={photo} alt="photo" className="rounded"/>
 }
 )
 const col3List = col3.map((photo, index) => {
-    return <Image key={index} src={photo} alt="photo" />
+    return <Image key={index} src={photo} alt="photo" className="rounded"/>
 }
 )
 
 const Gallery = () => {
     return (
-        <section className="flex flex-col sm:flex-row gap-10 lg:my-24 mx-auto mb-10 md:px-10">
-            <section className="flex flex-col gap-10">
+        <section className="flex gap-2 lg:gap-10 lg:my-24 mx-auto mb-10 px-10">
+            <section className="flex flex-col gap-2 lg:gap-10">
                 {col1List}
             </section>
-            <section className="flex flex-col gap-10 sm:-mt-20">
+            <section className="flex flex-col gap-2 lg:gap-10 -mt-5 lg:-mt-20">
                 {col2List}
             </section>
-            <section className="flex flex-col gap-10">
+            <section className="flex flex-col gap-2 lg:gap-10">
                 {col3List}
             </section>
         </section>

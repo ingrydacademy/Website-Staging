@@ -27,8 +27,8 @@ const Institutions = () => {
     return (
 
         <section>
-            <article className="flex flex-col gap-24 items-center pb-28 ">
-                <h1 className="text-2xl lg:text-5xl font-semibold">Institutions that trust us</h1>
+            <article className="flex flex-col gap-5 lg:gap-24 items-center pb:10 lg:pb-28 ">
+                <h1 className="text-xl lg:text-5xl font-semibold">Institutions that trust us</h1>
                 <ul className="w-full px-6 lg:px-36 grid grid-cols-2 items-center  lg:grid-cols-6 gap-8">
                     {imageGrid}
                 </ul>
