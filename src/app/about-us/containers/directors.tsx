@@ -25,11 +25,11 @@ const images = [
 
 const imageGrid = images.map((image, i) => {
     return (
-        <li key={i} className={`flex flex-col items-center gap-2 w-1/3 lg:w-1/5`}>
+        <li key={i} className={`flex flex-col items-center gap-1 w-1/3 lg:w-1/5`}>
             <Image src={image.image} alt="team image" className="h-40 aspect-square bg-gray-200 rounded-lg" />
-            <h1 className="font-semibold text-lg lg:text-xl">{image.name}</h1>
-            <p className="text-gray-700 text-sm">{image.post}</p>
-            <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2">
+            <h1 className="font-semibold text-xs lg:text-xl">{image.name}</h1>
+            <p className="text-gray-700 text-xxs lg:text-sm">{image.post}</p>
+            <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2 hidden lg:flex">
                 <Link href={image.url} className="p-1">
                     <Image src={iconLinkedIn} alt="icon" className="w-3 h-3" />
                 </Link>
@@ -47,7 +47,6 @@ const Directors = () => {
                 <h1 className="text-xl lg:text-5xl font-semibold">Board of Directors</h1>
                 <ul className="w-full lg:px-36 text-center flex flex-wrap justify-center gap-8">
                     {imageGrid}
-                    <li className="hidden lg:flex"></li>
                 </ul>
             </article>
         </section>

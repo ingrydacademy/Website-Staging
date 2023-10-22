@@ -5,17 +5,18 @@ import Link from 'next/link'
 import Ig from "@/assets/Ig.png"
 import Twitter from "@/assets/Twitter.png"
 import Facebook from "@/assets/facebook.png"
+import Linkedin from "@/assets/in.png"
 
 const Footer = () => {
     return (
-        <footer className=" bg-[#1A183E] flex flex-col  text-gray-200">
+        <footer className=" bg-[#1A183E] flex flex-col text-gray-200">
+            
             <div className=" gap-8 container lg:px-30 lg:pt-20 pt-10 flex flex-col lg:flex-row justify-between flex-wrap w-full">
                 <div className="flex flex-col gap-3 flex-1 lg:mr-32">
                     <Image src={imgLogo} alt='logo' className='w-40' />
                     <p>4A Akiogun Street, New Market Road, Oniru, Lagos State.</p>
                     <p >08165883197</p>
-                    <p className="text-primary underline underline-offset-4">support@ingrydacademy.com</p>
-                    
+                    <p className="text-primary underline underline-offset-4"><Link href="https://support@ingrydacademy.com">support@ingrydacademy.com</Link></p>
                 </div>
                 <div className="flex flex-col flex-1 gap-5">
                     <p className="text-lg font-semibold">Quick Links</p>
@@ -24,16 +25,16 @@ const Footer = () => {
                             <Link href={'/about-us'} className=" hover:text-primary">About us</Link>
                         </li>
                         <li>
-                            <Link href={'/employers/staffing'} className=" hover:text-primary">Employers (Request Staffing)</Link>
+                            <Link href={'/request-staffing'} className=" hover:text-primary">Employers (Request Staffing)</Link>
                         </li>
                         <li>
-                            <Link href={'/employers/training'} className=" hover:text-primary">Employers (Request Training)</Link>
+                            <Link href={'/request-training'} className=" hover:text-primary">Employers (Request Training)</Link>
                         </li>
                         <li>
-                            <Link href={'/techies/training'} className=" hover:text-primary">Techies (For Training)</Link>
+                            <Link href={'/for-training'} className=" hover:text-primary">Techies (For Training)</Link>
                         </li>
                         <li>
-                            <Link href={'/techies/hire'} className=" hover:text-primary">Techies (For Hire)</Link>
+                            <Link href={'/for-hire'} className=" hover:text-primary">Techies (For Hire)</Link>
                         </li>
                     </nav>
                 </div>
@@ -45,6 +46,9 @@ const Footer = () => {
                         </li>
                         <li>
                             <Link href={'/community'} className=" hover:text-primary">Community</Link>
+                        </li>
+                        <li>
+                            <Link href={'#'} className=" hover:text-primary">Courses</Link>
                         </li>
                         <li>
                             <Link href={'/faqs'} className=" hover:text-primary">FAQs</Link>
@@ -67,24 +71,30 @@ const Footer = () => {
                 </div>
             </div>
             <div className='flex items-center justify-center my-5 lg:justify-start lg:my-2 gap-3 lg:pl-30 container'>
-                        <Link href={"#"}>
+                        <a href="https://www.instagram.com/ingrydacademy/" target='_blank'>
                             <Image
                                 src={Ig}
                                 alt='instagram icon'
                             />
-                        </Link>
-                        <Link href={"#"}>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100094777950769" target="_blank">
                             <Image
                                 src={Facebook}
                                 alt='facebook icon'
                             />
-                        </Link>
-                        <Link href={"#"}>
+                        </a>
+                        <a href="https://twitter.com/INGRYDAcademy" target='_blank'>
                             <Image
                                 src={Twitter}
                                 alt='twitter icon'
                             />
-                        </Link>
+                        </a>
+                        <a href="https://www.linkedin.com/company/ingrydacademy/" target='_blank'>
+                            <Image
+                                src={Linkedin}
+                                alt='linkedin icon'
+                            />
+                        </a>
                     </div>
             <div className="pb-8 lg:mt-10">
                 <div className="container text-center">

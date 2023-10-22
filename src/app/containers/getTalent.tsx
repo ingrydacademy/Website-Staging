@@ -9,7 +9,7 @@ const GetTalent = () => {
                     How we get the top tech talents
                 </h1>
                 <p className="text-sm lg:text-xl text-foreground">
-                    We undergo a 4 stage process to get the most suitable talents in different fields
+                We undergo a 4-stage process to get the most suitable talents in different fields
                 </p>
             </div>
             <div className="px-14 lg:flex">
@@ -47,7 +47,7 @@ const GetTalent = () => {
                         </div>
                         <div className="flex flex-col gap-2 ">
                             <h1 className="text-lg lg:text-xl font-bold">Training</h1>
-                            <p className="text-sm lg:text-xl">Chosen talents embark on advanced training, honing their skills and preparing for real-world challenges. </p>
+                            <p className="text-sm lg:text-xl">Chosen talents embark on advanced training, honing their skills and preparing for real-world challenges.  </p>
                         </div>
                     </li>
                     <li className=" flex gap-4">
@@ -59,7 +59,7 @@ const GetTalent = () => {
                         </div>
                         <div className="flex flex-col gap-2 ">
                             <h1 className="text-lg lg:text-xl font-bold">Outsourcing</h1>
-                            <p className="text-sm lg:text-xl">Chosen talents embark on advanced training, honing their skills and preparing for real-world challenges. </p>
+                            <p className="text-sm lg:text-xl">We connect our trained tech talents with businesses, providing them the opportunity to shine in a professional setting. </p>
                         </div>
                     </li>
                 </ul>
@@ -71,7 +71,7 @@ const GetTalent = () => {
 
             </div>
             <div className="mt-1">
-                <h1 className="text-xs lg:text-lg text-center font-semibold">Our rigorous training process ensures our customers are not <span className="font-bold">&quot;SWEATING THE TECH STUFF &quot;.</span>
+                <h1 className="text-xs lg:hidden lg:text-lg text-center font-semibold">Our rigorous training process ensures our customers are not <span className="font-bold">&quot;SWEATING THE TECH STUFF &quot;.</span>
                 </h1>
             </div>
         </section>

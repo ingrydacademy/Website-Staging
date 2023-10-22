@@ -1,14 +1,12 @@
 import Footer from '@/components/Footer'
 import Benefit from './containers/benefit'
 import Campaign from './containers/campaign'
-import Experience from './containers/experience'
 import GetTalent from './containers/getTalent'
 import Hero from './containers/hero'
-import NewsLetter from './containers/newsLetter'
 import Offers from './containers/offers'
-import Training from './containers/training'
 import UnlockTalent from './containers/unlockTalent'
 import WhatWeOffer from "./containers/what-we-offer"
+import NewsLetter from './containers/newsLetter'
 
 
 export default function Home() {
@@ -21,6 +19,7 @@ export default function Home() {
       <Benefit />
       <WhatWeOffer />
       <Campaign />
+      <NewsLetter />
       <Footer />
     </main>
   )

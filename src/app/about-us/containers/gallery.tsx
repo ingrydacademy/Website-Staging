@@ -35,7 +35,7 @@ const col3List = col3.map((photo, index) => {
 
 const Gallery = () => {
     return (
-        <section className="flex gap-2 lg:gap-10 lg:my-24 mx-auto mb-10 px-10">
+        <section className="flex gap-2 lg:gap-10 lg:my-24 mx-auto mb-10 px-10 lg:px-14">
             <section className="flex flex-col gap-2 lg:gap-10">
                 {col1List}
             </section>
