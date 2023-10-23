@@ -4,7 +4,6 @@ import Image from 'next/image'
 import heroImage1 from '@/assets/heroImg1.png';
 import heroImage2 from '@/assets/heroImg2.png';
 import heroImage3 from '@/assets/heroImg3.png';
-import imgConfetti from '@/assets/confetti-1.png';
 import NavBar from '@/components/NavBar';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';

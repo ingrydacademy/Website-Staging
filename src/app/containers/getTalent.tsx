@@ -22,7 +22,7 @@ const GetTalent = () => {
                             <div className="border-l-2 h-20 border-[#4D4D4D]"></div>
                         </div>
                         <div className="flex flex-col gap-2 ">
-                            <h1 className="text-lg lg:text-xl font-bold">Call for application</h1>
+                            <h1 className="text-lg lg:text-xl font-bold">Call for Applications</h1>
                             <p className="text-sm lg:text-xl">We begin by inviting tech professionals to step into the world of opportunities.</p>
                         </div>
                     </li>
@@ -47,7 +47,7 @@ const GetTalent = () => {
                         </div>
                         <div className="flex flex-col gap-2 ">
                             <h1 className="text-lg lg:text-xl font-bold">Training</h1>
-                            <p className="text-sm lg:text-xl">Chosen talents embark on advanced training, honing their skills and preparing for real-world challenges.  </p>
+                            <p className="text-sm lg:text-xl">Chosen talents embark on advanced training, honing their skills and preparing for real-world challenges.   </p>
                         </div>
                     </li>
                     <li className=" flex gap-4">

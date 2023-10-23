@@ -6,7 +6,7 @@ import Hero from './containers/hero'
 import Offers from './containers/offers'
 import UnlockTalent from './containers/unlockTalent'
 import WhatWeOffer from "./containers/what-we-offer"
-import NewsLetter from './containers/newsLetter'
+import NewsLetter from '../components/newsLetter'
 
 
 export default function Home() {

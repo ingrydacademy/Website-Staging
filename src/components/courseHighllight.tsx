@@ -128,7 +128,7 @@ const CourseHighllight = () => {
                                     <p className='text-lg lg:text-xl font-semibold'>{'Cybersecurity '}</p>
                                 </div>
                                 <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                    Gain expertise and ready-to-work experience in incident response, ethical hacking, and security architecture to safeguard critical infrastructure and sensitive data.
+                                Gain expertise and ready-to-work experience in incident response, ethical hacking, and security architecture to safeguard critical infrastructure and sensitive data.
                                 </p>
                                 <div className='flex flex-col gap-4 mt-auto'>
 
@@ -142,7 +142,7 @@ const CourseHighllight = () => {
                                                 Learn more
                                             </Link>
                                         </Button>
-                                        <div className='flex flex-col items-center'>
+                                        <div className='flex flex-col lg:flex-row lg:gap-1 items-center'>
                                         <p className='text-xl font-bold order-2 lg:order-1'>550,000</p>
                                         <div className='text-center order-1 lg:order-2'>
                                             <p className='text-xxs font-bold'>40% OFF</p>
@@ -166,7 +166,7 @@ const CourseHighllight = () => {
                                     <p className='text-lg lg:text-xl font-semibold'>{'Linux '}</p>
                                 </div>
                                 <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                    Explore the capabilities of Linux, the widely embraced operating system found in servers, supercomputers, and embedded devices. Gain proficiency in Linux distribution installation, configuration, and adeptly manage files and permissions.
+                                Explore the capabilities of Linux, the widely embraced operating system found in servers, supercomputers, and embedded devices. Gain proficiency in Linux distribution installation, configuration, and adeptly manage files and permissions.
                                 </p>
                                 <div className='flex flex-col gap-4 mt-auto'>
 
@@ -180,7 +180,7 @@ const CourseHighllight = () => {
                                                 Learn more
                                             </Link>
                                         </Button>
-                                        <div className='flex flex-col items-center'>
+                                        <div className='flex flex-col lg:flex-row lg:gap-1 items-center'>
                                         <p className='text-xl font-bold order-2 lg:order-1'>300,000</p>
                                         <div className='text-center order-1 lg:order-2'>
                                             <p className='text-xxs font-bold'>40% OFF</p>
@@ -204,7 +204,7 @@ const CourseHighllight = () => {
                                     <p className='text-lg lg:text-xl font-semibold'>{'Java and Spring Boot'}</p>
                                 </div>
                                 <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                    In this intensive Java and Spring Boot programming course, you'll learn the fundamentals of object-oriented programming and master the Java syntax. From variables and loops to classes and objects....
+                                In this intensive Java and Spring Boot programming course, you'll learn the fundamentals of object-oriented programming and master the Java syntax. From variables and loops to classes and objects....
                                 </p>
                                 <div className='flex flex-col gap-4 mt-auto'>
 
@@ -218,7 +218,7 @@ const CourseHighllight = () => {
                                                 Learn more
                                             </Link>
                                         </Button>
-                                        <div className='flex flex-col items-center'>
+                                        <div className='flex flex-col lg:flex-row lg:gap-1 items-center'>
                                         <p className='text-xl font-bold order-2 lg:order-1'>175,000</p>
                                         <div className='text-center order-1 lg:order-2'>
                                             <p className='text-xxs font-bold'>40% OFF</p>
@@ -242,7 +242,7 @@ const CourseHighllight = () => {
                                     <p className='text-lg lg:text-xl font-semibold'>{'Data Science with Python'}</p>
                                 </div>
                                 <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                    This comprehensive program is designed to empower you with the skills and knowledge needed to harness the full potential of data. Whether you're an aspiring data scientist, a business analyst, or simply curious about the power...
+                                This comprehensive program is designed to empower you with the skills and knowledge needed to harness the full potential of data. Whether you're an aspiring data scientist, a business analyst...
                                 </p>
                                 <div className='flex flex-col gap-4 mt-auto'>
 
@@ -256,7 +256,7 @@ const CourseHighllight = () => {
                                                 Learn more
                                             </Link>
                                         </Button>
-                                        <div className='flex flex-col items-center'>
+                                        <div className='flex flex-col lg:flex-row lg:gap-1 items-center'>
                                         <p className='text-xl font-bold order-2 lg:order-1'>250,000</p>
                                         <div className='text-center order-1 lg:order-2'>
                                             <p className='text-xxs font-bold'>40% OFF</p>
@@ -282,7 +282,7 @@ const CourseHighllight = () => {
                                     <p className='text-lg lg:text-xl font-semibold'>{'ReactJS '}</p>
                                 </div>
                                 <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                    Get ready to take your web development skills to the next level with our comprehensive React course! Dive into the world of component-based architecture and learn how to build fast, scalable, and maintainable applications with React...
+                                Get ready to take your web development skills to the next level with our comprehensive React course! Dive into the world of component-based architecture and learn how to build fast, scalable, and maintainable applications with React...
                                 </p>
                                 <div className='flex flex-col gap-4 mt-auto'>
 
@@ -296,7 +296,7 @@ const CourseHighllight = () => {
                                                 Learn more
                                             </Link>
                                         </Button>
-                                        <div className='flex flex-col items-center'>
+                                        <div className='flex flex-col lg:flex-row lg:gap-1 items-center'>
                                         <p className='text-xl font-bold order-2 lg:order-1'>150,000</p>
                                         <div className='text-center order-1 lg:order-2'>
                                             <p className='text-xxs font-bold'>40% OFF</p>
@@ -320,7 +320,7 @@ const CourseHighllight = () => {
                                     <p className='text-lg lg:text-xl font-semibold'>{'NodeJS '}</p>
                                 </div>
                                 <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                    Embrace the power of server-side rendering with our comprehensive NodeJS course! Learn how to build robust, high-performance web applications using NodeJS, Express, and other popular frameworks...
+                                Embrace the power of server-side rendering with our comprehensive NodeJS course! Learn how to build robust, high-performance web applications using NodeJS, Express, and other popular frameworks...
                                 </p>
                                 <div className='flex flex-col gap-4 mt-auto'>
 
@@ -334,7 +334,7 @@ const CourseHighllight = () => {
                                                 Learn more
                                             </Link>
                                         </Button>
-                                        <div className='flex flex-col items-center'>
+                                        <div className='flex flex-col lg:flex-row lg:gap-1 items-center'>
                                         <p className='text-xl font-bold order-2 lg:order-1'>175,000</p>
                                         <div className='text-center order-1 lg:order-2'>
                                             <p className='text-xxs font-bold'>40% OFF</p>
@@ -357,7 +357,7 @@ const CourseHighllight = () => {
                                     <p className='text-lg lg:text-xl font-semibold'>{'Product Management '}</p>
                                 </div>
                                 <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                    In this immersive product management course, you'll embark on a journey to master the art of managing products from ideation to launch. Starting with the foundational principles of product development...
+                                In this immersive product management course, you'll embark on a journey to master the art of managing products from ideation to launch. Starting with the foundational principles of product development...
                                 </p>
                                 <div className='flex flex-col gap-4 mt-auto'>
 
@@ -371,7 +371,7 @@ const CourseHighllight = () => {
                                                 Learn more
                                             </Link>
                                         </Button>
-                                        <div className='flex flex-col items-center'>
+                                        <div className='flex flex-col lg:flex-row lg:gap-1 items-center'>
                                         <p className='text-xl font-bold order-2 lg:order-1'>150,000</p>
                                         <div className='text-center order-1 lg:order-2'>
                                             <p className='text-xxs font-bold'>40% OFF</p>
@@ -395,7 +395,7 @@ const CourseHighllight = () => {
                                     <p className='text-lg lg:text-xl font-semibold'>{'IT Solution Sales '}</p>
                                 </div>
                                 <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                    Transform your sales game and close more deals with our elite IT solution sales training course! Designed for ambitious sales professionals like you, this comprehensive program covers everything from the fundamentals of IT...
+                                Transform your sales game and close more deals with our elite IT solution sales training course! Designed for ambitious sales professionals like you, this comprehensive program covers everything from the fundamentals of IT...
                                 </p>
                                 <div className='flex flex-col gap-4 mt-auto'>
 
@@ -409,7 +409,7 @@ const CourseHighllight = () => {
                                                 Learn more
                                             </Link>
                                         </Button>
-                                        <div className='flex flex-col items-center'>
+                                        <div className='flex flex-col lg:flex-row lg:gap-1 items-center'>
                                         <p className='text-xl font-bold order-2 lg:order-1'>350,000</p>
                                         <div className='text-center order-1 lg:order-2'>
                                             <p className='text-xxs font-bold'>40% OFF</p>
@@ -435,7 +435,7 @@ const CourseHighllight = () => {
                                     <p className='text-lg lg:text-xl font-semibold'>{'DevOps '}</p>
                                 </div>
                                 <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                    In this immersive DevOps course, you'll embark on a journey to master the art of managing products from ideation to launch. Starting with the foundational principles of product development...
+                                In this immersive DevOps course, you'll embark on a journey to master the art of managing products from ideation to launch. Starting with the foundational principles of product development...
                                 </p>
                                 <div className='flex flex-col gap-4 mt-auto'>
 
@@ -449,7 +449,7 @@ const CourseHighllight = () => {
                                                 Learn more
                                             </Link>
                                         </Button>
-                                        <div className='flex flex-col items-center'>
+                                        <div className='flex flex-col lg:flex-row lg:gap-1 items-center'>
                                         <p className='text-xl font-bold order-2 lg:order-1'>150,000</p>
                                         <div className='text-center order-1 lg:order-2'>
                                             <p className='text-xxs font-bold'>40% OFF</p>

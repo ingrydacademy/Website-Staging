@@ -9,7 +9,7 @@ const WhatWeOffer = () => {
     return (
         <section className="pt-10 lg:pt-24 px-6 lg:px-24 flex flex-col relative">
             <div className='text-center flex flex-col gap-4'>
-                <h1 className="text-2xl lg:text-5xl font-semibold ">What we offer?</h1>
+                <h1 className="text-2xl lg:text-5xl font-semibold ">What we offer</h1>
                 <p className=' text-sm lg:text-lg lg:w-3/4 mx-auto'>INGRYD offers advanced tech training and tech staffing services to businesses looking to upgrade their team and empower their workforce</p>
 
             </div>
@@ -18,7 +18,7 @@ const WhatWeOffer = () => {
                     <Image className="w-10" src={StaffImg} alt="staff icon" />
                     <p className="font-semibold">Staffing</p>
                     <p>
-                    Our tech staffing services offers companies access to a larger pool of talent, flexibility, reduced risk cost effectiveness and expertise they need to stay competitive and innovative  
+                    Our tech staffing services offers companies access to a larger pool of talent, flexibility, reduced risk cost effectiveness and expertise they need to stay competitive and innovative   
                     </p>
 
                     <p className="text-primary font-semibold">
@@ -32,7 +32,7 @@ const WhatWeOffer = () => {
                     <Image className="w-10" src={Outsourced} alt="staff icon" />
                     <p className="font-semibold">Tech training</p>
                     <p>
-                    We specializes in providing high quality training services for businesses looking to up-skill their employees in the ever-evolving world of technology.
+                    We specializes in providing high quality training for tech professionals and businesses looking to up-skill their employees in the ever-evolving world of technology.
                     </p>
 
                     <p className="text-primary font-semibold">

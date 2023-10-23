@@ -1,4 +1,4 @@
-import "./aim.css"
+
 const Aim = () => {
     return (
         <section className=' relative flex flex-col lg:grid lg:grid-flow-row lg:grid-rows-3'>
@@ -12,11 +12,11 @@ const Aim = () => {
                 
                 <div className='flex flex-col lg:flex-row gap-4 lg:gap-16 lg:items-center'>
                     <h1 className='text-xl lg:text-5xl font-semibold lg:w-1/3'>Our Vision</h1>
-                    <p className='text-sm lg:text-2xl  z-10 relative lg:w-2/3 font-medium'>
+                    <div className='text-sm lg:text-2xl  z-10 relative lg:w-2/3 font-medium'>
                         <p className='lg:w-4/5'>
                             Fostering African Tech Excellence: to elevate Africa's tech landscape, nurturing the next generation of globally competitive talent.
                         </p>
-                    </p>
+                    </div>
                 </div>
             </article>
             <article className='bg-secondary text-white px-10 lg:px-20 py-10 flex items-center lg:py-14 z-10  '>

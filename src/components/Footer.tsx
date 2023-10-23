@@ -25,16 +25,16 @@ const Footer = () => {
                             <Link href={'/about-us'} className=" hover:text-primary">About us</Link>
                         </li>
                         <li>
-                            <Link href={'/request-staffing'} className=" hover:text-primary">Employers (Request Staffing)</Link>
+                            <Link href={'/request-staffing'} className=" hover:text-primary">Request Staffing</Link>
                         </li>
                         <li>
-                            <Link href={'/request-training'} className=" hover:text-primary">Employers (Request Training)</Link>
+                            <Link href={'/request-training'} className=" hover:text-primary">Request Training</Link>
                         </li>
                         <li>
-                            <Link href={'/for-training'} className=" hover:text-primary">Techies (For Training)</Link>
+                            <Link href={'/for-training'} className=" hover:text-primary">Get Trained</Link>
                         </li>
                         <li>
-                            <Link href={'/for-hire'} className=" hover:text-primary">Techies (For Hire)</Link>
+                            <Link href={'/for-hire'} className=" hover:text-primary">Get Job Placement</Link>
                         </li>
                     </nav>
                 </div>
@@ -45,13 +45,7 @@ const Footer = () => {
                             <Link href={'/scholarships'} className=" hover:text-primary">Scholarships</Link>
                         </li>
                         <li>
-                            <Link href={'/community'} className=" hover:text-primary">Community</Link>
-                        </li>
-                        <li>
-                            <Link href={'#'} className=" hover:text-primary">Courses</Link>
-                        </li>
-                        <li>
-                            <Link href={'/faqs'} className=" hover:text-primary">FAQs</Link>
+                            <Link href={'#'} className=" hover:text-primary">FAQS</Link>
                         </li>
                     </nav>
                 </div>
@@ -62,10 +56,7 @@ const Footer = () => {
                             <Link href={'/privacy'} className=" hover:text-primary">Privacy</Link>
                         </li>
                         <li>
-                            <Link href={'/security'} className=" hover:text-primary">Security</Link>
-                        </li>
-                        <li>
-                            <Link href={'/conditions'} className=" hover:text-primary">Conditions</Link>
+                            <Link href={'/conditions'} className=" hover:text-primary">Terms and Conditions</Link>
                         </li>
                     </nav>
                 </div>

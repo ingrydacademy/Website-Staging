@@ -14,13 +14,12 @@ import Onyebuchi from "../../../assets/onyebuchi.png"
 
 
 const images = [
-    { name: "Rex Mafiana", post: "Chairman", image: Rex, url: "" },
+    { name: "Rex Mafiana", post: "Chairman", image: Rex, url: "https://www.linkedin.com/in/rex-mafiana-a8318957/" },
     { name: "Khadijat Abdulkadir", post: "CEO/Executive Director", image: Khadijat, url: "https://www.linkedin.com/in/khadijat-abdulkadir/" },
-    { name: "Timothy Adeyemo", post: "CFO/Executive Director", image: Timothy, url: "" },
-    { name: "Osagie Aghedo", post: "COO/ED of Training", image: Osagie, url: "" },
-    { name: "Patricia Aderibigbe", post: "Non-Executive Director", image: Patricia, url: "" },
-    { name: "Bayonle Fashipe", post: "Non-Executive Director", image: Bayonle, url: "" },
-    { name: "Onyebuchi Akosa", post: "Non-Executive Director", image: Onyebuchi, url: "" }
+    { name: "Timothy Adeyemo", post: "CFO/Executive Director", image: Timothy, url: "https://www.linkedin.com/in/timothy-adeyemo-77a49515/" },
+    { name: "Osagie Aghedo", post: "COO/ED of Training", image: Osagie, url: "https://www.linkedin.com/in/osagie-a-03739b32/" },
+    { name: "Patricia Aderibigbe", post: "Non-Executive Director", image: Patricia, url: "https://www.linkedin.com/in/patricia-aderibigbe-95b82ba/" },
+    { name: "Bayonle Fashipe", post: "Non-Executive Director", image: Bayonle, url: "https://www.linkedin.com/in/steven-b-fashipe-136a921a/?originalSubdomain=uk" }
 ]
 
 const imageGrid = images.map((image, i) => {
