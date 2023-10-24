@@ -9,6 +9,7 @@ import HowTo from "./containers/who-should";
 import WhyShould from "./containers/whyShould";
 import LearningOutcome from "./containers/learningOutcome";
 import Payment from "./containers/payment";
+import LearnMore from "./containers/learnMore";
 
 export const metadata: Metadata = {
   title: "Ingryd | Cybersecurity",
@@ -25,6 +26,7 @@ const CyberSecurity = () => {
         <WhyShould />
         <LearningOutcome />
         <Payment />
+        <LearnMore />
         <Faqs />
         <Footer />
       </main>

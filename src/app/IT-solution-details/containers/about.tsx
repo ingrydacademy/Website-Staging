@@ -28,7 +28,7 @@ const AboutProgram = () => {
           <div>
             <p>Duration :</p>
             <p className="font-medium">
-              -12 weeks <br /> -Fully virtual <br /> -200 Hours
+              -12 weeks <br /> -Hybrid <br /> -20 Hours
             </p>
           </div>
         </div>
@@ -50,10 +50,10 @@ const AboutProgram = () => {
           <div>
             <p className="font-medium">Course Fee :</p>
             <small className="line-through">
-              <span>&#8358;</span>750,000
+              <span>&#8358;</span>550,000
             </small>
             <p>
-              <span>&#8358;</span>550,000
+              <span>&#8358;</span>350,000
             </p>
           </div>
         </div>
@@ -67,22 +67,24 @@ const AboutProgram = () => {
         <li className="grow lg:py-2 leading-7">
           <div className="text-center text-lg font-normal">
             <p>
-              Our 12-week Cybersecurity Course equips you with advanced threat
-              detection and mitigation <br /> strategies, taking you from an
-              intermediate level to a work-ready position in the rapidly
-              evolving world <br /> of cybersecurity. Get in-depth knowledge in
-              protecting computer systems and networks from <br /> unauthorized
-              access, use, disclosure, disruption, modification, or destruction.
+              In this IT Solution Sales course, you'll embark on a
+              transformative journey to elevate your skills in the <br /> field
+              of technology sales. Throughout this program, you'll gain a deep
+              understanding of IT solutions, <br /> from hardware and software
+              to cloud services. You'll learn the art of effectively
+              communicating and <br />
+              selling complex technology solutions to clients.
             </p>
           </div>
           <div className="text-center mt-5 text-lg font-normal">
             <p>
-              Students learn about security threats, vulnerabilities, risk
-              management, secure coding practices, <br /> network security
-              protocols, cryptography principles, incident response techniques,
-              and digital <br /> forensics methods. By the end of the course,
-              students will gain hands-on experience in implementing <br />{" "}
-              security measures and defending against cyber attacks.
+              As you progress, you'll explore various IT products and services,
+              honing your skills in sales strategy and <br /> customer
+              relationship management. By the end of this program, you'll emerge
+              as a proficient IT <br /> Solution Sales professional, capable of
+              addressing the unique challenges in the tech industry and <br />{" "}
+              helping businesses harness the power of IT solutions to drive
+              success
             </p>
           </div>
         </li>

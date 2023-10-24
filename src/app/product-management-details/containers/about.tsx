@@ -11,7 +11,7 @@ const AboutProgram = () => {
   return (
     <section className="py-40 px-6 lg:px-48 flex flex-col gap-12 relative">
       <div className="rounded-md bg-[#1A183E] lg:h-48 -mt-48 w-full lg:w-[1120px] -ml-20 mb-12 text-white py-4 px-8 lg:flex lg:justify-evenly grid">
-        <div className="flex flex-1 flex-row border-r border-white h-full p-4 justify-center">
+        <div className="flex flex-row border-r border-white h-full p-4 justify-center">
           <div className="w-11 h-11 border rounded-full flex justify-center items-center mr-3">
             <Image alt="image" src={vector} className="w-[15px] h-[20px]" />
           </div>
@@ -21,7 +21,7 @@ const AboutProgram = () => {
           </div>
         </div>
 
-        <div className="flex flex-1 flex-row border-r border-white h-full p-4 justify-center">
+        <div className="flex flex-row border-r border-white h-full p-4 justify-center">
           <div className="w-11 h-11 border rounded-full flex justify-center items-center mr-3">
             <Image alt="image" src={vector1} className="w-[15px] h-[20px]" />
           </div>
@@ -33,7 +33,7 @@ const AboutProgram = () => {
           </div>
         </div>
 
-        <div className="flex flex-1 flex-row border-r border-white h-full p-4 justify-center">
+        <div className="flex flex-row border-r border-white h-full p-4 justify-center">
           <div className="w-11 h-11 border rounded-full flex justify-center items-center mr-3">
             <Image alt="image" src={vector2} className="w-[15px] h-[20px]" />
           </div>
@@ -43,7 +43,7 @@ const AboutProgram = () => {
           </div>
         </div>
 
-        <div className="flex flex-1 flex-row h-full p-4 justify-center">
+        <div className="flex flex-row h-full p-4 justify-center">
           <div className="w-11 h-11 border rounded-full flex justify-center items-center mr-3">
             <Image alt="image" src={vector3} className="w-[15px] h-[20px]" />
           </div>

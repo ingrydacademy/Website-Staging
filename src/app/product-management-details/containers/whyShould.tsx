@@ -23,7 +23,7 @@ const WhyShould = () => {
           Why you should take this course?
         </h1>
         <p className="text-base lg:text-xl text-center mb-10 font-medium">
-          Grow your career in Cybersecurity with our comprehensive course.
+          Cybersecurity with our comprehensive course.
         </p>
       </div>
       <section className="grid sm:grid-cols-2 gap-20 mt-10">

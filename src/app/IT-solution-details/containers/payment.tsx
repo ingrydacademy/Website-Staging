@@ -29,8 +29,8 @@ const Payment = () => {
             <p className="font-semibold">Immediately</p>
             <span>...............................................</span>
             <p className="font-semibold">
-              <span className="line-through font-normal">&#8358;750,000</span>{" "}
-              &#8358; 550,000
+              <span className="line-through font-normal">&#8358;550,000</span>{" "}
+              &#8358; 350,000
             </p>
           </div>
         </div>
@@ -53,24 +53,24 @@ const Payment = () => {
               .........................................................
             </span>
             <p className="font-semibold">
-              <span className="line-through font-normal">&#8358;300,000</span>{" "}
-              &#8358; 220,000
+              <span className="line-through font-normal">&#8358;220,000</span>{" "}
+              &#8358; 140,000
             </p>
           </div>
           <div className="flex mt-2">
             <p className="font-semibold">30 Days Later</p>
             <span>.....................................................</span>
             <p className="font-semibold">
-              <span className="line-through font-normal">&#8358;225,000</span>{" "}
-              &#8358; 165,000
+              <span className="line-through font-normal">&#8358;165,000</span>{" "}
+              &#8358; 105,000
             </p>
           </div>
           <div className="flex mt-2">
             <p className="font-semibold">Before Training Ends</p>
             <span>...................................</span>
             <p className="font-semibold">
-              <span className="line-through font-normal">&#8358;225,000</span>{" "}
-              &#8358; 165,000
+              <span className="line-through font-normal">&#8358;165,000</span>{" "}
+              &#8358; 105,000
             </p>
           </div>
         </div>

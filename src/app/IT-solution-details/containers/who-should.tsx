@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
-import imgHow from "@/assets/Rectangle 150.png";
+import imgHow from "@/assets/IT-sales.png";
 
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 
@@ -28,26 +28,20 @@ const HowTo = () => {
               <li className="flex gap-4 items-center">
                 <ArrowRightIcon className="w-5 h-5 shrink-0 text-primary" />
                 <p>
-                  Aspiring Cybersecurity professionals aiming to advance their
-                  skill set.
+                  Sales professionals specializing in IT products and services.
                 </p>
               </li>
               <li className="flex gap-4 items-center">
                 <ArrowRightIcon className="w-5 h-5 shrink-0 text-primary" />
                 <p>
-                  Individuals seeking access to hands-on training to increase
-                  chances of job placements.
+                  Individuals aiming to excel in IT sales or understand the tech
+                  industry better.
                 </p>
               </li>
               <li className="flex gap-4 items-center">
                 <ArrowRightIcon className="w-5 h-5 shrink-0 text-primary" />
-                <p>Organizations seeking to bolster their security measures.</p>
-              </li>
-              <li className="flex gap-4 items-center">
-                <ArrowRightIcon className="w-5 h-5 shrink-0 text-primary" />
                 <p>
-                  Organizations that need staff training or want to keep safe
-                  from cyber threats.
+                  Companies wanting to improve the skills of their employees.
                 </p>
               </li>
             </ul>

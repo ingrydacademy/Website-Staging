@@ -18,7 +18,7 @@ const HowTo = () => {
               alt="image"
               src={imgHow}
               fill
-              className="-z-0 rounded-lg lg:translate-x-8 lg:-translate-y-8"
+              className="object-cover -z-0 rounded-lg lg:translate-x-8 lg:-translate-y-8"
             />
           </li>
           <li className="lg:w-4/6 text-xl flex flex-col gap-6">
