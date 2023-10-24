@@ -43,12 +43,11 @@ const MeetTeam = () => {
                     <li className="flex flex-col items-center gap-2">
                         <Image src={img3} alt="team image" className="h-40 aspect-square bg-gray-200 rounded-lg" />
                         <h1 className="font-semibold text-xl">Oluwafemi Ojo</h1>
-                        <p className="text-gray-700">Business Development</p>
+                        <p className="text-gray-700">Business Development/Partnerships</p>
                         <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2 mt-auto">
-                            <Link href={`https://www.linkedin.com/in/femi-ojo-58537b163/`} className="p-2">
+                            <Link href={`https://www.linkedin.com/in/oluwafemi-ojo-5897b7130?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`} className="p-2">
                                 <Image src={iconLinkedIn} alt="icon" className="w-5 h-5" />
                             </Link>
-
                         </Button>
 
                     </li>
