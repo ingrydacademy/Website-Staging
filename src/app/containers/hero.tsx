@@ -4,7 +4,6 @@ import Image from 'next/image'
 import heroImage1 from '@/assets/heroImg1.png';
 import heroImage2 from '@/assets/heroImg2.png';
 import heroImage3 from '@/assets/heroImg3.png';
-import imgConfetti from '@/assets/confetti-1.png';
 import NavBar from '@/components/NavBar';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
@@ -47,7 +46,7 @@ const Hero = () => {
     });
 
     return (
-        <section className='flex flex-col shrink-0 grow h-full min-h-screen relative'>
+        <section className='flex flex-col shrink-0 grow lg:h-full lg:min-h-screen relative'>
             {
 
 
@@ -57,7 +56,7 @@ const Hero = () => {
                         <motion.div
                             initial={{ opacity: 100 }}
                             animate={{ opacity: 100 }}
-                            transition={{ ease: "easeInOut", duration: .25 }}
+                            transition={{ ease: "easeInOut", duration: .8 }}
                             exit={{ opacity: 50, y: 10 }}
                             className=' absolute inset-0 -z-10 '>
                             <Image src={heroImage1} alt="hero image" className="object-cover w-full h-full bg-[#1A183E]" />
@@ -74,7 +73,7 @@ const Hero = () => {
                         <motion.div
                             initial={{ opacity: 100 }}
                             animate={{ opacity: 100 }}
-                            transition={{ ease: "easeInOut", duration: .25 }}
+                            transition={{ ease: "easeInOut", duration: .8 }}
                             exit={{ opacity: 50, y: 10 }}
                             className=' absolute inset-0 -z-10 '>
                             <Image src={heroImage2} alt="hero image" className="object-cover w-full h-full bg-[#1A183E]" />
@@ -90,7 +89,7 @@ const Hero = () => {
                         <motion.div
                             initial={{ opacity: 100 }}
                             animate={{ opacity: 100 }}
-                            transition={{ ease: "easeInOut", duration: .25 }}
+                            transition={{ ease: "easeInOut", duration: .8 }}
                             exit={{ opacity: 50, y: 10 }}
                             className=' absolute inset-0 -z-10 '>
                             <Image src={heroImage3} alt="hero image" className="object-cover w-full h-full bg-[#1A183E]" />
@@ -114,9 +113,9 @@ const Hero = () => {
                                 initial={{ y: 50, opacity: 0 }}
                                 animate={{ y: 0, opacity: 100 }}
                                 exit={{ y: 50, opacity: 0 }}
-                                transition={{ ease: "easeOut", duration: .35 }}
-                                className='text-3xl lg:text-6xl font-semibold'>
-                                Building the next generation of <br /> Africa most competitive <span className='text-blue-500'>Talent</span>
+                                transition={{ ease: "easeOut", duration: .8 }}
+                                className='text-xl lg:text-6xl font-semibold'>
+                                Building the next generation of <br /> Africa most competitive <span className=' text-blue-500 lg:text-primary'>Talent</span>
                             </motion.h1>
 
                         )
@@ -127,8 +126,8 @@ const Hero = () => {
                             <motion.h1
                                 initial={{ y: 50, opacity: 0 }}
                                 animate={{ y: 0, opacity: 100 }}
-                                transition={{ ease: "easeOut", duration: .35 }}
-                                className='text-3xl lg:text-6xl font-semibold'>
+                                transition={{ ease: "easeOut", duration: .8 }}
+                                className='text-xl lg:text-6xl font-semibold'>
                                 Tap into our extensive database of <br /> ready to go trained tech experts
                             </motion.h1>
 
@@ -141,8 +140,8 @@ const Hero = () => {
                             <motion.h1
                                 initial={{ y: 50, opacity: 0 }}
                                 animate={{ y: 0, opacity: 100 }}
-                                transition={{ ease: "easeOut", duration: .35 }}
-                                className='text-3xl lg:text-6xl font-semibold'>
+                                transition={{ ease: "easeOut", duration: .8 }}
+                                className='text-xl lg:text-6xl font-semibold'>
                                 Request custom training for your <br /> organization
                             </motion.h1>
 
@@ -152,8 +151,8 @@ const Hero = () => {
 
 
 
-                    <p className="text-lg lg:text-2xl">We help forward-thinking companies build top-level teams <br /> by recruiting and training skilled tech talents</p>
-                    <Button asChild className='bg-primary w-auto h-auto mt-6'>
+                    <p className="text-xs px-2 lg:px-72 lg:text-2xl ">We help forward-thinking companies build top-level teams by training & recruiting skilled tech talents</p>
+                    <Button asChild className='bg-primary w-full lg:w-auto h-auto mt-6'>
                         <Link href={`${baseUrl}/signup`} className="flex gap-8 items-center py-4 px-16 text-2xl font-semibold">
                                 Register
                         </Link>

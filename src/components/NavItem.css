@@ -1,0 +1,42 @@
+.link{
+    position: relative;
+}
+
+.sublink{
+    position: absolute;
+    z-index: 20;
+    background-color: white;
+    border-radius: 5px;
+    min-width: 100%;
+    display: none;
+    width: 258px;
+}
+
+.icon{
+    transition: all 0.2s ease-in-out;
+}
+.link:hover ul.sublink{
+    display: flex;
+}
+
+.link:hover .icon{
+    transform: rotate(180deg);
+}
+ul .active{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: #F305F8;
+}
+
+.no-drop.active{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: white;
+}
+
+@media screen and (max-width:1203px) {
+    .sublink{
+        position: static;
+        
+    }
+}

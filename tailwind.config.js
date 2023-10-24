@@ -70,6 +70,27 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      width: {
+        '90': '90%',
+        '23': '23%',
+        '234': '234px',
+        "387": "387px"
+      },
+      height:{
+          "104":"104px",
+          "331":"331px",
+          "249":"249px",
+          "220":"220px",
+          "103":"103.4px"
+      },
+      fontSize:{
+        "xxs": "10px",
+        "11": "11px",
+        "8": "8px"
+      },
+      minHeight:{
+        "452": "452px"
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
