@@ -86,7 +86,8 @@ module.exports = {
       fontSize:{
         "xxs": "10px",
         "11": "11px",
-        "8": "8px"
+        "8": "8px",
+        "200": "200px"
       },
       minHeight:{
         "452": "452px"

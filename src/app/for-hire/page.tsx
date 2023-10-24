@@ -10,6 +10,7 @@ import Launch from './containers/launch'
 import FAQS from './containers/faqs'
 import Testimony from './containers/testimony'
 import Stacks from '@/components/stacks'
+import Partners from '@/components/partners'
 
 const TechiesForHire = () => {
   return (
@@ -23,6 +24,7 @@ const TechiesForHire = () => {
         {/* <Courses /> */}
         <Launch />
         <Testimony />
+        <Partners />
         <FAQS />
         <Footer />
     </main>

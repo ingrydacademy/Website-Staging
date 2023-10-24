@@ -10,8 +10,7 @@ const WhoWeAre = () => {
                             Who we are
                         </h1>
                         <p className="text-11 lg:text-2xl">
-                            Ingryd is a premier tech talent outsourcing and training academy. At Ingryd, we pride ourselves on our ability to connect businesses with top tech talent,
-                            providing innovative solutions to help business succeed in today&apos;s digital landscape
+                        INGRYD is a premier tech talent training & outsourcing academy. Your gateway to acquiring in-demand tech skills and promising job placements at the global level.
                         </p>
                     </li>
 

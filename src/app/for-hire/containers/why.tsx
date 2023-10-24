@@ -17,9 +17,9 @@ const Why = () => {
             <p className="text-sm lg:text-2xl lg:text-medium">
             INGRYD Academy offers advanced tech training, get you market-ready and connects you with top companies. Got what it takes to be an invaluable asset to these ready employers?
             </p>
-            <Button className='flex items-center text-sm lg:text-lg w-2/5 lg:w-36 lg:h-14' asChild>
-                <Link href={'/signup'} className='py-3 px-10'>
-                    Get Started
+            <Button className='flex items-center text-sm lg:text-lg w-2/5  lg:h-14' asChild>
+                <Link href={'https://lms.ingrydacademy.com/signup'} className='py-3 px-10'>
+                    APPLY NOW
                 </Link>
             </Button>
             </div>

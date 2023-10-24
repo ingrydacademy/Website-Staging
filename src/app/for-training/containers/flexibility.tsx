@@ -11,7 +11,7 @@ const Flexibility = () => {
                 <figure className="flex justify-center lg:w-1/2 order-2 lg:order-1">
                     <Image src={flexImg} alt="woman image" className="w-full" />
                 </figure>
-                <div className="flex flex-col gap-5 lg:gap-10 lg:w-1/2 lg:px-5">
+                <div className="flex flex-col gap-5 lg:gap-10 lg:w-1/2 lg:px-5 order-1 lg-order-2">
                     <h1 className='text-xl lg:text-4xl font-semibold '>
                         Flexibility without Boundaries
                     </h1>

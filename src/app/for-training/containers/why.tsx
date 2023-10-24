@@ -31,7 +31,7 @@ const Why = () => {
                     Why train with us?
                 </h1>
                 <p className="text-11 lg:text-2xl">
-                    By offering quality tech talent innovation and competitive pricing, we stand out as a reliable and trustworthy growth partner. Ingryd is committed to helping individuals and teams develop the skills they need to thrive in the tech industry. We achieve that through:
+                    By offering quality tech talent innovation and competitive pricing, we stand out as a reliable and trustworthy growth partner. INGRYD is committed to helping individuals and teams develop the skills they need to thrive in the tech industry. We achieve that through:
                 </p>
             </div>
 

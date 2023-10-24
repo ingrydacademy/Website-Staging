@@ -131,7 +131,7 @@ const Testimony = () => {
           {slides.map((slide, slideIndex) => (
             <div
               key={slideIndex}
-              className={`transition-all ease-in-out rounded-full h-3 cursor-pointer ${slideIndex === currentIndex ? 'bg-gray-500 w-9' : 'bg-secondary w-3'}`}
+              className={`transition-all ease-in-out rounded-full h-3 cursor-pointer ${slideIndex === currentIndex ? 'bg-secondary w-9' : 'bg-gray-500 w-3'}`}
               onClick={() => handleDotClick(slideIndex)}
             ></div>
           ))}

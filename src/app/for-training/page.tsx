@@ -12,6 +12,7 @@ import Campaign from './containers/campaign'
 import WhatOurStudentsSay from './containers/whatStudentsSay'
 import Flexibility from './containers/flexibility'
 import TrainingMethod from './containers/trainingMethod'
+import Partners from '@/components/partners'
 
 const TechiesForTraining = () => {
   return (
@@ -26,6 +27,7 @@ const TechiesForTraining = () => {
         <TrainingMethod />
         <Flexibility />
         <WhatOurStudentsSay />
+        <Partners />
         <FAQS />
         <Campaign />
         <Footer />

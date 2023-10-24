@@ -22,8 +22,8 @@ const Hero = () => {
                         <br/><span className='text-primary'> Job Placements</span>
                     </h1>
 
-                    <p className="text-sm  lg:text-2xl lg:w-1/2">
-                        At INGRYD Academy, we offer unique advanced training with a focus on market-readiness and job placements.
+                    <p className="text-sm  lg:text-2xl lg:w-2/3">
+                    At INGRYD Academy, we offer unique advanced training with a focus on market-readiness and job placements.
                     </p>
                 </div>
 

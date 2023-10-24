@@ -11,7 +11,7 @@ import seventh from "../assets/gallery/Rectangle 62.png"
 import eighth from "../assets/gallery/Rectangle 63.png"
 
 
-const images = [first, second, third, fourth, fifth, sixth, seventh, eighth]
+const images = [first, second, third, fourth]
 
 const imageList = images.map((image, i) =>{
     return(
