@@ -9,7 +9,7 @@ import Eighth from "@/assets/techies/gallery/Rectangle 63.png"
 import Image from "next/image"
 
 
-const images = [First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth]
+const images = [First, Eighth,Third,Second, Seventh,     Fifth, Sixth, Fourth ]
 
 const imageList = images.map((image, i) =>{
     return(

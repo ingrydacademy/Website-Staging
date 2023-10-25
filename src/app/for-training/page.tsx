@@ -28,8 +28,8 @@ const TechiesForTraining = () => {
         <Flexibility />
         <WhatOurStudentsSay />
         <Partners />
-        <FAQS />
         <Campaign />
+        <FAQS />
         <Footer />
     </main>
   )
