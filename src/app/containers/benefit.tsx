@@ -10,7 +10,7 @@ const Benefit = () => {
             <Image src={img1} alt="image" className="object-cover absolute inset-0 -z-10 " fill />
             <div className="flex flex-col gap-10 items-center">
                 <div className='text-center flex flex-col gap-4'>
-                    <h1 className="text-xl lg:text-5xl font-semibold text-white">Program Benefit</h1>
+                    <h1 className="text-xl lg:text-5xl font-semibold text-white">Program Benefits</h1>
                     <p className='text-white text-sm lg:text-2xl font-light'>Unearthing the valuable returns of partnering with INGRYD</p>
 
                 </div>

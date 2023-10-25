@@ -1,11 +1,9 @@
 "use client"
 import Image from "next/image"
-
 import first from "../assets/images/Rectangle 56.png"
 import second from "../assets/images/Rectangle 57.png"
 import third from "../assets/images/Rectangle 58.png"
 import fourth from "../assets/images/Rectangle 59.png"
-
 
 
 const images = [first, second, third, fourth]

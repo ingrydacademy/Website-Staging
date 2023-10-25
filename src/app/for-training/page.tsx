@@ -1,5 +1,4 @@
 import Footer from '@/components/Footer'
-import React from 'react'
 import Hero from './containers/hero'
 import WhoWeAre from '@/components/whoWeAre'
 import Gallery from './containers/gallery'

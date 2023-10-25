@@ -154,7 +154,7 @@ const Hero = () => {
                     <p className="text-xs px-2 lg:px-72 lg:text-2xl ">We help forward-thinking companies build top-level teams by training & recruiting skilled tech talents</p>
                     <Button asChild className='bg-primary w-full lg:w-auto h-auto mt-6'>
                         <Link href={`${baseUrl}/signup`} className="flex gap-8 items-center py-4 px-16 text-2xl font-semibold">
-                                Register
+                        Get Started
                         </Link>
                     </Button>
 
