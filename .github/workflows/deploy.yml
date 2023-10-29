@@ -1,24 +1,19 @@
-name: Dev CI/CD and Notification workflow
+name: Dev CI/CD and Notification workflow for API
 
 on:
   push:
     branches: [prod-release]
 
 jobs:
-  deploy-to-production:
-    name: Deploy to prod
+  run-script:
     runs-on: self-hosted
+
     steps:
-      - name: Executing remote ssh commands using key
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.PROD_SSH_HOST }}
-          username: ${{ secrets.PROD_SSH_USERNAME }}
-          key: ${{ secrets.PROD_SSH_PRIVATE_KEY }}
-          port: ${{ secrets.PROD_SSH_PORT }}
-          script: |
-            cd ~/ingryd-lms-landing-page
+      - name: Checkout repository
+        uses: actions/checkout@v3 
 
-            sudo bash deploy.sh
-
-            exit
+      - name: Run Script
+        run: |
+          cd ~/ingryd-landing
+          sudo bash deploy.sh
+          exit
