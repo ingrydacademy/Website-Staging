@@ -11,6 +11,12 @@ import Quote from './container/quote'
 import Explore from './container/exploreExpertise'
 import Institutions from '../about-us/containers/institutions'
 import Skills from './container/skills'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Request Training Services from Ingryd Academy - Elevate Your Workforce',
+  description: "Request training services from Ingryd Academy to elevate your workforce. Shape the future of your business with advanced tech training. Boost your team's skills and performance.",
+}
 
 const RequestTraining = () => {
     return (
