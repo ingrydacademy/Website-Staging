@@ -19,7 +19,7 @@ const Hero = () => {
       />
       <div className="object-cover absolute inset-0 -z-10 bg-[#1A183E]/60" />
       <NavBar />
-      <div className="grid grid-cols-3 shrink-0 grow h-full relative px-6">
+      <div className="grid lg:grid-cols-3 shrink-0 grow h-full relative px-6 mx-auto">
         <div className="w-full h-full shrink-0 grow text-white lg:px-24 grid col-span-2 place-content-center gap-12 text-left">
           <h1 className="text-2xl lg:text-6xl font-semibold">
             IT Solution Sales
@@ -30,8 +30,8 @@ const Hero = () => {
             professionals like you, this comprehensive program covers everything
             from the fundamentals of IT.
           </p>
-          <div className="flex gap-4 items-center">
-            <Button asChild className="bg-primary w-fit h-auto mt-6">
+          <div className="flex lg:flex-row flex-col gap-4 items-center">
+            <Button asChild className="bg-primary lg:w-1/2 w-full h-auto mt-6">
               <Link
                 href={`${baseUrl}/signup`}
                 className="py-4 px-16 text-sm lg:text-xl font-semibold"
@@ -41,7 +41,7 @@ const Hero = () => {
             </Button>
             <Button
               asChild
-              className="bg-white text-[#FF00F8] w-fit h-auto mt-6"
+              className="bg-white text-[#FF00F8] lg:w-1/2 w-full h-auto mt-6"
             >
               <Link
                 href={`${baseUrl}/signup`}
@@ -57,7 +57,7 @@ const Hero = () => {
             <Image
               src={ch3}
               alt="hero small image"
-              className="object-cover inset-0 -z-10 bg-[#1A183E] w-full h-96 mt-16"
+              className="object-cover inset-0 -z-10 bg-[#1A183E] w-full h-96 mt-16 hidden lg:block"
             />
           </div>
         </div>

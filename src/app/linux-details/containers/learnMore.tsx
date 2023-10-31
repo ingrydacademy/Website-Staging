@@ -4,18 +4,18 @@ import React from "react";
 
 const LearnMore = () => {
   return (
-    <section className="relative w-full aspect-video h-[322px] shrink-0 py-20">
+    <section className="relative w-full aspect-video lg:h-[322px] h-[144px] flex flex-col justify-center items-center shrink-0 lg:py-20">
       <Image
         alt="image"
         src={schImg2}
         className="object-cover -z-20 leading-[60.9px]"
         fill
       />
-      <p className="text-white font-semibold text-5xl text-center">
+      <p className="text-white font-semibold lg:text-5xl text-base text-center">
         Learn more about the course.
       </p>
       <div className="grid place-content-center">
-        <button className="px-5 py-2 text-white font-semibold text-xl shadow-md bg-[#FF00F8] mt-12 rounded-md text-center">
+        <button className="px-5 py-2 text-white font-semibold text-base lg:text-xl shadow-md bg-[#FF00F8] lg:mt-12 mt-5 rounded-md text-center">
           Download Brochure
         </button>
       </div>

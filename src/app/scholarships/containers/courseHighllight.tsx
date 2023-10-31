@@ -91,7 +91,7 @@ const CourseHighllight = () => {
           // navigation
         >
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/cybersecurity-details"}>
+            <Link href={`${baseUrl}/cybersecurity-details`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -108,10 +108,9 @@ const CourseHighllight = () => {
                     </p>
                   </div>
                   <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                    This 12-week Cybersecurity Course provides comprehensive
-                    training in protecting computer systems and networks from
-                    unauthorized access, use, disclosure, disruption,
-                    modification, or destruction...
+                    Gain expertise and ready-to-work experience in incident
+                    response, ethical hacking, and security architecture to
+                    safeguard critical infrastructure and sensitive data.
                   </p>
                   <div className="flex flex-col gap-4 mt-auto">
                     <div className="flex gap-8 text-sm px-2 justify-between">
@@ -126,7 +125,7 @@ const CourseHighllight = () => {
                       <Button className="bg-secondary" asChild>
                         <Link href={`${baseUrl}/signup`}>Enroll</Link>
                       </Button>
-                      <p className="text-xl font-bold line-through">550,000</p>
+                      <p className="text-xl font-bold line-through">750,000</p>
                       <p className="text-xs font-semibold text-right ml-auto">
                         Free with scholarship
                       </p>
@@ -138,7 +137,7 @@ const CourseHighllight = () => {
           </SwiperSlide>
           {/* card2 */}
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/linux-details"}>
+            <Link href={`${baseUrl}/linux-details`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -173,7 +172,7 @@ const CourseHighllight = () => {
                       <Button className="bg-secondary" asChild>
                         <Link href={`${baseUrl}/signup`}>Enroll</Link>
                       </Button>
-                      <p className="text-xl font-bold line-through">300,000</p>
+                      <p className="text-xl font-bold line-through">550,000</p>
                       <p className="text-xs font-semibold text-right ml-auto">
                         Free with scholarship
                       </p>
@@ -184,7 +183,7 @@ const CourseHighllight = () => {
             </Link>
           </SwiperSlide>
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/java-details"}>
+            <Link href={`${baseUrl}/java-details`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -220,7 +219,7 @@ const CourseHighllight = () => {
                       <Button className="bg-secondary" asChild>
                         <Link href={`${baseUrl}/signup`}>Enroll</Link>
                       </Button>
-                      <p className="text-xl font-bold line-through">175,000</p>
+                      <p className="text-xl font-bold line-through">450,000</p>
                       <p className="text-xs font-semibold text-right ml-auto">
                         Free with scholarship
                       </p>
@@ -231,7 +230,7 @@ const CourseHighllight = () => {
             </Link>
           </SwiperSlide>
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/python-for-data-science-details"}>
+            <Link href={`${baseUrl}/python-for-data-science-details`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -278,7 +277,7 @@ const CourseHighllight = () => {
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/reactjs-details"}>
+            <Link href={`${baseUrl}/reactjs-details`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -324,7 +323,7 @@ const CourseHighllight = () => {
             </Link>
           </SwiperSlide>
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/product-management-details"}>
+            <Link href={`${baseUrl}/product-management-details`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -370,7 +369,7 @@ const CourseHighllight = () => {
             </Link>
           </SwiperSlide>
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/IT-solution-details"}>
+            <Link href={`${baseUrl}/IT-solution-details`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image

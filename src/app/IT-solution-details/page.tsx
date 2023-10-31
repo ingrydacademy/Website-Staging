@@ -18,18 +18,16 @@ export const metadata: Metadata = {
 
 const ItSolution = () => {
   return (
-    <main>
-      <main className="flex min-h-screen h-full flex-col">
-        <Hero />
-        <AboutProgram />
-        <HowTo />
-        <WhyShould />
-        <LearningOutcome />
-        <Payment />
-        <LearnMore />
-        <Faqs />
-        <Footer />
-      </main>
+    <main className="flex min-h-screen h-full flex-col">
+      <Hero />
+      <AboutProgram />
+      <HowTo />
+      <WhyShould />
+      <LearningOutcome />
+      <Payment />
+      <LearnMore />
+      <Faqs />
+      <Footer />
     </main>
   );
 };

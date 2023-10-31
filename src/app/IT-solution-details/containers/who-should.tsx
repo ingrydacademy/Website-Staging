@@ -18,29 +18,33 @@ const HowTo = () => {
               alt="image"
               src={imgHow}
               fill
-              className="-z-0 rounded-lg lg:translate-x-8 lg:-translate-y-8"
+              className="-z-0 rounded-lg lg:translate-x-8 lg:-translate-y-8 w-[310px] h-[333.25px] lg:w-[400px] lg:h-[430px]"
             />
           </li>
           <li className="lg:w-4/6 text-xl flex flex-col gap-6">
             <ul className="flex flex-col gap-6 text-white">
-              <p className="text-5xl">Who should take this course?</p>
-              <p>Key reasons to consider enrolling in this course :</p>
+              <p className="lg:text-5xl text-sm font-semibold">
+                Who should take this course?
+              </p>
+              <p className="font-normal text-sm lg:text-xl">
+                Key reasons to consider enrolling in this course :
+              </p>
               <li className="flex gap-4 items-center">
                 <ArrowRightIcon className="w-5 h-5 shrink-0 text-primary" />
-                <p>
+                <p className="font-normal text-sm lg:text-xl">
                   Sales professionals specializing in IT products and services.
                 </p>
               </li>
               <li className="flex gap-4 items-center">
                 <ArrowRightIcon className="w-5 h-5 shrink-0 text-primary" />
-                <p>
+                <p className="font-normal text-sm lg:text-xl">
                   Individuals aiming to excel in IT sales or understand the tech
                   industry better.
                 </p>
               </li>
               <li className="flex gap-4 items-center">
                 <ArrowRightIcon className="w-5 h-5 shrink-0 text-primary" />
-                <p>
+                <p className="font-normal text-sm lg:text-xl">
                   Companies wanting to improve the skills of their employees.
                 </p>
               </li>

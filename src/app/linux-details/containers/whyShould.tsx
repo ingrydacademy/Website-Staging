@@ -13,27 +13,35 @@ const WhyShould = () => {
       className="flex flex-col items-center gap-4 py-16 px-6 lg:px-24"
     >
       <div className="flex flex-col items-center gap-4 mt-8">
-        <Image
-          alt="image"
-          src={pattern}
-          fill
-          className="w-[15px] h-[20px] z-10"
-        />
-        <h1 className="font-semibold text-center text-3xl lg:text-5xl">
+        <div className="w-[855px] h-[887.13px] absolute -right-10 -mt-28">
+          <Image
+            alt="Ingryd pattern"
+            src={pattern}
+            className="-z-10 top-0 right-5"
+          />
+        </div>
+
+        <h1 className="font-semibold text-center text-xl lg:text-5xl">
           Why you should take this course?
         </h1>
         <p className="text-base lg:text-xl text-center mb-10 font-medium">
-          Cybersecurity with our comprehensive course.
+          Grow your career in Cybersecurity with our comprehensive course.
         </p>
       </div>
-      <section className="grid sm:grid-cols-2 gap-20 mt-10">
-        <div className="w-[400px] h-[460px] flex flex-col items-center relative shadow-xl">
-          <div className="w-28 h-28 bg-black rounded-full absolute -top-10 flex items-center justify-center">
-            <Image alt="image" src={programmer} className="w-[70px] h-[70px]" />
+      <section className="grid sm:grid-cols-2 gap-20 mt-10 place-content-center">
+        <div className="lg:w-[400px] lg:h-[460px] w-[283px] h-[260px] flex flex-col items-center relative shadow-xl">
+          <div className="lg:w-28 lg:h-28 w-20 h-20 bg-black rounded-full absolute -top-10 flex items-center justify-center">
+            <Image
+              alt="image"
+              src={programmer}
+              className="lg:w-[70px] lg:h-[70px] w-[50px] h-[50px]"
+            />
           </div>
-          <div className="mt-32 flex flex-col text-center">
-            <p className="text-2xl font-semibold mb-9">Hands-on Experience</p>
-            <p className="text-center font-medium text-[#1A183E] px-8 leading-8">
+          <div className="lg:mt-32 mt-20 flex flex-col text-center">
+            <p className="lg:text-2xl text-sm font-semibold">
+              Hands-on Experience
+            </p>
+            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-8 leading-4 text-sm lg:text-lg py-4">
               Our academy offers a practical approach to learning technology,
               providing students with hands-on experience and real-world
               scenarios to enhance their understanding and retention of
@@ -42,15 +50,19 @@ const WhyShould = () => {
           </div>
         </div>
 
-        <div className="w-[400px] h-[460px] flex flex-col items-center relative shadow-xl">
-          <div className="w-28 h-28 bg-black rounded-full absolute -top-10 flex items-center justify-center">
-            <Image alt="image" src={teacher} className="w-[70px] h-[70px]" />
+        <div className="lg:w-[400px] lg:h-[460px] w-[283px] h-[260px] flex flex-col items-center relative shadow-xl">
+          <div className="lg:w-28 lg:h-28 w-20 h-20 bg-black rounded-full absolute -top-10 flex items-center justify-center">
+            <Image
+              alt="image"
+              src={teacher}
+              className="lg:w-[70px] lg:h-[70px] w-[50px] h-[50px]"
+            />
           </div>
-          <div className="mt-32 flex flex-col text-center">
-            <p className="text-2xl font-semibold mb-9">
+          <div className="lg:mt-32 mt-20 flex flex-col text-center">
+            <p className="lg:text-2xl text-sm font-semibold">
               Industry-Leading Faculty
             </p>
-            <p className="text-center font-medium text-[#1A183E] px-8 leading-8">
+            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-8 leading-4 text-sm lg:text-lg py-4">
               Our faculty members are industry experts with years of experience
               in the field, ensuring that students receive the highest quality
               education and guidance throughout their academic journey.
@@ -58,26 +70,39 @@ const WhyShould = () => {
           </div>
         </div>
 
-        <div className="w-[400px] h-[460px] flex flex-col items-center relative shadow-xl">
-          <div className="w-28 h-28 bg-black rounded-full absolute -top-10 flex items-center justify-center">
-            <Image alt="image" src={calendar} className="w-[70px] h-[70px]" />
+        <div className="lg:w-[400px] lg:h-[460px] w-[283px] h-[260px] flex flex-col items-center relative shadow-xl">
+          <div className="lg:w-28 lg:h-28 w-20 h-20 bg-black rounded-full absolute -top-10 flex items-center justify-center">
+            <Image
+              alt="image"
+              src={calendar}
+              className="lg:w-[70px] lg:h-[70px] w-[50px] h-[50px]"
+            />
           </div>
-          <div className="mt-32 flex flex-col text-center">
-            <p className="text-2xl font-semibold mb-9">Flexible Schedule</p>
-            <p className="text-center font-medium text-[#1A183E] px-8 leading-8">
+          <div className="lg:mt-32 mt-20 flex flex-col text-center">
+            <p className="lg:text-2xl text-sm font-semibold">
+              Flexible Schedule
+            </p>
+            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-8 leading-4 text-sm lg:text-lg py-4">
               Our academy offers flexible scheduling options to accommodate
               various learning preferences and busy schedules, allowing students
               to learn at their own pace and convenience..
             </p>
           </div>
         </div>
-        <div className="w-[400px] h-[460px] flex flex-col items-center relative shadow-xl">
-          <div className="w-28 h-28 bg-black rounded-full absolute -top-10 flex items-center justify-center">
-            <Image alt="image" src={networking} className="w-[70px] h-[70px]" />
+
+        <div className="lg:w-[400px] lg:h-[460px] w-[283px] h-[260px] flex flex-col items-center relative shadow-xl">
+          <div className="lg:w-28 lg:h-28 w-20 h-20 bg-black rounded-full absolute -top-10 flex items-center justify-center">
+            <Image
+              alt="image"
+              src={networking}
+              className="lg:w-[70px] lg:h-[70px] w-[50px] h-[50px]"
+            />
           </div>
-          <div className="mt-32 flex flex-col text-center">
-            <p className="text-2xl font-semibold mb-9">Network Opportunities</p>
-            <p className="text-center font-medium text-[#1A183E] px-8 leading-8">
+          <div className="lg:mt-32 mt-20 flex flex-col text-center">
+            <p className="lg:text-2xl text-sm font-semibold">
+              Network Opportunities
+            </p>
+            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-8 leading-4 text-sm lg:text-lg py-4">
               Opportunities to connect with other students who share similar
               interests and career goals. You can collaborate, exchange ideas,
               and learn from each other's experiences, which can lead to
