@@ -14,7 +14,6 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline'
 const Offers = () => {
     return (
         <section className="relative flex flex-col lg:flex-row text-white">
-            {/* <Image src={bgImage} alt="curve image" className="object-cover object-top absolute inset-0 -z-10" fill /> */}
             <div className='flex relative shrink-0 w-1/2'>
                 <Image src={img1} alt="heroImage" fill className='object-cover' />
             </div>
