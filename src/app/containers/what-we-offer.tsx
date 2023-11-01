@@ -32,7 +32,7 @@ const WhatWeOffer = () => {
                     <Image className="w-10" src={Outsourced} alt="staff icon" />
                     <p className="font-semibold">Tech training</p>
                     <p>
-                    We specializes in providing high quality training for tech professionals and businesses looking to up-skill their employees in the ever-evolving world of technology.
+                    We specialize in providing high quality training for tech professionals and businesses looking to up-skill their employees in the ever-evolving world of technology.
                     </p>
 
                     <p className="text-primary font-semibold">
