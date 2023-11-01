@@ -1,6 +1,6 @@
 import Image from "next/image";
 import heroImage1 from "@/assets/hero1.png";
-import ch3 from "@/assets/Rectangle 53.png";
+import ch3 from "@/assets/LinuxCaroImg.png";
 import imgConfetti from "@/assets/confetti-1.png";
 import NavBar from "@/components/NavBar";
 import { Button } from "@/components/ui/button";

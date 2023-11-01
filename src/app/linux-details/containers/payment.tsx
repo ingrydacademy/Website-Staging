@@ -15,8 +15,9 @@ const Payment = () => {
       </div>
       <section className="grid gap-10 items-center md:grid-cols-2 place-content-center">
         <div className="w-[347px] h-[336px] lg:w-[500px] lg:h-[470px] rounded-md shadow-lg text-left p-5 lg:py-7">
-          <p className="text-center font-semibold text-lg lg:text-4xl mt-4 mb-6 text-[#1A183E]">
-            One-Time Payment
+          <p className="text-center  font-semibold text-lg lg:text-4xl mt-4 mb-6 text-[#1A183E]">
+            <span className="border-b-2 border-[#ea6ed7]">One-Tim</span>e
+            Payment
           </p>
           <p className="lg:text-xl text-sm text-[#1A183E] text-left font-medium lg:leading-8 leading-5">
             With a one-time payment, you'll get <br /> immediate and complete
@@ -33,15 +34,15 @@ const Payment = () => {
               ........................................................
             </span>
             <p className="font-semibold">
-              <span className="line-through font-normal">&#8358;750,000</span>{" "}
-              &#8358; 550,000
+              <span className="line-through font-normal">&#8358;550,000</span>{" "}
+              &#8358; 300,000
             </p>
           </div>
         </div>
 
         <div className="w-[347px] h-[336px] lg:w-[500px] lg:h-[470px] rounded-md shadow-lg text-left p-5 lg:py-7">
           <p className="text-center font-semibold text-lg lg:text-4xl lg:mt-4 lg:mb-6 mb-3 mt-2 text-[#1A183E]">
-            Instalments
+            <span className="border-b-2 border-[#ea6ed7]">Instalm</span>ents
           </p>
           <p className="lg:text-xl text-sm text-[#1A183E] text-left font-medium lg:leading-8 leading-5">
             Paying in instalments makes the course <br /> more affordable by
@@ -59,8 +60,8 @@ const Payment = () => {
               .....................................................
             </span>
             <p className="font-semibold">
-              <span className="line-through font-normal">&#8358;300,000</span>
-              &#8358; 220,000
+              <span className="line-through font-normal">&#8358;220,000 </span>
+              &#8358; 120,000
             </p>
           </div>
           <div className="flex mt-4 gap-10 lg:gap-1">
@@ -69,8 +70,8 @@ const Payment = () => {
               .....................................................
             </span>
             <p className="font-semibold">
-              <span className="line-through font-normal">&#8358;225,000</span>
-              &#8358; 165,000
+              <span className="line-through font-normal">&#8358;165,000 </span>
+              &#8358; 90,000
             </p>
           </div>
           <div className="flex mt-4 gap-10 lg:gap-1">
@@ -81,8 +82,8 @@ const Payment = () => {
               ....................................................
             </span>
             <p className="font-semibold">
-              <span className="line-through font-normal">&#8358;225,000</span>
-              &#8358; 165,000
+              <span className="line-through font-normal">&#8358;165,000 </span>
+              &#8358; 90,000
             </p>
           </div>
         </div>

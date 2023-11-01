@@ -17,7 +17,7 @@ const AboutProgram = () => {
           </div>
           <div>
             <p className="font-medium">Starts on :</p>
-            <p className="font-medium">October 16, 2023</p>
+            <p className="font-medium">January 16, 2024</p>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ const AboutProgram = () => {
           <div>
             <p>Duration :</p>
             <p className="font-medium">
-              -12 weeks <br /> -Fully virtual <br /> -200 Hours
+              -12 weeks <br /> -Virtual <br /> -264 Hours
             </p>
           </div>
         </div>
@@ -50,10 +50,10 @@ const AboutProgram = () => {
           <div>
             <p className="font-medium">Course Fee :</p>
             <small className="line-through">
-              <span>&#8358;</span>750,000
+              <span>&#8358;</span>550,000
             </small>
             <p>
-              <span>&#8358;</span>550,000
+              <span>&#8358;</span>300,000
             </p>
             <p className="font-medium text-xs mt-8">
               *payment options available
@@ -69,22 +69,21 @@ const AboutProgram = () => {
         <li className="grow lg:py-2 leading-7">
           <div className="md:text-center text-justify text-base lg:text-xl font-normal text-[#1A183E]">
             <p>
-              Our 12-week Cybersecurity Course equips you with advanced threat
-              detection and mitigation strategies, taking you from an
-              intermediate level to a work-ready position in the rapidly
-              evolving world of cybersecurity. Get in-depth knowledge in
-              protecting computer systems and networks from unauthorized access,
-              use, disclosure, disruption, modification, or destruction.
+              This comprehensive Linux fundamentals course is designed to equip
+              participants with a strong foundation in navigating, utilizing,
+              and mastering the Linux operating system. Throughout the course,
+              participants will gain hands-on experience with essential
+              command-line tools, file system
             </p>
           </div>
           <div className="md:text-center text-justify mt-8 text-base lg:text-xl font-normal text-[#1A183E]">
             <p>
-              Students learn about security threats, vulnerabilities, risk
-              management, secure coding practices, network security protocols,
-              cryptography principles, incident response techniques, and digital
-              forensics methods. By the end of the course, students will gain
-              hands-on experience in implementing security measures and
-              defending against cyber attacks.
+              management, permissions, data manipulation, system administration,
+              networking concepts, task automation, and version control using
+              Git. By the end of the course, participants will have developed
+              practical skills and a deep understanding of Linux, empowering
+              them to confidently engage in software development, system
+              administration, and various IT roles.
             </p>
           </div>
         </li>
