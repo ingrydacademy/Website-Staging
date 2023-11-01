@@ -73,17 +73,13 @@ const AboutProgram = () => {
               participants with a strong foundation in navigating, utilizing,
               and mastering the Linux operating system. Throughout the course,
               participants will gain hands-on experience with essential
-              command-line tools, file system
-            </p>
-          </div>
-          <div className="md:text-center text-justify mt-8 text-base lg:text-xl font-normal text-[#1A183E]">
-            <p>
-              management, permissions, data manipulation, system administration,
-              networking concepts, task automation, and version control using
-              Git. By the end of the course, participants will have developed
-              practical skills and a deep understanding of Linux, empowering
-              them to confidently engage in software development, system
-              administration, and various IT roles.
+              command-line tools, file system management, permissions, data
+              manipulation, system administration, networking concepts, task
+              automation, and version control using Git. By the end of the
+              course, participants will have developed practical skills and a
+              deep understanding of Linux, empowering them to confidently engage
+              in software development, system administration, and various IT
+              roles.
             </p>
           </div>
         </li>

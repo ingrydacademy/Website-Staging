@@ -17,7 +17,7 @@ const AboutProgram = () => {
           </div>
           <div>
             <p className="font-medium">Starts on :</p>
-            <p className="font-medium">October 16, 2023</p>
+            <p className="font-medium">January 16, 2024</p>
           </div>
         </div>
 

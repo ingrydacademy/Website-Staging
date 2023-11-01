@@ -79,15 +79,16 @@ const HowTo = () => {
             Partnering for Success:
           </h1>
           <p className="text-base lg:text-xl text-center">
-            At INGRYD Academy, we&apos;ve established strong partnerships with
-            industry leaders, startups, and organizations who share our
-            commitment to empowering tech professionals offering opportunities
-            to work on meaningful projects. These partners provide a platform
-            for talents to step into the professional realm, working on projects
-            that matter and contributing to their innovative initiatives.
+            At <span className="font-semibold">INGRYD</span> Academy, we&apos;ve
+            established strong partnerships with industry leaders, startups, and
+            organizations who share our commitment to empowering tech
+            professionals offering opportunities to work on meaningful projects.
+            These partners provide a platform for talents to step into the
+            professional realm, working on projects that matter and contributing
+            to their innovative initiatives.
           </p>
           <Button className="bg-[#1A183E] mt-6 flex h-fit w-fit" asChild>
-            <Link href={``} className="text-xl py-3 px-6">
+            <Link href={`${baseUrl}/signup`} className="text-xl py-3 px-6">
               Partner with us
             </Link>
           </Button>

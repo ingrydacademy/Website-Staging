@@ -91,7 +91,7 @@ const CourseHighllight = () => {
           // navigation
         >
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/cybersecurity-details`}>
+            <Link href={"/cybersecurity-details"}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -137,7 +137,7 @@ const CourseHighllight = () => {
           </SwiperSlide>
           {/* card2 */}
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/linux-details`}>
+            <Link href={"/linux-details"}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -183,7 +183,7 @@ const CourseHighllight = () => {
             </Link>
           </SwiperSlide>
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/java-details`}>
+            <Link href={"/java-details"}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -230,7 +230,7 @@ const CourseHighllight = () => {
             </Link>
           </SwiperSlide>
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/python-for-data-science-details`}>
+            <Link href={"/python-for-data-science-details"}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -277,7 +277,7 @@ const CourseHighllight = () => {
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/reactjs-details`}>
+            <Link href={"/reactjs-details"}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -322,8 +322,9 @@ const CourseHighllight = () => {
               </li>
             </Link>
           </SwiperSlide>
+
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/product-management-details`}>
+            <Link href={"/product-management-details"}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -368,8 +369,103 @@ const CourseHighllight = () => {
               </li>
             </Link>
           </SwiperSlide>
+
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/IT-solution-details`}>
+            <Link href={"/nodeJs-details"}>
+              <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+                <div className="w-full shrink-0 bg-gray-100 h-32 relative">
+                  <Image
+                    src={ch6}
+                    alt="course image"
+                    className="object-cover"
+                    fill
+                  />
+                </div>
+                <div className="flex flex-col justify-between gap-2 grow p-2">
+                  <div className="flex justify-between p-2 border-b border-gray-100">
+                    <p className="text-lg lg:text-xl font-semibold">
+                      {"NodeJS "}
+                    </p>
+                  </div>
+                  <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
+                    Embrace the power of server-side rendering with our
+                    comprehensive NodeJS course! Learn how to build robust,
+                    high-performance web applications using NodeJS, Express, and
+                    other popular frameworks...
+                  </p>
+                  <div className="flex flex-col gap-4 mt-auto">
+                    <div className="flex gap-8 text-sm px-2 justify-between">
+                      <p className="flex items-center">
+                        <Calendar className="text-primary h-4" /> 12 Weeks
+                      </p>
+                      <p className="flex items-center">
+                        <Book className="text-primary h-4" /> Hybrid
+                      </p>
+                    </div>
+                    <div className="flex px-2 gap-4 items-center">
+                      <Button className="bg-secondary" asChild>
+                        <Link href={`${baseUrl}/signup`}>Enroll</Link>
+                      </Button>
+                      <p className="text-xl font-bold line-through">250,000</p>
+                      <p className="text-xs font-semibold text-right ml-auto">
+                        Free with scholarship
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </Link>
+          </SwiperSlide>
+
+          <SwiperSlide className="cursor-grab ">
+            <Link href={"/dev-ops-details"}>
+              <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+                <div className="w-full shrink-0 bg-gray-100 h-32 relative">
+                  <Image
+                    src={ch6}
+                    alt="course image"
+                    className="object-cover"
+                    fill
+                  />
+                </div>
+                <div className="flex flex-col justify-between gap-2 grow p-2">
+                  <div className="flex justify-between p-2 border-b border-gray-100">
+                    <p className="text-lg lg:text-xl font-semibold">
+                      {"DevOps "}
+                    </p>
+                  </div>
+                  <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
+                    In this immersive DevOps course, you'll embark on a journey
+                    to master the art of managing products from ideation to
+                    launch. Starting with the foundational principles of product
+                    development...
+                  </p>
+                  <div className="flex flex-col gap-4 mt-auto">
+                    <div className="flex gap-8 text-sm px-2 justify-between">
+                      <p className="flex items-center">
+                        <Calendar className="text-primary h-4" /> 12 Weeks
+                      </p>
+                      <p className="flex items-center">
+                        <Book className="text-primary h-4" /> Hybrid
+                      </p>
+                    </div>
+                    <div className="flex px-2 gap-4 items-center">
+                      <Button className="bg-secondary" asChild>
+                        <Link href={`${baseUrl}/signup`}>Enroll</Link>
+                      </Button>
+                      <p className="text-xl font-bold line-through">450,000</p>
+                      <p className="text-xs font-semibold text-right ml-auto">
+                        Free with scholarship
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </Link>
+          </SwiperSlide>
+
+          <SwiperSlide className="cursor-grab ">
+            <Link href={"/IT-solution-details"}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image

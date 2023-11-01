@@ -1,6 +1,9 @@
+import Link from "next/link";
 import React from "react";
 
 const Payment = () => {
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+
   return (
     <section className="py-14 px-8 flex flex-col lg:px-36 gap-8">
       <div className="flex flex-col mb-10">
@@ -42,7 +45,7 @@ const Payment = () => {
 
         <div className="w-[347px] h-[336px] lg:w-[500px] lg:h-[470px] rounded-md shadow-lg text-left p-5 lg:py-7">
           <p className="text-center font-semibold text-lg lg:text-4xl lg:mt-4 lg:mb-6 mb-3 mt-2 text-[#1A183E]">
-            <span className="border-b-2 border-[#ea6ed7]">Instalm</span>ents
+            <span className="border-b-2 border-[#ea6ed7]">Installm</span>ents
           </p>
           <p className="lg:text-xl text-sm text-[#1A183E] text-left font-medium lg:leading-8 leading-5">
             Paying in instalments makes the course <br /> more affordable by
@@ -89,8 +92,8 @@ const Payment = () => {
         </div>
       </section>
       <div className="grid place-content-center py-10">
-        <button className="bg-[#1A183E] py-3 hover:opacity-90 px-6 text-white font-medium text-base shadow-md rounded-sm">
-          Enrol Now
+        <button className="bg-[rgb(26,24,62)] py-3 hover:opacity-90 px-6 text-white font-medium text-base shadow-md rounded-sm">
+          <Link href={`${baseUrl}/signup`}>Enrol Now</Link>
         </button>
       </div>
     </section>
