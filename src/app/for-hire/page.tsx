@@ -24,13 +24,10 @@ const TechiesForHire = () => {
         <Hero />
         <Why />
         <Advantage />
-        <Gallery />
         <How />
         <Stacks />
-        {/* <Courses /> */}
         <Launch />
         <Testimony />
-        <Partners />
         <FAQS />
         <Footer />
     </main>

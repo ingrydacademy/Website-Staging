@@ -25,13 +25,14 @@ const Benefit = () => {
                     <li className="bg-white p-8 text-center flex flex-col gap-6 rounded-lg">
                         <h1 className="font-semibold text-xl lg:text-2xl">For the Organization</h1>
                         <p className='text-sm lg:text-base font-medium'>
-                            Enough of unstable workforce. Tap into our talent pool to gain and retain talents. Enjoy Smooth onboarding process and keep pace with the changes in the tech industry. Minimise cost of recruitment.
+                            A workforce you can trust. Tap into our talent pool to gain and retain talents. Enjoy a smooth onboarding process and keep pace with the changes in the tech industry.
+                            Minimise cost of recruitment.
                         </p>
                     </li>
                     <li className="bg-white p-8 text-center flex flex-col gap-6 rounded-lg">
                         <h1 className="font-semibold text-xl lg:text-2xl">For the Ecosystem</h1>
                         <p className='text-sm lg:text-base font-medium'>
-                            Build a large talent pipeline. Accelerated growth and work fitness. Innovation potential.
+                            Build a large talent pipeline. Accelerated growth and work readiness. Innovation potential.
                             Improve economic and welfare stability. Develop a robust network of partnerships and collaboration.
                         </p>
                     </li>

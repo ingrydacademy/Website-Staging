@@ -19,8 +19,8 @@ const TrainingMethod = () => {
                         <p className="">Instructor led virtual and physical classes</p>
                     </div>
                     <div className="flex flex-col gap-5 lg:w-1/3">
-                        <h1 className="font-semibold text-xl lg:text-2xl">LMS</h1>
-                        <p className="">Full virtual classes</p>
+                        <h1 className="font-semibold text-xl lg:text-2xl">Virtual</h1>
+                        <p className="">Fully instructor-led virtual classes</p>
                     </div>
             </div>
                     <p className="text-sm lg:text-xl  lg:text-medium lg:pr-6">

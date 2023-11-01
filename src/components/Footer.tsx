@@ -45,6 +45,9 @@ const Footer = () => {
                             <Link href={'/scholarships'} className=" hover:text-primary">Scholarships</Link>
                         </li>
                         <li>
+                            <Link href={'#'} className=" hover:text-primary">Contact us</Link>
+                        </li>
+                        <li>
                             <Link href={'#'} className=" hover:text-primary">FAQS</Link>
                         </li>
                     </nav>

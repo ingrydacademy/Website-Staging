@@ -27,7 +27,6 @@ export default function AboutUs() {
       <MeetTeam />
       <Campaign />
       <Directors />
-      <Institutions />
       <Footer />
     </main>
   )

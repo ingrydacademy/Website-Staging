@@ -1,4 +1,4 @@
-import flexImg from "../assets/flexImg.png"
+import flexImg from "../assets/fleximg.png"
 import Image from "next/image"
 import { Button } from '@/components/ui/button';
 import Link from "next/link";
@@ -16,7 +16,7 @@ const Flexibility = () => {
                         Flexibility without Boundaries
                     </h1>
                     <p className="text-sm lg:text-xl  lg:text-medium lg:pr-6">
-                        Talent knows no limits, and neither do we. Embracing a hybrid approach to training, we connect tech enthusiasts from diverse backgrounds to participate. Whether trainees are learning onsite or remotely, our commitment to trainees growth remains unwavering. We ensure that each individual's learning journey is unhindered and unparalleled
+                    Talent knows no limits, and neither do we. Embracing a hybrid approach to training, we connect tech enthusiasts from diverse backgrounds to participate. Whether trainees are learning onsite or remotely, our commitment to trainees growth remains unwavering. We ensure that each individual's learning journey is unhindered and unparalleled
                     </p>
 
                 </div>

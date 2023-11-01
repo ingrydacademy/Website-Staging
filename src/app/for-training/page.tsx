@@ -24,16 +24,13 @@ const TechiesForTraining = () => {
     <main className="flex h-full flex-col">
         <Hero />
         <WhoWeAre />
-        <Gallery />
         <Why />
+        <Courses />
         <How />
         <Schedule />
-        <Courses />
         <TrainingMethod />
         <Flexibility />
         <WhatOurStudentsSay />
-        <Partners />
-        <Campaign />
         <FAQS />
         <Footer />
     </main>

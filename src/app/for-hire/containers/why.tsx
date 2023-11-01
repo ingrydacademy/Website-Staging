@@ -19,7 +19,7 @@ const Why = () => {
             </p>
             <Button className='flex items-center text-sm lg:text-lg w-2/5  lg:h-14' asChild>
                 <Link href={'https://lms.ingrydacademy.com/signup'} className='py-3 px-10'>
-                    APPLY NOW
+                    Sign up
                 </Link>
             </Button>
             </div>

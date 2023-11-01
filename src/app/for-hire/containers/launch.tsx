@@ -14,7 +14,7 @@ const Launch = () => {
           <h1 className="text-2xl lg:text-5xl font-semibold text-white">Ready to Launch Your Tech Career?</h1>
           <Button className="w-1/2 lg:w-1/6">
             <Link href={"https://lms.ingrydacademy.com/signup"}>
-              Get started
+              Join the waitlist
             </Link>
           </Button>
 

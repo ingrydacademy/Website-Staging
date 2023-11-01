@@ -16,13 +16,13 @@ const WhatWeOffer = () => {
             <ul className="grid grid-cols-1 pt-8 lg:grid-cols-3 gap-8 lg:gap-20 lg:px-5 lg:text-sm">
                 <li className="bg-white px-8 py-10 lg:py-16  flex flex-col gap-6 rounded-lg shadow-xl">
                     <Image className="w-10" src={StaffImg} alt="staff icon" />
-                    <p className="font-semibold">Staffing</p>
+                    <p className="font-semibold">Talent Outsourcing</p>
                     <p>
-                    Our tech staffing services offers companies access to a larger pool of talent, flexibility, reduced risk cost effectiveness and expertise they need to stay competitive and innovative   
+                        Our tech staffing services offer companies access to a larger pool of talent, flexibility, reduced risk cost effectiveness and expertise they need to stay competitive and innovative
                     </p>
 
                     <p className="text-primary font-semibold">
-                        <Link className="flex gap-2 items-center" href="https://lms.ingrydacademy.com/signup">
+                        <Link className="flex gap-2 items-center" href="/request-staffing">
                             <span>Learn More</span>
                             <Image className="w-5" src={Arrow} alt="arrow icon" />
                         </Link>
@@ -32,11 +32,11 @@ const WhatWeOffer = () => {
                     <Image className="w-10" src={Outsourced} alt="staff icon" />
                     <p className="font-semibold">Tech training</p>
                     <p>
-                    We specialize in providing high quality training for tech professionals and businesses looking to up-skill their employees in the ever-evolving world of technology.
+                        We provide high quality training for tech professionals, and for businesses looking to up-skill their employees for the ever-evolving world of technology.
                     </p>
 
                     <p className="text-primary font-semibold">
-                        <Link className="flex gap-2 items-center" href="https://lms.ingrydacademy.com/signup">
+                        <Link className="flex gap-2 items-center" href="/for-training">
                             <span>Learn More</span>
                             <Image className="w-5" src={Arrow} alt="arrow icon" />
                         </Link>
@@ -44,16 +44,13 @@ const WhatWeOffer = () => {
                 </li>
                 <li className="bg-white px-8 py-10 lg:py-16  flex flex-col gap-6 rounded-lg shadow-xl">
                     <Image className="w-10" src={Matching} alt="staff icon" />
-                    <p className="font-semibold">Talent Outsourcing</p>
+                    <p className="font-semibold">Employee Matching</p>
                     <p>
-                    Our employee matching platform is a robust platform designed to match a company with highly trained tech talents. You get access to thousands of trained talent with a subscription on our platform
+                        Our employee matching platform is a robust platform designed to match organisations with highly trained tech talents. With a subscription to our platform, you get access to thousands of trained professionals.
                     </p>
 
                     <p className="text-primary font-semibold">
-                        <Link className="flex gap-2 items-center" href="https://lms.ingrydacademy.com/signup">
-                            <span>Subscribe to our platform</span>
-                            <Image className="w-5" src={Arrow} alt="arrow icon" />
-                        </Link>
+                        Coming soon
                     </p>
                 </li>
             </ul>

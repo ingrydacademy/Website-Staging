@@ -109,27 +109,33 @@ const Hero = () => {
 
                         currentIndex === 0 &&
                         (
-                            <motion.h1
+                            <motion.div
                                 initial={{ y: 50, opacity: 0 }}
                                 animate={{ y: 0, opacity: 100 }}
                                 exit={{ y: 50, opacity: 0 }}
                                 transition={{ ease: "easeOut", duration: .8 }}
-                                className='text-xl lg:text-6xl font-semibold'>
+                                className=''>
+                                    <motion.h1 className='mb-10 text-xl lg:text-6xl font-semibold'>
                                 Building the next generation of <br /> Africa most competitive <span className=' text-blue-500 lg:text-primary'>Talent</span>
-                            </motion.h1>
+                                </motion.h1>
+                                <motion.p className="text-xs px-2 lg:px-72 lg:text-2xl ">We build tech stars and connect them to a world of opportunities</motion.p>
+                            </motion.div>
 
                         )
                     }
                     {
                         currentIndex === 1 &&
                         (
-                            <motion.h1
+                            <motion.div
                                 initial={{ y: 50, opacity: 0 }}
                                 animate={{ y: 0, opacity: 100 }}
                                 transition={{ ease: "easeOut", duration: .8 }}
-                                className='text-xl lg:text-6xl font-semibold'>
-                                Tap into our extensive database of <br /> ready to go trained tech experts
-                            </motion.h1>
+                                className=''>
+                                    <motion.h1 className='mb-10 text-xl lg:text-6xl font-semibold'>
+                                    Revolutionise Your Business with <br/> Tailored Tech Solutions
+                                </motion.h1>
+                                <motion.p className="text-xs px-2 lg:px-72 lg:text-2xl ">Stay ahead of the growth curve in your industry. Leverage on our advanced IT solutions for growth and expansion.</motion.p>
+                            </motion.div>
 
                         )
 
@@ -137,13 +143,16 @@ const Hero = () => {
                     {
                         currentIndex === 2 &&
                         (
-                            <motion.h1
+                            <motion.div
                                 initial={{ y: 50, opacity: 0 }}
                                 animate={{ y: 0, opacity: 100 }}
                                 transition={{ ease: "easeOut", duration: .8 }}
-                                className='text-xl lg:text-6xl font-semibold'>
+                                className=''>
+                                    <motion.h1 className='mb-10 text-xl lg:text-6xl font-semibold'>
                                 Request custom training for your <br /> organization
-                            </motion.h1>
+                                </motion.h1>
+                                <motion.p className="text-xs px-2 lg:px-72 lg:text-2xl ">Tap into our extensive database of ready tech experts to reinforce your staff and drive cutting-edge innovations</motion.p>
+                            </motion.div>
 
                         )
 
@@ -151,7 +160,7 @@ const Hero = () => {
 
 
 
-                    <p className="text-xs px-2 lg:px-72 lg:text-2xl ">We help forward-thinking companies build top-level teams by training & recruiting skilled tech talents</p>
+                    
                     <Button asChild className='bg-primary w-full lg:w-auto h-auto mt-6'>
                         <Link href={`${baseUrl}/signup`} className="flex gap-8 items-center py-4 px-16 text-2xl font-semibold">
                         Get Started
@@ -162,7 +171,7 @@ const Hero = () => {
                         {slides.map((slide, slideIndex) => (
                             <div
                                 key={slideIndex}
-                                className={`transition-all ease-in-out rounded-full h-3 ${slideIndex === currentIndex ? 'bg-white w-9' : 'bg-[#F4DCFF]/60 w-3'
+                                className={`transition-all ease-in-out rounded-full h-3 ${slideIndex === currentIndex ? 'bg-primary w-9' : 'bg-[#F4DCFF]/60 w-3'
                                     }`}
                             ></div>
                         ))}
