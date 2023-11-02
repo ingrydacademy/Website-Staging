@@ -11,7 +11,6 @@ import Directors from "./containers/directors";
 import Institutions from "./containers/institutions";
 
 export const metadata: Metadata = {
-landing-update
   title: 'About Ingryd Academy - Premier Tech Training & Talent Outsourcing',
   description: 'Learn about Ingryd Academy, your premier destination for advanced tech training and talent outsourcing. Discover how we can help you elevate your tech career or find top tech talent for your business.',
 }

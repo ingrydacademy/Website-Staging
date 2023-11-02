@@ -1,5 +1,4 @@
 import React from "react";
-
 import type { Metadata } from "next";
 import Hero from "./containers/hero";
 import AboutProgram from "./containers/about";
