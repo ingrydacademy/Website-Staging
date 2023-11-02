@@ -26,14 +26,7 @@ const imageList = images.map((photo, index) => {
     return <Image key={index} src={photo} alt="photo" className="rounded"/>
 }
 )
-// const col2List = col2.map((photo, index) => {
-//     return <Image key={index} src={photo} alt="photo" className="rounded"/>
-// }
-// )
-// const col3List = col3.map((photo, index) => {
-//     return <Image key={index} src={photo} alt="photo" className="rounded"/>
-// }
-// )
+
 
 const Gallery = () => {
     return (
