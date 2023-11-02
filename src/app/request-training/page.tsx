@@ -26,10 +26,6 @@ const RequestTraining = () => {
             <Note />
             <BreakThrough />
             <WhyChooseUs />
-            <HowItWorks />
-            <Quote />
-            <Explore />
-            <Institutions />
             <Skills />
             <NewsLetter />
             <Footer />

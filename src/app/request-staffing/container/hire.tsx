@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const HireTalents = () => {
     return (
-        <section className='flex flex-col gap-12 lg:gap-16 items-center text-white bg-secondary mt-5 mb-10 lg:mt-10 lg:mb-20 rounded-lg w-90 mx-auto py-8 lg:py-20 px-5 text-center lg:px-56 '>
-            <h1 className='text-xl lg:text-4xl font-semibold '>
+        <section className='flex flex-col gap-12 lg:gap-16 items-center text-white bg-secondary mt-5 mb-10 lg:mt-10 lg:mb-20 rounded-lg w-90 mx-auto py-8 lg:pt-20 lg:pb-10 px-5 text-center lg:px-56 '>
+            <h1 className='text-xl lg:text-4xl font-semibold relative'>
             Hire quality tech talents
                     </h1>
                     <p className="text-sm lg:text-xl  lg:text-medium pr-0 lg:pr-6">
@@ -25,6 +25,7 @@ const HireTalents = () => {
                         <p className="">Our network has qualified specialists that cover a plethora of tools and frameworks.</p>
                     </div>
             </div>
+            <Button className="bg-primary translate-y-14"><Link href={"https://lms.ingrydacademy.com/signup"}>Request Staffing</Link></Button>
                     
 
         </section>

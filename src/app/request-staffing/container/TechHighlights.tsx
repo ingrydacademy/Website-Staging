@@ -119,24 +119,20 @@ const TechHighlights = () => {
                 // navigation
                 >
                     <SwiperSlide className='cursor-grab'>
-                        <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+                        <li className="flex flex-col w-full  text-left select-none rounded-lg overflow-hidden">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch3} alt="course image" className='object-cover' fill />
                             </div>
                             <div className='flex flex-col justify-between gap-3 grow p-2'>
-                                <div className='flex justify-between p-2 border-b border-gray-100'>
-                                    <p className='text-lg lg:text-xl font-semibold'>{'Cybersecurity '}</p>
+                                <div className='flex justify-between p-2'>
+                                    <p className='text-lg lg:text-xl font-semibold'>{'Cybersecurity Talents: Safeguarding the Digital World'}</p>
                                 </div>
-                                <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                Gain expertise and ready-to-work experience in incident response, ethical hacking, and security architecture to safeguard critical infrastructure and sensitive data.
-                                </p>
-                                <div className='flex flex-col gap-4 mt-auto'>
+                                    <div className='flex flex-col gap-4 mt-auto'>
 
                                     <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center"><Calendar className='text-primary h-4' /> 12 Weeks</p>
-                                        <p className="flex items-center"><Book className='text-primary h-4' /> Virtual</p>
+                                        <p className="flex items-center">3 Months | Virtual</p>
                                     </div>
-                                    <p className='text-primary text-medium flex items-center gap-2 px-2'><Link href={"https://lms.ingrydacademy.com/signup"}>Request Talent </Link><ArrowRight /></p>
+                                   
                                 </div>
 
                             </div>
@@ -144,83 +140,60 @@ const TechHighlights = () => {
                     </SwiperSlide>
                     {/* card2 */}
                     <SwiperSlide className='cursor-grab'>
-                        <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+                        <li className="flex flex-col w-full  text-left select-none rounded-lg overflow-hidden">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch2} alt="course image" className='object-cover' fill />
                             </div>
                             <div className='flex flex-col justify-between gap-3 grow p-2'>
-                                <div className='flex justify-between p-2 border-b border-gray-100'>
-                                    <p className='text-lg lg:text-xl font-semibold'>{'Linux '}</p>
+                                <div className='flex justify-between p-2'>
+                                    <p className='text-lg lg:text-xl font-semibold'>{'Linux Experts : Fueling Open Source Innovation '}</p>
                                 </div>
-                                <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                Explore the capabilities of Linux, the widely embraced operating system found in servers, supercomputers, and embedded devices. Gain proficiency in Linux distribution installation, configuration, and adeptly manage files and permissions.
-                                </p>
-                                <div className='flex flex-col gap-4 mt-auto'>
+                                    <div className='flex flex-col gap-4 mt-auto'>
 
                                     <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center"><Calendar className='text-primary h-4' /> 12 Weeks</p>
-                                        <p className="flex items-center"><Book className='text-primary h-4' /> Virtual</p>
+                                        <p className="flex items-center">3 Months | Virtual</p>
                                     </div>
-                                    <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                       
-                                        <p className='text-primary text-medium flex items-center gap-2 px-2'><Link href={"https://lms.ingrydacademy.com/signup"}>Request Talent </Link><ArrowRight /></p>
-                                        
-                                    </div>
+                                   
                                 </div>
 
                             </div>
                         </li>
                     </SwiperSlide>
                     <SwiperSlide className='cursor-grab'>
-                        <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+                        <li className="flex flex-col w-full  text-left select-none rounded-lg overflow-hidden">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch1} alt="course image" className='object-cover' fill />
                             </div>
                             <div className='flex flex-col justify-between gap-3 grow p-2'>
-                                <div className='flex justify-between p-2 border-b border-gray-100'>
-                                    <p className='text-lg lg:text-xl font-semibold'>{'Java and Spring Boot'}</p>
+                                <div className='flex justify-between p-2'>
+                                    <p className='text-lg lg:text-xl font-semibold'>{'Java & Spring Boot Pros: Boosting Your Software evelopment Team'}</p>
                                 </div>
-                                <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                In this intensive Java and Spring Boot programming course, you'll learn the fundamentals of object-oriented programming and master the Java syntax. From variables and loops to classes and objects....
-                                </p>
-                                <div className='flex flex-col gap-4 mt-auto'>
+                                    <div className='flex flex-col gap-4 mt-auto'>
 
                                     <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center"><Calendar className='text-primary h-4' /> 12 Weeks</p>
-                                        <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
+                                        <p className="flex items-center">3 Months | Hybrid</p>
                                     </div>
-                                    <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                    <p className='text-primary text-medium flex items-center gap-2 px-2'><Link href={"https://lms.ingrydacademy.com/signup"}>Request Talent </Link><ArrowRight /></p>
-                                        
-                                    </div>
+                                   
                                 </div>
 
                             </div>
                         </li>
                     </SwiperSlide>
                     <SwiperSlide className='cursor-grab'>
-                        <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+                        <li className="flex flex-col w-full  text-left select-none rounded-lg overflow-hidden">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch4} alt="course image" className='object-cover' fill />
                             </div>
                             <div className='flex flex-col justify-between gap-3 grow p-2'>
-                                <div className='flex justify-between p-2 border-b border-gray-100'>
-                                    <p className='text-lg lg:text-xl font-semibold'>{'Data Science with Python'}</p>
+                                <div className='flex justify-between p-2'>
+                                    <p className='text-lg lg:text-xl font-semibold'>{'Data Science Aces: Supercharge Your Data-Driven Team'}</p>
                                 </div>
-                                <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                This comprehensive program is designed to empower you with the skills and knowledge needed to harness the full potential of data. Whether you're an aspiring data scientist, a business analyst...
-                                </p>
-                                <div className='flex flex-col gap-4 mt-auto'>
+                                    <div className='flex flex-col gap-4 mt-auto'>
 
                                     <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center"><Calendar className='text-primary h-4' /> 12 Weeks</p>
-                                        <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
+                                        <p className="flex items-center">3 Months | Hybrid</p>
                                     </div>
-                                    <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                    <p className='text-primary text-medium flex items-center gap-2 px-2'><Link href={"https://lms.ingrydacademy.com/signup"}>Request Talent </Link><ArrowRight /></p>
-                                        
-                                        
-                                    </div>
+                                   
                                 </div>
 
                             </div>
@@ -228,107 +201,80 @@ const TechHighlights = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className='cursor-grab'>
-                        <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+                        <li className="flex flex-col w-full  text-left select-none rounded-lg overflow-hidden">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch5} alt="course image" className='object-cover' fill />
                             </div>
                             <div className='flex flex-col justify-between gap-3 grow p-2'>
-                                <div className='flex justify-between p-2 border-b border-gray-100'>
-                                    <p className='text-lg lg:text-xl font-semibold'>{'ReactJS '}</p>
+                                <div className='flex justify-between p-2'>
+                                    <p className='text-lg lg:text-xl font-semibold'>{'React Rockstars: Ignite Your Web Development Squad'}</p>
                                 </div>
-                                <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                Get ready to take your web development skills to the next level with our comprehensive React course! Dive into the world of component-based architecture and learn how to build fast, scalable, and maintainable applications with React...
-                                </p>
-                                <div className='flex flex-col gap-4 mt-auto'>
+                                    <div className='flex flex-col gap-4 mt-auto'>
 
                                     <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center"><Calendar className='text-primary h-4' /> 12 Weeks</p>
-                                        <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
+                                        <p className="flex items-center">3 Months | Hybrid</p>
                                     </div>
-                                    <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                    <p className='text-primary text-medium flex items-center gap-2 px-2'><Link href={"https://lms.ingrydacademy.com/signup"}>Request Talent </Link><ArrowRight /></p>
-                                        
-                                    </div>
+                                   
                                 </div>
 
                             </div>
                         </li>
                     </SwiperSlide>
                     <SwiperSlide className='cursor-grab'>
-                        <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+                        <li className="flex flex-col w-full  text-left select-none rounded-lg overflow-hidden">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={Node} alt="course image" className='object-cover' fill />
                             </div>
                             <div className='flex flex-col justify-between gap-3 grow p-2'>
-                                <div className='flex justify-between p-2 border-b border-gray-100'>
-                                    <p className='text-lg lg:text-xl font-semibold'>{'NodeJS '}</p>
+                                <div className='flex justify-between p-2'>
+                                    <p className='text-lg lg:text-xl font-semibold'>{'Node Gurus: Elevate Your Web Development Team'}</p>
                                 </div>
-                                <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                Embrace the power of server-side rendering with our comprehensive NodeJS course! Learn how to build robust, high-performance web applications using NodeJS, Express, and other popular frameworks...
-                                </p>
-                                <div className='flex flex-col gap-4 mt-auto'>
+                                    <div className='flex flex-col gap-4 mt-auto'>
 
                                     <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center"><Calendar className='text-primary h-4' /> 12 Weeks</p>
-                                        <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
+                                        <p className="flex items-center">3 Months | Hybrid</p>
                                     </div>
-                                    <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                    <p className='text-primary text-medium flex items-center gap-2 px-2'><Link href={"https://lms.ingrydacademy.com/signup"}>Request Talent </Link><ArrowRight /></p>
-                                    </div>
+                                   
                                 </div>
 
                             </div>
                         </li>
                     </SwiperSlide>
                     <SwiperSlide className='cursor-grab'>
-                        <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+                        <li className="flex flex-col w-full  text-left select-none rounded-lg overflow-hidden">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch6} alt="course image" className='object-cover' fill />
                             </div>
                             <div className='flex flex-col justify-between gap-3 grow p-2'>
-                                <div className='flex justify-between p-2 border-b border-gray-100'>
-                                    <p className='text-lg lg:text-xl font-semibold'>{'Product Management '}</p>
+                                <div className='flex justify-between p-2'>
+                                    <p className='text-lg lg:text-xl font-semibold'>{'Product Visionaries: Transforming Your Product Lineup'}</p>
                                 </div>
-                                <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                In this immersive product management course, you'll embark on a journey to master the art of managing products from ideation to launch. Starting with the foundational principles of product development...
-                                </p>
-                                <div className='flex flex-col gap-4 mt-auto'>
+                                    <div className='flex flex-col gap-4 mt-auto'>
 
                                     <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center"><Calendar className='text-primary h-4' /> 12 Weeks</p>
-                                        <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
+                                        <p className="flex items-center">3 Months | Hybrid</p>
                                     </div>
-                                    <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                    <p className='text-primary text-medium flex items-center gap-2 px-2'><Link href={"https://lms.ingrydacademy.com/signup"}>Request Talent </Link><ArrowRight /></p>
-                                       
-                                    </div>
+                                   
                                 </div>
 
                             </div>
                         </li>
                     </SwiperSlide>
                     <SwiperSlide className='cursor-grab'>
-                        <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+                        <li className="flex flex-col w-full  text-left select-none rounded-lg overflow-hidden">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch7} alt="course image" className='object-cover' fill />
                             </div>
                             <div className='flex flex-col justify-between gap-3 grow p-2'>
-                                <div className='flex justify-between p-2 border-b border-gray-100'>
-                                    <p className='text-lg lg:text-xl font-semibold'>{'IT Solution Sales '}</p>
+                                <div className='flex justify-between p-2'>
+                                    <p className='text-lg lg:text-xl font-semibold'>{'Sales Pioneers: Drive IT Solutions to New Heights'}</p>
                                 </div>
-                                <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                Transform your sales game and close more deals with our elite IT solution sales training course! Designed for ambitious sales professionals like you, this comprehensive program covers everything from the fundamentals of IT...
-                                </p>
-                                <div className='flex flex-col gap-4 mt-auto'>
+                                    <div className='flex flex-col gap-4 mt-auto'>
 
                                     <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center"><Calendar className='text-primary h-4' /> 12 Weeks</p>
-                                        <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
+                                        <p className="flex items-center">3 Months | Hybrid</p>
                                     </div>
-                                    <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                    <p className='text-primary text-medium flex items-center gap-2 px-2'><Link href={"https://lms.ingrydacademy.com/signup"}>Request Talent </Link><ArrowRight /></p>
-                                        
-                                    </div>
+                                   
                                 </div>
 
                             </div>
@@ -337,27 +283,20 @@ const TechHighlights = () => {
 
                     
                     <SwiperSlide className='cursor-grab'>
-                        <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+                        <li className="flex flex-col w-full  text-left select-none rounded-lg overflow-hidden">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={DevOps} alt="course image" className='object-cover' fill />
                             </div>
                             <div className='flex flex-col justify-between gap-3 grow p-2'>
-                                <div className='flex justify-between p-2 border-b border-gray-100'>
-                                    <p className='text-lg lg:text-xl font-semibold'>{'DevOps '}</p>
+                                <div className='flex justify-between p-2'>
+                                    <p className='text-lg lg:text-xl font-semibold'>{'DevOps Virtuosos: Streamline Your Software Delivery'}</p>
                                 </div>
-                                <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                In this immersive DevOps course, you'll embark on a journey to master the art of managing products from ideation to launch. Starting with the foundational principles of product development...
-                                </p>
-                                <div className='flex flex-col gap-4 mt-auto'>
+                                    <div className='flex flex-col gap-4 mt-auto'>
 
                                     <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center"><Calendar className='text-primary h-4' /> 12 Weeks</p>
-                                        <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
+                                        <p className="flex items-center">3 Months | Hybrid</p>
                                     </div>
-                                    <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                    <p className='text-primary text-medium flex items-center gap-2 px-2'><Link href={"https://lms.ingrydacademy.com/signup"}>Request Talent </Link><ArrowRight /></p>
-                                       
-                                    </div>
+                                   
                                 </div>
 
                             </div>

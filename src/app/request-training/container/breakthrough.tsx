@@ -1,7 +1,7 @@
-import Man from "../assets/Man.png"
 import Image from "next/image"
 import { Button } from '@/components/ui/button';
 import Link from "next/link";
+import BreakthroughImg from "../assets/breakthroughImg.png"
 
 const BreakThrough = () => {
     return (
@@ -9,7 +9,7 @@ const BreakThrough = () => {
             
             <div className="flex flex-col lg:items-center lg:flex-row gap-5">
             <figure className="flex justify-center lg:w-1/2 ">
-                <Image src={Man} alt="woman image" className="w-full" />
+                <Image src={BreakthroughImg} alt="woman image" className="w-full" />
             </figure>
             <div className="flex flex-col gap-5 items-center lg:items-start lg:gap-20 lg:w-1/2 lg:px-8 ">
             <h1 className='text-xl lg:text-3xl font-semibold '>

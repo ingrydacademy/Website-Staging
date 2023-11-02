@@ -18,10 +18,10 @@ const NavBar = () => {
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
     const menuItems = [
         { label: "About us", href: "/about-us" },
-        { label: "Techies", dropdown: true, links: [{ name: "For Training", url: "/for-training" }, { name: "Find Jobs", url: "/for-hire" }] },
+        { label: "Techies", dropdown: true, links: [{ name: "For Training", url: "/for-training" }, { name: "Find Jobs", url: "/find-jobs" }] },
         { label: "Employers", dropdown: true, links: [{ name: "Request Training", url: "/request-training" }, { name: "Request Staffing", url: "/request-staffing" }] },
         { label: "Scholarships", href: "/scholarships" },
-        { label: "Courses", dropdown: true, links: [{ name: "Cybersecurity", url: "/cybersecurity" }, { name: "Java and Spring Boot", url: "/java-and-spring-boot" }, { name: "Data Science with Python", url: "/data-science-with-python" }, { name: "React.js", url: "/reactjs" }, { name: "Node.js", url: "/nodejs" }, { name: "Linux", url: "/linux" }, { name: "DevOps", url: "/devops" }, { name: "IT Solution Sales", url: "/IT-solution-sales" }] }
+        { label: "Courses", dropdown: true, links: [{ name: "Cybersecurity", url: "/cybersecurity" }, { name: "Java and Spring Boot", url: "/java-and-spring-boot" }, { name: "Data Science", url: "/data-science" }, { name: "React.js", url: "/reactjs" }, { name: "Node.js", url: "/nodejs" }, { name: "Linux", url: "/linux" }, { name: "DevOps", url: "/devops" }, { name: "IT Solution Sales", url: "/IT-solution-sales" }] }
     ];
     const handleBarClick = () => {
         setMobileMenuOpen(true)

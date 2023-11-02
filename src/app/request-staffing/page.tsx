@@ -24,8 +24,8 @@ const RequestTraining = () => {
             <WhyChooseUs />
             <Quote />
             <Technologies />
-            <Institutions />
-            <Skills />
+            {/* <Institutions /> */}
+            {/* <Skills /> */}
             <NewsLetter />
             <Footer />
         </main>

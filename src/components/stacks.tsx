@@ -36,11 +36,12 @@ const stackList = stacks.map(stack => {
                 <h1 className="text-2xl font-semibold">{stack.h1} </h1>
                 <p>{stack.p}</p>
                 <p>Potential job opportunities: </p>
+                
                 {
                     stack.ul.map(li => <p>{li}</p>)
                 }
             </div>
-            <Button className="bg-secondary text-lg"><Link href={"#"} >APPLY NOW</Link></Button>
+            <Button className="bg-secondary text-lg my-5"><Link href={"#"} >APPLY NOW</Link></Button>
         </li>
     )
 })
