@@ -18,34 +18,40 @@ const HowTo = () => {
               alt="image"
               src={imgHow}
               fill
-              className="object-cover -z-0 rounded-lg lg:translate-x-8 lg:-translate-y-8"
+              className="-z-0 rounded-lg lg:translate-x-8 lg:-translate-y-8 w-[310px] h-[333.25px] lg:w-[400px] lg:h-[430px]"
             />
           </li>
           <li className="lg:w-4/6 text-xl flex flex-col gap-6">
             <ul className="flex flex-col gap-6 text-white">
-              <p className="text-5xl">Who should take this course?</p>
-              <p>Key reasons to consider enrolling in this course :</p>
+              <p className="lg:text-5xl text-sm font-semibold">
+                Who should take this course?
+              </p>
+              <p className="font-normal text-sm lg:text-xl">
+                Key reasons to consider enrolling in this course :
+              </p>
               <li className="flex gap-4 items-center">
                 <ArrowRightIcon className="w-5 h-5 shrink-0 text-primary" />
-                <p>
+                <p className="font-normal text-sm lg:text-xl">
                   Aspiring Cybersecurity professionals aiming to advance their
                   skill set.
                 </p>
               </li>
               <li className="flex gap-4 items-center">
                 <ArrowRightIcon className="w-5 h-5 shrink-0 text-primary" />
-                <p>
+                <p className="font-normal text-sm lg:text-xl">
                   Individuals seeking access to hands-on training to increase
                   chances of job placements.
                 </p>
               </li>
               <li className="flex gap-4 items-center">
                 <ArrowRightIcon className="w-5 h-5 shrink-0 text-primary" />
-                <p>Organizations seeking to bolster their security measures.</p>
+                <p className="font-normal text-sm lg:text-xl">
+                  Organizations seeking to bolster their security measures.
+                </p>
               </li>
               <li className="flex gap-4 items-center">
                 <ArrowRightIcon className="w-5 h-5 shrink-0 text-primary" />
-                <p>
+                <p className="font-normal text-sm lg:text-xl">
                   Organizations that need staff training or want to keep safe
                   from cyber threats.
                 </p>
