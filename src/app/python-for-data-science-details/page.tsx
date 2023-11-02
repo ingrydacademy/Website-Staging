@@ -11,8 +11,9 @@ import Faqs from "./containers/faqs";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Ingryd | Python",
-  description: "Acquire Borderless Tech Skills & Get Job Placements",
+  title: "Enroll in Data Science with Python Course - Advanced Training",
+  description:
+    "Join our Data Science with Python course at Ingryd Academy. Acquire advanced data science skills using Python. Unlock new career prospects in data analytics and beyond.",
 };
 
 const PythonForDataScience = () => {

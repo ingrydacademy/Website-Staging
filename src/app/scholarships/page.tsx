@@ -17,8 +17,9 @@ import type { Metadata } from "next";
 import InstitutionTrust from "./containers/institutionThatTrustUs";
 
 export const metadata: Metadata = {
-  title: "Ingryd | Scholarship",
-  description: "Acquire Borderless Tech Skills & Get Job Placements",
+  title: "Tech Scholarships - Get Trained and Get employed For Free.",
+  description:
+    "Explore our Tech Scholarships program at Ingryd Academy. Unlock opportunities for advanced training in tech fields like Data Science, Cybersecurity, Java, and Linux. Kickstart your tech career today.",
 };
 
 export default function Home() {
