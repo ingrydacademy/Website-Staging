@@ -45,10 +45,10 @@ const Footer = () => {
                             <Link href={'/scholarships'} className=" hover:text-primary">Scholarships</Link>
                         </li>
                         <li>
-                            <Link href={'#'} className=" hover:text-primary">Contact us</Link>
+                            <Link href={''} className=" hover:text-primary">Contact us</Link>
                         </li>
                         <li>
-                            <Link href={'#'} className=" hover:text-primary">FAQS</Link>
+                            <Link href={''} className=" hover:text-primary">FAQS</Link>
                         </li>
                     </nav>
                 </div>
@@ -56,10 +56,10 @@ const Footer = () => {
                     <p className="text-lg font-semibold">Legals</p>
                     <nav className="list-none flex flex-col gap-3">
                         <li>
-                            <Link href={'/privacy'} className=" hover:text-primary">Privacy</Link>
+                            <Link href={''} className=" hover:text-primary">Privacy</Link>
                         </li>
                         <li>
-                            <Link href={'/conditions'} className=" hover:text-primary">Terms and Conditions</Link>
+                            <Link href={''} className=" hover:text-primary">Terms and Conditions</Link>
                         </li>
                     </nav>
                 </div>
