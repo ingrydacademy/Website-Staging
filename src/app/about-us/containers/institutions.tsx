@@ -1,7 +1,4 @@
-import iconLinkedIn from '@/assets/akar-icons_linkedin-fill.svg'
 import Image from 'next/image'
-import { Button } from '@/components/ui/button'
-import Link from 'next/link'
 
 // import images
 import Lseft from "../../../assets/institutions/LSETF-logo 1.png"

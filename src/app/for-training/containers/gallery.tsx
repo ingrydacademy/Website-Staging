@@ -1,17 +1,12 @@
 "use client"
 import Image from "next/image"
-
-import first from "../assets/gallery/Rectangle 56.png"
-import second from "../assets/gallery/Rectangle 57.png"
-import third from "../assets/gallery/Rectangle 58.png"
-import fourth from "../assets/gallery/Rectangle 59.png"
-import fifth from "../assets/gallery/Rectangle 60.png"
-import sixth from "../assets/gallery/Rectangle 61.png"
-import seventh from "../assets/gallery/Rectangle 62.png"
-import eighth from "../assets/gallery/Rectangle 63.png"
+import first from "../assets/images/Rectangle 56.png"
+import second from "../assets/images/Rectangle 57.png"
+import third from "../assets/images/Rectangle 58.png"
+import fourth from "../assets/images/Rectangle 59.png"
 
 
-const images = [first, second, third, fourth, fifth, sixth, seventh, eighth]
+const images = [first, second, third, fourth]
 
 const imageList = images.map((image, i) =>{
     return(

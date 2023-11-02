@@ -15,26 +15,30 @@ import StackHighlight from "./stackHighlight"
 
 
 const stacks = [
-    { h1: "Cybersecurity", p: "Cybersecurity unlocks the door to job security. Protect digital assets and explore global opportunities as a cybersecurity expert.", img: CyberIcon },
-    { h1: "Linux", p: "Linux skills fuel diverse job opportunities. Embrace the world of open-source software and take your career to a global scale", img: LinuxIcon },
-    { h1: "Java and Spring Boot", p: "Unlock exciting job prospects in Java and Spring Boot. Elevate your career with the expertise to develop high-performance applications. Leading companies in Nigeria and beyond await your skills", img: JavaIcon },
-    { h1: "Data Science with Python", p: "Data Science opens doors to dynamic job opportunities. Harness the power of Python to drive data-driven decisions. Your journey starts here, with pathways to rewarding careers", img: PythonIcon },
-    { h1: "React.js", p: "React.js offers promising job opportunities in web development. Craft captivating user interfaces and seize career possibilities in Nigeria's thriving tech sector and beyond", img: ReactIcon },
-    { h1: "Node.js", p: "Node.js expertise paves the way for lucrative job prospects in server-side development. Join the ranks of Node.js developers powering applications worldwide.", img: NodeIcon },
-    { h1: "DevOps", p: "DevOps opens up a world of job opportunities. Bridge the gap between development and operations, unlocking pathways to modern software development careers", img: DevOpsIcon },
-    { h1: "IT Solution Sales", p: "IT Solution Sales is your gateway to a dynamic career. Explore the realm of technology sales and unlock opportunities with leading IT companies in Nigeria and beyond.", img: ItIcon },
-    { h1: "Product Management", p: "Product Management empowers your career journey. Gain the skills to drive product success and lead your way to thriving roles in product management, strategy, and innovation", img: ProductIcon }
+    { h1: "Cybersecurity", p: "Cybersecurity unlocks the door to job security. Protect digital assets and explore global opportunities as a cybersecurity expert.",  ul: ["-Information Security Analyst.", "-Cybersecurity Engineer", "-Penetration Tester"],   img: CyberIcon },
+    { h1: "Linux", p: "Linux skills fuel diverse job opportunities. Embrace the world of open-source software and take your career to a global scale", ul: ["-Linux Administrator", "-Linux Software Engineer", "-Linux DevOps Engineer"], img: LinuxIcon },
+    { h1: "Java and Spring Boot", p: "Unlock exciting job prospects in Java and Spring Boot. Elevate your career with the expertise to develop high-performance applications. ",ul: ["-Java Developer", "-Java Software Engineer", "-Java Full Stack Developer"], img: JavaIcon },
+    { h1: "Data Science with Python", p: "Data Science opens doors to dynamic job opportunities. Harness the power of Python to drive data-driven decisions. Your journey starts here.", ul: ["-Data Analyst", "-Data Engineer", "-Machine Learning Engineer"], img: PythonIcon },
+    { h1: "React.js", p: "React.js offers promising job opportunities in web development. Craft captivating user interfaces and seize career possibilities in Nigeria's thriving tech sector and beyond.", ul: ["-Frontend Developer", "-Full Stack developer", "-React Native Developer"], img: ReactIcon },
+    { h1: "Node.js", p: "Node.js expertise paves the way for lucrative job prospects in server-side development. Join the ranks of Node.js developers powering applications worldwide.",ul: ["-Backend Developer", "-Full Stack developer", "-Node.js Architect"], img: NodeIcon },
+    { h1: "DevOps", p: "DevOps opens up a world of opportunities. Bridge the gap between development and operations, unlocking pathways to modern software development careers", ul: ["-DevOps Engineer", "-Site Reliability Engineer", "-Cloud Engineer"], img: DevOpsIcon },
+    { h1: "IT Solution Sales", p: "IT Sales is your gateway to a dynamic career. Explore the realm of technology sales and unlock opportunities with leading IT companies in Nigeria and beyond.", ul: ["-Inside Sales Representative", "-Account Executive", "-Sales Engineer"], img: ItIcon },
+    { h1: "Product Management", p: "Product Management empowers your career journey. Gain the skills to succeed and lead your way to thriving roles in product management, strategy, and innovation", ul: ["-Associate Product Manager", "-Product Manager", "-Senior Product Manager"], img: ProductIcon }
 ]
 
 const stackList = stacks.map(stack => {
     return (
-        <li className="flex flex-col justify-between p-5 shadow-lg rounded-lg h-331 w-387">
-            <div className="flex flex-col gap-2">
+        <li className="flex flex-col justify-between p-5 shadow-lg rounded-lg w-387">
+            <div className="flex flex-col gap-4">
                 <figure>
                     <Image src={stack.img} alt={stack.h1 + " icon"} />
                 </figure>
                 <h1 className="text-2xl font-semibold">{stack.h1} </h1>
                 <p>{stack.p}</p>
+                <p>Potential job opportunities: </p>
+                {
+                    stack.ul.map(li => <p>{li}</p>)
+                }
             </div>
             <Button className="bg-secondary text-lg"><Link href={"#"} >APPLY NOW</Link></Button>
         </li>

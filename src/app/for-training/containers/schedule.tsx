@@ -10,7 +10,7 @@ const Schedule = () => {
                         Training Schedule
                     </h1>
                     <p className="text-11 lg:text-xl text-center font-medium px-12 mb-5">
-                            Flexible, rich and impactful training sessions curated for you.
+                    Flexible, rich and impactful training sessions curated for you.
                     </p>
                 </div>
                <div className="flex flex-col lg:flex-row lg:px-20 lg:gap-5 lg:items-center lg:justify-center text-secondary text-center">
