@@ -1,6 +1,6 @@
 'use client'
 
-import flexImg from "../assets/fleximg.png"
+import flexImg from "../assets/flexImg.png"
 import Image from "next/image"
 
 const Flexibility = () => {
