@@ -185,7 +185,7 @@ const CourseHighllight = () => {
             </Link>
           </SwiperSlide>
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/java-and-spring-boot`}>
+            <Link href={"/java-and-spring-boot"}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image

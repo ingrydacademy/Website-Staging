@@ -13,7 +13,7 @@ const InstitutionTrust = () => {
       <h1 className="font-semibold text-center text-3xl lg:text-5xl">
         Institutions that trust us
       </h1>
-      <div className="py-16 lg:flex lg:gap-5 gap-20 gap-x-36 place-items-center px-20 grid grid-cols-2">
+      <div className="py-16 lg:flex lg:gap-5 gap-20 gap-x-32 place-items-center px-20 grid grid-cols-2">
         <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] flex justify-center items-center">
           <Image
             alt="another flag"
@@ -22,7 +22,7 @@ const InstitutionTrust = () => {
           />
         </div>
 
-        <div className="w-[200px] h-[29px] justify-center items-center flex">
+        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] flex justify-center items-center">
           <Image
             alt="lagos flag"
             src={img2}
@@ -30,7 +30,7 @@ const InstitutionTrust = () => {
           />
         </div>
 
-        <div className="w-[150px] h-[117px] flex justify-center items-center">
+        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] flex justify-center items-center">
           <Image
             alt="lagos flag"
             src={img1}
@@ -38,7 +38,7 @@ const InstitutionTrust = () => {
           />
         </div>
 
-        <div className="w-[150px] h-[150px] flex justify-center items-center">
+        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] flex justify-center items-center">
           <Image
             alt="lagos flag"
             src={img4}
@@ -46,7 +46,7 @@ const InstitutionTrust = () => {
           />
         </div>
 
-        <div className="w-[200px] h-[116.67px] flex justify-center items-center">
+        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] flex justify-center items-center">
           <Image
             alt="lagos flag"
             src={img5}
@@ -54,7 +54,7 @@ const InstitutionTrust = () => {
           />
         </div>
 
-        <div className="w-[200px] h-[100px] flex justify-center items-center">
+        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] flex justify-center items-center">
           <Image
             alt="lagos flag"
             src={img6}
