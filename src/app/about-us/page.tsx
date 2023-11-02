@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 import Gallery from "./containers/gallery";
 import Directors from "./containers/directors";
-import Institutions from "./containers/institutions";
 
 export const metadata: Metadata = {
   title: 'About Ingryd Academy - Premier Tech Training & Talent Outsourcing',
