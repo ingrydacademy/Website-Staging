@@ -24,7 +24,7 @@ const images = [
 const imageGrid = images.map((image, i) => {
     return (
         <li key={i} className={`flex flex-col items-center gap-1 w-1/3 lg:w-1/5`}>
-            <Image src={image.image} alt="team image" className="h-40 aspect-square bg-gray-200 rounded-lg" />
+            <Image src={image.image} alt="team image" className="h-40 aspect-square rounded-lg" />
             <h1 className="font-semibold text-xs lg:text-xl">{image.name}</h1>
             <p className="text-gray-700 text-xxs lg:text-sm">{image.post}</p>
             <Button variant={"outline"} asChild size={"icon"} className="rounded-full border-2 hidden lg:flex">
