@@ -21,7 +21,7 @@ const NavBar = () => {
         { label: "Techies", dropdown: true, links: [{ name: "For Training", url: "/for-training" }, { name: "Find Jobs", url: "/find-jobs" }] },
         { label: "Employers", dropdown: true, links: [{ name: "Request Training", url: "/request-training" }, { name: "Request Staffing", url: "/request-staffing" }] },
         { label: "Scholarships", href: "/scholarships" },
-        { label: "Courses", dropdown: true, links: [{ name: "Cybersecurity", url: "/cybersecurity" }, { name: "Java and Spring Boot", url: "/java-and-spring-boot" }, { name: "Data Science", url: "/data-science" }, { name: "React.js", url: "/reactjs" }, { name: "Node.js", url: "/nodejs" }, { name: "Linux", url: "/linux" }, { name: "DevOps", url: "/devops" }, { name: "IT Solution Sales", url: "/IT-solution-sales" }] }
+        { label: "Courses", dropdown: true, links: [{ name: "Cybersecurity", url: "/cybersecurity" }, { name: "Java and Spring Boot", url: "/java-and-spring-boot" }, { name: "Data Science", url: "/data-science" }, { name: "React.js", url: "/reactjs" }, { name: "Node.js", url: "/nodejs" }, { name: "Linux", url: "/linux" }, { name: "DevOps", url: "/devops" }, { name: "Product Management", url: "/product-management" }, { name: "IT Solution Sales", url: "/IT-solution-sales" }] }
     ];
     const handleBarClick = () => {
         setMobileMenuOpen(true)
