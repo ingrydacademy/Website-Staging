@@ -1,5 +1,4 @@
 import Hero from "./containers/hero";
-
 import WhoAndHow from "./containers/whoAndHow";
 import Aim from "./containers/aim";
 import MeetTeam from "./containers/meetTeam";
@@ -12,7 +11,7 @@ import Directors from "./containers/directors";
 export const metadata: Metadata = {
   title: 'About Ingryd Academy - Premier Tech Training & Talent Outsourcing',
   description: 'Learn about Ingryd Academy, your premier destination for advanced tech training and talent outsourcing. Discover how we can help you elevate your tech career or find top tech talent for your business.',
-}
+};
 
 
 
