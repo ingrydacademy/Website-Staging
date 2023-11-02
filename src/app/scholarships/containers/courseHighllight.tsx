@@ -93,7 +93,7 @@ const CourseHighllight = () => {
           // navigation
         >
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/cybersecurity-details`}>
+            <Link href={`${baseUrl}/cybersecurity`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -139,7 +139,7 @@ const CourseHighllight = () => {
           </SwiperSlide>
           {/* card2 */}
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/linux-details`}>
+            <Link href={`${baseUrl}/linux`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -185,7 +185,7 @@ const CourseHighllight = () => {
             </Link>
           </SwiperSlide>
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/java-details`}>
+            <Link href={`${baseUrl}/java-and-spring-boot`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -232,7 +232,7 @@ const CourseHighllight = () => {
             </Link>
           </SwiperSlide>
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/python-for-data-science-details`}>
+            <Link href={`${baseUrl}/data-science`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -279,7 +279,7 @@ const CourseHighllight = () => {
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/reactjs-details`}>
+            <Link href={`${baseUrl}/reactjs`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -326,7 +326,7 @@ const CourseHighllight = () => {
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/product-management-details`}>
+            <Link href={`${baseUrl}/product-management`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -373,7 +373,7 @@ const CourseHighllight = () => {
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/nodeJs-details`}>
+            <Link href={`${baseUrl}/nodejs`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -420,7 +420,7 @@ const CourseHighllight = () => {
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/dev-ops-details`}>
+            <Link href={`${baseUrl}/devops`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -467,7 +467,7 @@ const CourseHighllight = () => {
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={`${baseUrl}/IT-solution-details`}>
+            <Link href={`${baseUrl}/IT-solution-sales`}>
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
