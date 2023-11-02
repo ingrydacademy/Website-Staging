@@ -1,3 +1,5 @@
+'use client'
+
 import flexImg from "../assets/fleximg.png"
 import Image from "next/image"
 

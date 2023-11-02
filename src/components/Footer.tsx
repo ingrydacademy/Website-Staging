@@ -34,7 +34,7 @@ const Footer = () => {
                             <Link href={'/for-training'} className=" hover:text-primary">Get Trained</Link>
                         </li>
                         <li>
-                            <Link href={'/for-hire'} className=" hover:text-primary">Get Job Placement</Link>
+                            <Link href={'/find-jobs'} className=" hover:text-primary">Get Job Placement</Link>
                         </li>
                     </nav>
                 </div>
