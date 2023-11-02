@@ -26,9 +26,9 @@ const stacks = [
     { h1: "Product Management", p: "Product Management empowers your career journey. Gain the skills to succeed and lead your way to thriving roles in product management, strategy, and innovation", ul: ["-Associate Product Manager", "-Product Manager", "-Senior Product Manager"], img: ProductIcon }
 ]
 
-const stackList = stacks.map(stack => {
+const stackList = stacks.map((stack, i) => {
     return (
-        <li className="flex flex-col justify-between p-5 shadow-lg rounded-lg w-387">
+        <li key={i} className="flex flex-col justify-between p-5 shadow-lg rounded-lg w-387">
             <div className="flex flex-col gap-4">
                 <figure>
                     <Image src={stack.img} alt={stack.h1 + " icon"} />
@@ -38,7 +38,7 @@ const stackList = stacks.map(stack => {
                 <p>Potential job opportunities: </p>
                 
                 {
-                    stack.ul.map(li => <p>{li}</p>)
+                    stack.ul.map((li, i) => <p key={i}>{li}</p>)
                 }
             </div>
             <Button className="bg-secondary text-lg my-5"><Link href={"#"} >APPLY NOW</Link></Button>
