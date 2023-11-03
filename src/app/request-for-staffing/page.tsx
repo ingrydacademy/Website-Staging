@@ -1,8 +1,12 @@
-import React from 'react'
+import Aside from "./containers/Aside"
+import Form from "./containers/Form"
 
 const RequestForStaffing = () => {
   return (
-    <div>RequestForStaffing</div>
+    <main className="flex h-full bg-secondary">
+           <Aside />
+           <Form />
+    </main>
   )
 }
 
