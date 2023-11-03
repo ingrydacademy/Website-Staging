@@ -20,7 +20,7 @@ const Empower  = () => {
                         <figure className="flex items-center justify-center">
                             <Image src={StarIcon} alt="star icon"/>
                         </figure>
-                        <p className="font-semibold lg:font-bold lg:text-xl">Customised Pedagogy </p>
+                        <p className="font-semibold lg:font-bold lg:text-xl">Customised Training  </p>
                         <p className="text-xs lg:font-medium lg:text-lg lg:px-2">Enhance Team Efficiency with Customized Ingryd Training. Reskill or upskill your workforce for Improved Productivity.</p>
                 </li>
                 <li className='flex flex-col items-center gap-2 lg:gap-5 w-full py-5 px-10 lg:py-10 lg:px-14 rounded bg-white shadow-md'>

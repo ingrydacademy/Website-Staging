@@ -33,7 +33,7 @@ const Hero = () => {
                 href={`${baseUrl}/signup`}
                 className="py-4 px-16 text-sm lg:text-xl font-semibold"
               >
-                Enrol Now
+                Enroll Now
               </Link>
             </Button>
             <Button

@@ -91,7 +91,7 @@ const CourseHighllight = () => {
           // navigation
         >
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/cybersecurity-details"}>
+            
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -108,9 +108,7 @@ const CourseHighllight = () => {
                     </p>
                   </div>
                   <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                    Gain expertise and ready-to-work experience in incident
-                    response, ethical hacking, and security architecture to
-                    safeguard critical infrastructure and sensitive data.
+                  Gain expertise and ready-to-work experience in incident response, ethical hacking, and security architecture to safeguard critical infrastructure and sensitive data.
                   </p>
                   <div className="flex flex-col gap-4 mt-auto">
                     <div className="flex gap-8 text-sm px-2 justify-between">
@@ -133,11 +131,11 @@ const CourseHighllight = () => {
                   </div>
                 </div>
               </li>
-            </Link>
+            
           </SwiperSlide>
           {/* card2 */}
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/linux-details"}>
+            
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -154,10 +152,7 @@ const CourseHighllight = () => {
                     </p>
                   </div>
                   <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                    Discover the power of Linux, the most popular operating
-                    system used in servers, supercomputers, and embedded
-                    devices. Learn how to install and configure Linux
-                    distributions, manage files and permissions...
+                  Discover the power of Linux, the most popular operating system used in servers, supercomputers, and embedded devices. Learn how to install and configure Linux distributions, manage files and permissions...
                   </p>
                   <div className="flex flex-col gap-4 mt-auto">
                     <div className="flex gap-8 text-sm px-2 justify-between">
@@ -180,10 +175,10 @@ const CourseHighllight = () => {
                   </div>
                 </div>
               </li>
-            </Link>
+            
           </SwiperSlide>
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/java-details"}>
+            
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -200,11 +195,7 @@ const CourseHighllight = () => {
                     </p>
                   </div>
                   <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                    In this intensive Java programming course, you&apos;ll learn
-                    the fundamentals of object-oriented programming and master
-                    the Java syntax. From variables and loops to classes and
-                    objects, you&apos;ll gain a deep understanding of the
-                    Java...
+                  In this intensive Java and Spring Boot programming course, you'll learn the fundamentals of object-oriented programming and master the Java syntax. From variables and loops to classes and objects....
                   </p>
                   <div className="flex flex-col gap-4 mt-auto">
                     <div className="flex gap-8 text-sm px-2 justify-between">
@@ -227,10 +218,10 @@ const CourseHighllight = () => {
                   </div>
                 </div>
               </li>
-            </Link>
+            
           </SwiperSlide>
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/python-for-data-science-details"}>
+            
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -243,14 +234,11 @@ const CourseHighllight = () => {
                 <div className="flex flex-col justify-between gap-2 grow p-2">
                   <div className="flex justify-between p-2 border-b border-gray-100">
                     <p className="text-lg lg:text-xl font-semibold">
-                      {"Python for Data Science "}
+                      {"Data Science "}
                     </p>
                   </div>
                   <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                    In this comprehensive Python programming course, you&apos;ll
-                    dive into the world of object-oriented programming and
-                    become proficient in the Python syntax. Starting with the
-                    basics, you&apos;ll learn about variables, data types...
+                  This comprehensive program is designed to empower you with the skills and knowledge needed to harness the full potential of data. Whether you're an aspiring data scientist, a business analyst...
                   </p>
                   <div className="flex flex-col gap-4 mt-auto">
                     <div className="flex gap-8 text-sm px-2 justify-between">
@@ -273,11 +261,11 @@ const CourseHighllight = () => {
                   </div>
                 </div>
               </li>
-            </Link>
+            
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/reactjs-details"}>
+            
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -294,10 +282,7 @@ const CourseHighllight = () => {
                     </p>
                   </div>
                   <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                    Get ready to take your web development skills to the next
-                    level with our comprehensive React course! Dive into the
-                    world of component-based architecture and learn how to build
-                    fast, scalable, and maintainable applications with React...
+                  Get ready to take your web development skills to the next level with our comprehensive React course! Dive into the world of component-based architecture and learn how to build fast, scalable, and maintainable applications with React...
                   </p>
                   <div className="flex flex-col gap-4 mt-auto">
                     <div className="flex gap-8 text-sm px-2 justify-between">
@@ -320,11 +305,11 @@ const CourseHighllight = () => {
                   </div>
                 </div>
               </li>
-            </Link>
+            
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/product-management-details"}>
+            
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -341,10 +326,7 @@ const CourseHighllight = () => {
                     </p>
                   </div>
                   <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                    In this immersive product management course, you&apos;ll
-                    embark on a journey to master the art of managing products
-                    from ideation to launch. Starting with the foundational
-                    principles of product development...
+                  In this immersive product management course, you'll embark on a journey to master the art of managing products from ideation to launch. Starting with the foundational principles of product development...
                   </p>
                   <div className="flex flex-col gap-4 mt-auto">
                     <div className="flex gap-8 text-sm px-2 justify-between">
@@ -367,11 +349,11 @@ const CourseHighllight = () => {
                   </div>
                 </div>
               </li>
-            </Link>
+            
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/nodeJs-details"}>
+            
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -388,10 +370,7 @@ const CourseHighllight = () => {
                     </p>
                   </div>
                   <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                    Embrace the power of server-side rendering with our
-                    comprehensive NodeJS course! Learn how to build robust,
-                    high-performance web applications using NodeJS, Express, and
-                    other popular frameworks...
+                  Embrace the power of server-side rendering with our comprehensive NodeJS course! Learn how to build robust, high-performance web applications using NodeJS, Express, and other popular frameworks...
                   </p>
                   <div className="flex flex-col gap-4 mt-auto">
                     <div className="flex gap-8 text-sm px-2 justify-between">
@@ -414,11 +393,11 @@ const CourseHighllight = () => {
                   </div>
                 </div>
               </li>
-            </Link>
+            
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/dev-ops-details"}>
+            
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -435,10 +414,7 @@ const CourseHighllight = () => {
                     </p>
                   </div>
                   <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                    In this immersive DevOps course, you'll embark on a journey
-                    to master the art of managing products from ideation to
-                    launch. Starting with the foundational principles of product
-                    development...
+                  In this immersive DevOps course, you'll embark on a journey to master the art of managing products from ideation to launch. Starting with the foundational principles of product development...
                   </p>
                   <div className="flex flex-col gap-4 mt-auto">
                     <div className="flex gap-8 text-sm px-2 justify-between">
@@ -461,11 +437,11 @@ const CourseHighllight = () => {
                   </div>
                 </div>
               </li>
-            </Link>
+            
           </SwiperSlide>
 
           <SwiperSlide className="cursor-grab ">
-            <Link href={"/IT-solution-details"}>
+            
               <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                   <Image
@@ -482,10 +458,7 @@ const CourseHighllight = () => {
                     </p>
                   </div>
                   <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                    Transform your sales game and close more deals with our
-                    elite IT solution sales training course! Designed for
-                    ambitious sales professionals like you, this comprehensive
-                    program covers everything from the fundamentals of IT...
+                  Transform your sales game and close more deals with our elite IT solution sales training course! Designed for ambitious sales professionals like you, this comprehensive program covers everything from the fundamentals of IT...
                   </p>
                   <div className="flex flex-col gap-4 mt-auto">
                     <div className="flex gap-8 text-sm px-2 justify-between">
@@ -508,7 +481,7 @@ const CourseHighllight = () => {
                   </div>
                 </div>
               </li>
-            </Link>
+            
           </SwiperSlide>
         </Swiper>
         <div className="swiper-button-n">
