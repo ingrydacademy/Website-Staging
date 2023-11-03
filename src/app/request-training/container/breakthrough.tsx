@@ -19,7 +19,7 @@ const BreakThrough = () => {
             Empower your organization with a tailored tech curriculum, arming your team with the skills to meet your business needs and drive impactful results.
             </p>
             <Button className='flex items-center text-sm lg:text-lg w-3/5 lg:h-14 text-center' asChild>
-                <Link href={'/signup'} className='py-3 px-10'>
+                <Link href={'/request-for-training'} className='py-3 px-10'>
                 Request Training
                 </Link>
             </Button>

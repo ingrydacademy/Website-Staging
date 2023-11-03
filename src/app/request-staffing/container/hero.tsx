@@ -28,7 +28,7 @@ const Hero = () => {
           Elevate your workforce, supercharge your projects, and grow your business with our top-notch staffing solutions.
 
           </p>
-          <Button className='bg-white border-3 text-secondary font-semibold lg:w-1/3'><Link href={"https://lms.ingrydacademy.com/signup"}>Request Staffing</Link></Button>
+          <Button className='bg-white border-3 text-secondary font-semibold lg:w-1/3'><Link href={"/request-for-staffing"}>Request Staffing</Link></Button>
           </div>
           <div className='hidden w-1/2 lg:flex justify-end'>
             <Image src={sideImg} alt='hero side image'/>
