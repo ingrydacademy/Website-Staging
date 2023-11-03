@@ -7,10 +7,10 @@ import Link from "next/link"
 
 const Aside = () => {
     return (
-        <section className='w-1/3 lg:px-24 lg:py-10 h-full bg-secondary relative'>
-             <Image src={Pattern} alt="ingryd logo" className="fixed left-0 top-40 w-387"/>
+        <section className='w-1/5 lg:w-1/3 lg:px-24 py-10 h-full bg-secondary relative'>
+             <Image src={Pattern} alt="ingryd logo" className="hidden lg:flex fixed left-0 top-40 w-387"/>
             <Link href="/" className="fixed">
-                <figure className="w-40">
+                <figure className="w-20 lg:w-40">
                     <Image src={Logo} alt="ingryd logo" className="static z-50" />
                 </figure>
             </Link>

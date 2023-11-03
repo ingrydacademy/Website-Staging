@@ -93,7 +93,7 @@ const Payment = () => {
       </section>
       <div className="grid place-content-center py-10">
         <button className="bg-[rgb(26,24,62)] py-3 hover:opacity-90 px-6 text-white font-medium text-base shadow-md rounded-sm">
-          <Link href={`${baseUrl}/signup`}>Enrol Now</Link>
+          <Link href={`${baseUrl}/signup`}>Enroll Now</Link>
         </button>
       </div>
     </section>

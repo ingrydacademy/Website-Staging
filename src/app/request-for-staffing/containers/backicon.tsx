@@ -15,8 +15,8 @@ const BackIcon = () => {
   return (
     <figure
       // onClick={goBack}
-      className="flex items-center justify-center bg-secondary cursor-pointer h-6 w-6 rounded-full">
-      <Image src={Icon} alt="back icon" />
+      className="flex items-center justify-center bg-secondary text-white font-medium cursor-pointer h-5 w-5 text-sm rounded-full">
+      {"<"}
     </figure>
   )
 }
