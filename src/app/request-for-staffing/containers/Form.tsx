@@ -5,7 +5,7 @@ import BackIcon from "./backicon"
 
 const Form = () => {
     return (
-        <form className='w-4/5 lg:w-2/3 bg-[#F6F6F6] px-5 py-10 lg:py-20 lg:px-10 flex gap-5 '>
+        <form className='w-4/5 lg:w-2/3 bg-[#F6F6F6] px-5 py-10 lg:py-20 lg:px-10 flex flex-col gap-5 '>
             <BackIcon />
             <div className="flex flex-col gap-5 lg:gap-10 w-full">
             <h1 className="font-semibold text-xl">Request staffing</h1>
