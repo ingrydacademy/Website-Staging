@@ -5,6 +5,7 @@ import imgConfetti from "@/assets/confetti-1.png";
 import NavBar from "@/components/NavBar";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import DownloadBronchure from "@/components/DownloadBronchure";
 
 const Hero = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
@@ -36,17 +37,7 @@ const Hero = () => {
                 Enroll Now
               </Link>
             </Button>
-            <Button
-              asChild
-              className="bg-white text-[#FF00F8] lg:w-1/2 w-full h-auto mt-6"
-            >
-              <Link
-                href={`${baseUrl}/signup`}
-                className="py-4 px-16 text-sm lg:text-xl font-semibold"
-              >
-                Download Brochure
-              </Link>
-            </Button>
+            <DownloadBronchure filePath="/assets/nodejs.pdf" fileName="nodejs.pdf"/>
           </div>
         </div>
         <div className="col-span-1">
