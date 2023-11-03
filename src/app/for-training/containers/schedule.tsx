@@ -18,13 +18,13 @@ const Schedule = () => {
                 <ul className="text-11 lg:text-lg lg:text-left flex flex-col gap-5 px-1">
                     
                     <li>
-                        The Program’s physical training schedule runs from 9am-6pm at our training academy. 9am-1pm and 2pm-6pm for morning and afternoon session respectively. Whilst, the virtual training schedule runs from 9am-3pm.
+                    The Program’s physical training schedule runs from 9am-6pm at our training academy. 9am-1pm and 2pm-6pm for morning and afternoon session respectively. Whilst, the virtual training schedule runs from 9am-3pm.
                     </li>
                     <li>
-                        The training will have physical classes 2 times per week and mentorship sessions and practicals on Fridays and Saturdays from 10am-3pm.
+                    We hold physical classes 2 times per week and mentorship sessions and practicals on Fridays and Saturdays from 10am-3pm as needed.
                     </li>
                     <li>
-                    These sessions will provide students with the opportunity to work on real-world projects and case studies, and receive personalized feedback and guidance from in-house experienced instructors.
+                    These sessions will provide students with the opportunity to work on real-world projects and case studies, and receive personalized feedback and guidance from in-house experienced instructors. 
                     </li>
                 </ul>
                 <button className='hidden lg:block text-sm lg:text-xl bg-secondary w-1/4 font-medium rounded text-white py-2 '>

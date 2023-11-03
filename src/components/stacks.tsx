@@ -53,9 +53,9 @@ const Stacks = () => {
                 Stacks Available
             </h1>
             <StackHighlight />
-            <ul className="hidden lg:grid grid-cols-3 gap-12 px-20">
+            {/* <ul className="hidden lg:grid grid-cols-3 gap-12 px-20">
                 {stackList}
-            </ul>
+            </ul> */}
 
         </section>
     )
