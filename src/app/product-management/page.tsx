@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import React from "react";
 import Hero from "./containers/hero";
 import AboutProgram from "./containers/about";

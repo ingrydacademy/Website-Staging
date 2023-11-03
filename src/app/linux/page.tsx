@@ -8,7 +8,7 @@ import Payment from "./containers/payment";
 import LearnMore from "./containers/learnMore";
 import Faqs from "./containers/faqs";
 import Footer from "@/components/Footer";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Ingryd | Linux",

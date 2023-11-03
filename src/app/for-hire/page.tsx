@@ -10,7 +10,7 @@ import Launch from "./containers/launch";
 import FAQS from "./containers/faqs";
 import Testimony from "./containers/testimony";
 import Stacks from "@/components/stacks";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Techies - Find Job placement in your dream company",

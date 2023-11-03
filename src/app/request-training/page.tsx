@@ -6,7 +6,7 @@ import NewsLetter from "@/components/newsLetter";
 import Note from "./container/note";
 import BreakThrough from "./container/breakthrough";
 import WhyChooseUs from "./container/whyChoose";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:

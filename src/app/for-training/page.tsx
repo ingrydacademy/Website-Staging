@@ -12,7 +12,7 @@ import Campaign from "./containers/campaign";
 import WhatOurStudentsSay from "./containers/whatStudentsSay";
 import Flexibility from "./containers/flexibility";
 import TrainingMethod from "./containers/trainingMethod";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Join Ingryd Academy for Advanced Tech Training and Job placement.",
