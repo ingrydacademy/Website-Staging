@@ -41,9 +41,7 @@ const How = () => {
                             </li>
                         </ul>
                         <button className='text-sm lg:text-xl bg-primary w-2/5 rounded py-2 lg:ml-12'>
-                            <Link href={''}>
-                               Coming soon
-                            </Link>
+                               Coming soon   
                         </button>
                     </div>
                 </div>
