@@ -41,8 +41,8 @@ const How = () => {
                             </li>
                         </ul>
                         <button className='text-sm lg:text-xl bg-primary w-2/5 rounded py-2 lg:ml-12'>
-                            <Link href={'/signup'}>
-                                Get Started
+                            <Link href={'https://lms.ingrydacademy.com/signup'}>
+                               Coming soon
                             </Link>
                         </button>
                     </div>

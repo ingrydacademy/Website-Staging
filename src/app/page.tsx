@@ -6,8 +6,8 @@ import Hero from "./containers/hero";
 import Offers from "./containers/offers";
 import UnlockTalent from "./containers/unlockTalent";
 import WhatWeOffer from "./containers/what-we-offer";
+import type { Metadata } from "next";
 import NewsLetter from "../components/newsLetter";
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:

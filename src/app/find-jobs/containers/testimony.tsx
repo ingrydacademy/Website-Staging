@@ -48,7 +48,7 @@ const Testimony = () => {
   return (
     <section className='flex flex-col shrink-0 bg-[#F4DCFF] py-10 lg:py-20 px-8  grow lg:h-full lg:min-h-screen relative'>
 
-      <h1 className='text-center text-xl lg:text-5xl font-bold mb-5 lg:mb-14'>What our graduates say</h1>
+      <h1 className='text-center text-xl lg:text-5xl font-bold mb-5 lg:mb-14'>Talent Feedback</h1>
       <p className="mx-auto mb-5 lg:mb-14">
         <Image src={Quote} alt="quote icon" />
       </p>
@@ -131,7 +131,7 @@ const Testimony = () => {
           {slides.map((slide, slideIndex) => (
             <div
               key={slideIndex}
-              className={`transition-all ease-in-out rounded-full h-3 cursor-pointer ${slideIndex === currentIndex ? 'bg-gray-500 w-9' : 'bg-secondary w-3'}`}
+              className={`transition-all ease-in-out rounded-full h-3 cursor-pointer ${slideIndex === currentIndex ? 'bg-secondary w-9' : 'bg-gray-500 w-3'}`}
               onClick={() => handleDotClick(slideIndex)}
             ></div>
           ))}

@@ -12,7 +12,7 @@ const WhoAndHow = () => {
                             How we impact?
                         </h1>
                         <p className="text-11 lg:text-2xl">
-                        INGRYD Academy is your go-to partner for advanced tech training and job placement. Our expert team and extensive talent network make us the ideal choice for tech enthusiasts seeking borderless opportunities and businesses looking to scale and innovate with top-tier tech talent.. 
+                        INGRYD Academy is your go-to partner for advanced tech training and job placement. Our expert team and extensive talent network make us the ideal choice for tech enthusiasts seeking borderless opportunities and businesses looking to scale and innovate with top-tier tech talent. 
                         </p>
                     </li>
                     

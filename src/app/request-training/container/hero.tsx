@@ -25,7 +25,7 @@ const Hero = () => {
 
           <p className="text-sm  lg:text-2xl ">
 
-          Let Ingryd help you build a winning team with our well-tailored curriculum and industry standard technologies!
+          Let INGRYD help you build a winning team with our well-tailored curriculum and industry standard technologies!
 
           </p>
           <Button className='bg-white border-3 text-secondary font-semibold lg:w-1/3'><Link href={"https://lms.ingrydacademy.com/signup"}>Request Training</Link></Button>

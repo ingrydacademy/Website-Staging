@@ -138,7 +138,7 @@ const CourseHighllight = () => {
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
                                         <Button className="bg-secondary" asChild>
-                                            <Link href={`${baseUrl}/signup`}>
+                                            <Link href={`/cybersecurity`}>
                                                 Learn more
                                             </Link>
                                         </Button>
@@ -166,7 +166,7 @@ const CourseHighllight = () => {
                                     <p className='text-lg lg:text-xl font-semibold'>{'Linux '}</p>
                                 </div>
                                 <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
-                                Explore the capabilities of Linux, the widely embraced operating system found in servers, supercomputers, and embedded devices. Gain proficiency in Linux distribution installation, configuration, and adeptly manage files and permissions.
+                                Discover the power of Linux, the most popular operating system used in servers, supercomputers, and embedded devices. Learn how to install and configure Linux distributions, manage files and permissions...
                                 </p>
                                 <div className='flex flex-col gap-4 mt-auto'>
 
@@ -176,7 +176,7 @@ const CourseHighllight = () => {
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
                                         <Button className="bg-secondary" asChild>
-                                            <Link href={`${baseUrl}/signup`}>
+                                            <Link href={`/linux`}>
                                                 Learn more
                                             </Link>
                                         </Button>
@@ -214,7 +214,7 @@ const CourseHighllight = () => {
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
                                         <Button className="bg-secondary" asChild>
-                                            <Link href={`${baseUrl}/signup`}>
+                                            <Link href={`/java-and-spring-boot`}>
                                                 Learn more
                                             </Link>
                                         </Button>
@@ -239,7 +239,7 @@ const CourseHighllight = () => {
                             </div>
                             <div className='flex flex-col justify-between gap-3 grow p-2'>
                                 <div className='flex justify-between p-2 border-b border-gray-100'>
-                                    <p className='text-lg lg:text-xl font-semibold'>{'Data Science with Python'}</p>
+                                    <p className='text-lg lg:text-xl font-semibold'>{'Data Science'}</p>
                                 </div>
                                 <p className='overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left'>
                                 This comprehensive program is designed to empower you with the skills and knowledge needed to harness the full potential of data. Whether you're an aspiring data scientist, a business analyst...
@@ -252,7 +252,7 @@ const CourseHighllight = () => {
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
                                         <Button className="bg-secondary" asChild>
-                                            <Link href={`${baseUrl}/signup`}>
+                                            <Link href={`/data-science`}>
                                                 Learn more
                                             </Link>
                                         </Button>
@@ -292,7 +292,7 @@ const CourseHighllight = () => {
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
                                         <Button className="bg-secondary" asChild>
-                                            <Link href={`${baseUrl}/signup`}>
+                                            <Link href={`/reactjs`}>
                                                 Learn more
                                             </Link>
                                         </Button>
@@ -330,7 +330,7 @@ const CourseHighllight = () => {
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
                                         <Button className="bg-secondary" asChild>
-                                            <Link href={`${baseUrl}/signup`}>
+                                            <Link href={`nodejs`}>
                                                 Learn more
                                             </Link>
                                         </Button>
@@ -367,7 +367,7 @@ const CourseHighllight = () => {
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
                                         <Button className="bg-secondary" asChild>
-                                            <Link href={`${baseUrl}/signup`}>
+                                            <Link href={`product-management`}>
                                                 Learn more
                                             </Link>
                                         </Button>
@@ -405,7 +405,7 @@ const CourseHighllight = () => {
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
                                         <Button className="bg-secondary" asChild>
-                                            <Link href={`${baseUrl}/signup`}>
+                                            <Link href={`IT-solution-sales`}>
                                                 Learn more
                                             </Link>
                                         </Button>
@@ -445,7 +445,7 @@ const CourseHighllight = () => {
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
                                         <Button className="bg-secondary" asChild>
-                                            <Link href={`${baseUrl}/signup`}>
+                                            <Link href={`devops`}>
                                                 Learn more
                                             </Link>
                                         </Button>

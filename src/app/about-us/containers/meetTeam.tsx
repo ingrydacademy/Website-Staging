@@ -1,24 +1,20 @@
 
 import Image from "next/image"
-import First from "../../../assets/Rectangle 56.png"
-import Second from "../../../assets/Rectangle 58.png"
-import Third from "../../../assets/Rectangle 57.png"
+import First from "../images/osagie.png"
 import Fourth from "../../../assets/Rectangle 59.png"
 import Fifth from "../../../assets/Rectangle 60.png"
-import Sixth from "../../../assets/Rectangle 64.png"
-import Seventh from "../../../assets/Rectangle 61.png"
-import Eight from "../../../assets/Rectangle 65'.png"
+import Sixth from "../images/femi.png"
+import Eight from "../images/visitors.png"
 import Nineth from "../../../assets/Rectangle 62.png"
 import Tenth from "../../../assets/Rectangle 66.png"
 import Eleventh from "../../../assets/Rectangle 63.png"
-import Twelfth from "../../../assets/Rectangle 67.png"
 
 
 
 // import { Linkedin, LinkedinIcon, LucideLinkedin } from "lucide-react"
 
 
-const photos = [ First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eight, Nineth, Tenth, Eleventh, Twelfth]
+const photos = [ First, Tenth, Nineth,   Fourth,Fifth, Sixth,Eleventh, Eight]
 
 const photoList = photos.map((photo, index) => {
     return (

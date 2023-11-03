@@ -16,21 +16,18 @@ const Hero = () => {
 
                 <div className='w-full h-full shrink-0 grow text-white items-center justify-center flex flex-col gap-4 lg:gap-8 text-center'>
                     <h1 className='text-xl lg:text-5xl lg:w-4/5 font-semibold'>
-                        <span className='lg:hidden'>Unlock Your Tech Career <br /><span className='text-primary'>Potential</span> with INGRYD <br />Academy
-                        </span>
-                        <span className='hidden lg:block'>Join our <span className='text-primary'>Talent Pool</span> <br />Get Prepped for <span className='text-primary'>Ready Employers</span>
-                        </span>
-                        </h1>
+                        Join our <span className='text-primary'>Talent Pool <br/></span> Connect with <span className='text-primary'> Ready Employers</span>
+                    </h1>
 
                     <p className="text-sm  lg:text-2xl lg:w-3/5">
-                          
-                        Elevate Your Career. Boost Your employability potential and secure jobs without hassle.
-                       
+
+                    Elevate Your Career. Boost Your employability potential and secure jobs without hassle.
+
                     </p>
 
-                    
 
-                   
+
+
                 </div>
 
             </div>
