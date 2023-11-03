@@ -1,3 +1,5 @@
+"use client"
+
 import Aside from "./containers/Aside"
 import Form from "./containers/Form"
 
