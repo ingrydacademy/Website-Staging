@@ -53,7 +53,7 @@ const AboutProgram = () => {
               <span>&#8358;</span>450,000
             </small>
             <p>
-              <span>&#8358;</span>75,000
+              <span>&#8358;</span>175,000
             </p>
             <p className="font-medium text-xs mt-8">
               *payment options available

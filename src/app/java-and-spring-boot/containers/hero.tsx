@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import heroImage1 from "@/assets/hero1.png";
 import ch3 from "@/assets/javaCaroImg.png";
@@ -5,7 +7,7 @@ import imgConfetti from "@/assets/confetti-1.png";
 import NavBar from "@/components/NavBar";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import DownloadBronchure from "@/components/DownloadBronchure";
+import Download from "@/components/Download";
 
 const Hero = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
@@ -40,7 +42,15 @@ const Hero = () => {
                 Enroll Now
               </Link>
             </Button>
-            <DownloadBronchure filePath="/assets/java.pdf" fileName="java.pdf"/>
+            <Button
+              asChild
+              className={`lg:w-1/2 w-full h-auto cursor-pointer mt-6 bg-white text-primary`}
+              onClick={()=> Download("/assets/java.pdf", "java.pdf")}
+            >
+              <p className="py-4 px-16 text-sm lg:text-xl font-semibold">
+                Download Brochure
+              </p>
+            </Button>
           </div>
         </div>
         <div className="col-span-1">
