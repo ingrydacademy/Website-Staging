@@ -10,7 +10,7 @@ const HowTo = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
   return (
     <>
-      <section className="bg-[#F4DCFF] bg-gradient-to-r from-[#1D63FE] to-[#FF00F8] flex flex-col gap-6 py-16 px-8 text-white">
+      <section className="bg-[#F4DCFF] bg-gradient-to-r  from-[#1D63FE] to-[#FF00F8] flex flex-col gap-6 py-16 px-8 text-white">
         <h1 className="text-3xl lg:text-5xl text-center font-semibold mb-12">
           How to get started with the INGRYD <br /> scholarship program
         </h1>
@@ -73,7 +73,7 @@ const HowTo = () => {
           </li>
         </ul>
       </section>
-      <section className="flex flex-col mt-28 items-center gap-4 py-16 px-6 lg:px-24 bg-[#F4DCFF]">
+      <section className="flex flex-col mt-28 mb-10 lg:mb-20 items-center gap-4 py-16 px-6 lg:px-24 bg-[#F4DCFF]">
         <div className="flex flex-col items-center gap-4 mt-8">
           <h1 className="font-semibold text-center text-3xl lg:text-5xl">
             Partnering for Success:

@@ -14,7 +14,7 @@ import HowTo from "./containers/howTo";
 import Faqs from "./containers/faqs";
 
 import type { Metadata } from "next";
-import InstitutionTrust from "./containers/institutionThatTrustUs";
+import Institutions from "../about-us/containers/institutions";
 
 export const metadata: Metadata = {
   title: "Ingryd | Scholarship",
@@ -29,7 +29,7 @@ export default function Home() {
       <Structure />
       <UnlockTalent />
       <HowTo />
-      <InstitutionTrust />
+      <Institutions />
       <Faqs />
       <Campaign />
       <Footer />
