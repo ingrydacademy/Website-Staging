@@ -2,7 +2,6 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { Book, Calendar, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 import { Grid, Navigation, Pagination, A11y, } from 'swiper/modules';
@@ -31,8 +30,6 @@ import 'swiper/css/scrollbar';
 import { useState } from 'react'
 
 const StackHighlight = () => {
-
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
     const swiper = useSwiper();
 
@@ -71,7 +68,7 @@ const StackHighlight = () => {
     return (
         <>
 
-            <section className='flex lg:hidden flex-row items-center gap-8 px-0 lg:px-16 mt-2 py-6 max-w-full'>
+            <section className='flex flex-row items-center gap-8 px-0 lg:px-16 mt-2 py-6 max-w-full'>
                 <Swiper
                     // install Swiper modules
                     modules={[Pagination, Navigation, A11y, Grid]}
