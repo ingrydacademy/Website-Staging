@@ -1,19 +1,8 @@
 "use client"
 
-import ch1 from '@/assets/ch-1.png'
-import ch2 from '@/assets/ch-2.png'
-import ch3 from '@/assets/ch-3.png'
-import ch4 from '@/assets/crs_DatSci.png'
-import ch5 from '@/assets/crs_React.png'
-import ch6 from '@/assets/crs_Product.png'
-import ch7 from '@/assets/crs_IT.png'
-import Node from '@/assets/nodejs.png'
-import DevOps from '@/assets/devops.png'
-
-
 import Image from 'next/image'
 import Link from 'next/link'
-import { Book, Calendar, ChevronLeft, ChevronRight } from 'lucide-react'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 import { Grid, Navigation, Pagination, A11y, } from 'swiper/modules';
@@ -43,7 +32,7 @@ import { useState } from 'react'
 
 const CourseHighllight = () => {
 
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+
 
     const swiper = useSwiper();
 
