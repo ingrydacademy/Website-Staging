@@ -48,7 +48,7 @@ const Footer = () => {
                             <Link href={''} className=" hover:text-primary">Contact us</Link>
                         </li>
                         <li>
-                            <Link href={''} className=" hover:text-primary">FAQS</Link>
+                            <Link href={'/faq'} className=" hover:text-primary">FAQS</Link>
                         </li>
                     </nav>
                 </div>

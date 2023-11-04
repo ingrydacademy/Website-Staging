@@ -1,6 +1,6 @@
-import Image from "next/image";
-import imgGrp from "@/assets/Group 803.png";
+"use client"
 
+import { usePathname } from 'next/navigation'
 import {
   Accordion,
   AccordionContent,
@@ -9,11 +9,13 @@ import {
 } from "@/components/ui/accordion";
 
 const Faqs = () => {
+  const pathname = usePathname()
+
   return (
     <section>
       <article id="faq" className="flex flex-col py-24 px-6 lg:px-36 gap-8">
         <h1 className="text-3xl lg:text-5xl text-center font-semibold">
-          Frequently Asked Questions
+          {pathname === "/faq"? "About INGRYD Academy":"Frequently Asked Questions"}
         </h1>
         <ul className="w-full flex flex-col lg:flex-row gap-6 lg:gap-32">
           <li className="lg:basis-1/2">
