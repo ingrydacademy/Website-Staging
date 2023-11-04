@@ -143,7 +143,7 @@ const CourseHighllight = () => {
                                             </Link>
                                         </Button>
                                         <div className='flex flex-col lg:gap-1 text-right'>
-                                        <p className='text-xl font-bold line-through'>550,000</p>
+                                        <p className='text-xl font-bold line-through'>750,000</p>
                                         <div className='text-center'>
                                             <p className='text-xs font-medium'>Free with scholarship</p>
                                         </div>
@@ -180,7 +180,7 @@ const CourseHighllight = () => {
                                             </Link>
                                         </Button>
                                         <div className='flex flex-col lg:gap-1 text-right'>
-                                        <p className='text-xl font-bold line-through'>300,000</p>
+                                        <p className='text-xl font-bold line-through'>550,000</p>
                                         <div className='text-center'>
                                             <p className='text-xs font-medium'>Free with scholarship</p>
                                         </div>
@@ -217,7 +217,7 @@ const CourseHighllight = () => {
                                             </Link>
                                         </Button>
                                         <div className='flex flex-col lg:gap-1 text-right'>
-                                        <p className='text-xl font-bold line-through'>175,000</p>
+                                        <p className='text-xl font-bold line-through'>450,000</p>
                                         <div className='text-center'>
                                             <p className='text-xs font-medium'>Free with scholarship</p>
                                         </div>
@@ -254,7 +254,7 @@ const CourseHighllight = () => {
                                             </Link>
                                         </Button>
                                         <div className='flex flex-col lg:gap-1 text-right'>
-                                        <p className='text-xl font-bold line-through'>250,000</p>
+                                        <p className='text-xl font-bold line-through'>550,000</p>
                                         <div className='text-center'>
                                             <p className='text-xs font-medium'>Free with scholarship</p>
                                         </div>
@@ -293,7 +293,7 @@ const CourseHighllight = () => {
                                             </Link>
                                         </Button>
                                         <div className='flex flex-col lg:gap-1 text-right'>
-                                        <p className='text-xl font-bold line-through'>150,000</p>
+                                        <p className='text-xl font-bold line-through'>350,000</p>
                                         <div className='text-center'>
                                             <p className='text-xs font-medium'>Free with scholarship</p>
                                         </div>
@@ -330,7 +330,7 @@ const CourseHighllight = () => {
                                             </Link>
                                         </Button>
                                         <div className='flex flex-col lg:gap-1 text-right'>
-                                        <p className='text-xl font-bold line-through'>175,000</p>
+                                        <p className='text-xl font-bold line-through'>450,000</p>
                                         <div className='text-center'>
                                             <p className='text-xs font-medium'>Free with scholarship</p>
                                         </div>
@@ -366,7 +366,7 @@ const CourseHighllight = () => {
                                             </Link>
                                         </Button>
                                         <div className='flex flex-col lg:gap-1 text-right'>
-                                        <p className='text-xl font-bold line-through'>150,000</p>
+                                        <p className='text-xl font-bold line-through'>250,000</p>
                                         <div className='text-center'>
                                             <p className='text-xs font-medium'>Free with scholarship</p>
                                         </div>
@@ -442,7 +442,7 @@ const CourseHighllight = () => {
                                             </Link>
                                         </Button>
                                         <div className='flex flex-col lg:gap-1 text-right'>
-                                        <p className='text-xl font-bold line-through'>150,000</p>
+                                        <p className='text-xl font-bold line-through'>250,000</p>
                                         <div className='text-center'>
                                             <p className='text-xs font-medium'>Free with scholarship</p>
                                         </div>
