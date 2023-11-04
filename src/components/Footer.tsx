@@ -59,7 +59,7 @@ const Footer = () => {
                             <Link href={''} className=" hover:text-primary">Privacy</Link>
                         </li>
                         <li>
-                            <Link href={''} className=" hover:text-primary">Terms and Conditions</Link>
+                            <Link href={'/terms-and-conditions'} className=" hover:text-primary">Terms and Conditions</Link>
                         </li>
                     </nav>
                 </div>

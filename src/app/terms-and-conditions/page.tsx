@@ -1,7 +1,7 @@
 import React from 'react'
-import Hero from './containers/hero'
-import Faqs from '@/components/faqs'
 import Footer from '@/components/Footer'
+import Hero from './containers/hero'
+import Terms from './containers/terms'
 
 
 
@@ -9,7 +9,7 @@ const TechiesForHire = () => {
   return (
     <main className="flex h-full flex-col">
         <Hero />
-        <Faqs />
+        <Terms/>
         <Footer />
     </main>
   )

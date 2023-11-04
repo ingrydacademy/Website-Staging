@@ -13,8 +13,8 @@ const Faqs = () => {
 
   return (
     <section>
-      <article id="faq" className="flex flex-col py-24 px-6 lg:px-36 gap-8">
-        <h1 className="text-3xl lg:text-5xl text-center font-semibold">
+      <article id="faq" className="flex flex-col py-24 px-5 lg:px-36 gap-8">
+        <h1 className="text-xl lg:text-5xl text-center font-semibold">
           {pathname === "/faq"? "About INGRYD Academy":"Frequently Asked Questions"}
         </h1>
         <ul className="w-full flex flex-col lg:flex-row gap-6 lg:gap-32">
@@ -25,10 +25,10 @@ const Faqs = () => {
               className="w-full text-left flex flex-wrap gap-6 justify-between"
             >
               <AccordionItem value="item-1" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   Who is INGRYD Academy?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   INGRYD Academy is a specialized training institution that
                   offers comprehensive programs in various IT skills, including
                   product management, DevOps, React, Cybersecurity, Python,
@@ -39,10 +39,10 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-2" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   What are the available learning styles at INGRYD Academy?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   We offer two learning styles to accommodate diverse needs:
                   Hybrid Learning: This style combines in-classroom and virtual
                   classes. It includes 2 days of in-class lectures and 2 days of
@@ -56,10 +56,10 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-3" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   How do I apply to INGRYD academy&apos;s programs
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   Applying to our programs is easy. Start by “Signing up”, once
                   completed. Enroll in any of our courses you&apos;re interested
                   in. Follow the prompts to complete your application.
@@ -67,10 +67,10 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-4" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   What happens after I complete the program?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   Upon successful completion of the program, you&apos;ll receive
                   a certification that demonstrates your proficiency in your
                   chosen IT field. Additionally, we place graduates in our
@@ -80,10 +80,10 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-5" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   What are the payment options available for the program?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   Applying to our programs is easy. Start by “Signing up”, once
                   completed. Enroll in any of our courses you&apos;re interested
                   in. Follow the prompts to complete your application.
@@ -91,10 +91,10 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-6" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   Are there any prerequisites for applying to the programs?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   The prerequisites for joining the INGRYD Academy vary
                   depending on the program. However, the following are standard
                   requirements to join the INGRYD Academy.
@@ -141,10 +141,10 @@ const Faqs = () => {
               className="w-full text-left flex flex-wrap gap-6 justify-between"
             >
               <AccordionItem value="item-7" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   What happens if I cannot pay for the training?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   You can join our Scholarship Program, take the training for
                   free and make payment after getting placed. To ensure
                   qualification, applicants will be required to take and pass a
@@ -154,10 +154,10 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-8" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   How can I get more information about a specific program?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   To learn more about a particular program, visit our
                   website&apos;s &quot;Courses&quot; section. Each program has a
                   dedicated page with detailed information about its curriculum,
@@ -166,10 +166,10 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-9" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   How does the assessment process work?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   Before enrolling in a course, all applicants are required to
                   take an assessment related to their selected program. This
                   helps us understand your current knowledge level and tailor
@@ -179,10 +179,10 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-10" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   Can I switch programs after enrollment?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   While we encourage you to choose a program that aligns with
                   your goals, we understand that circumstances may change. If
                   you wish to switch programs, please contact our admissions
@@ -191,10 +191,10 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-11" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   Are the hands-on-experience collaborative or individual?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   Our hands-on-experience encourage collaboration. During your
                   industry experience, you&apos;ll have the opportunity to work
                   in teams, to solve challenges, share insights, and learn from
@@ -203,10 +203,10 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-12" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   Will I receive a certification upon completing the program?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   Yes, upon successful completion of the program requirements,
                   you will receive a comprehensive certification from INGRYD
                   Academy. This certification showcases your proficiency and
@@ -215,10 +215,10 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-13" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-xl lg:text-2xl text-left">
+                <AccordionTrigger className="hover:no-underline text-lg lg:text-2xl text-left">
                   What kind of support is available after graduation?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg">
+                <AccordionContent className="text-base">
                   We offer ongoing support even after graduation. This includes
                   access to our alumni network, mentorship, career counseling,
                   and updates on industry trends. We are committed to helping
