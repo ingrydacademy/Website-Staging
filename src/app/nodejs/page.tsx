@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const NodeJs = () => {
   return (
-    <main className="flex min-h-screen h-full flex-col">
+    <main className="flex min-h-screen h-full flex-col w-full">
       <Hero />
       <AboutProgram />
       <HowTo />

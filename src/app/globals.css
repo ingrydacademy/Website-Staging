@@ -74,5 +74,13 @@
   body {
     @apply bg-background text-foreground;
     overflow-x: hidden;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
   }
 }
