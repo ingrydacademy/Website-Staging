@@ -28,6 +28,10 @@ const How = () => {
                             </li>
                             <li className="flex gap-2 lg:gap-8 items-center">
                                 <div className="h-4 w-4 rounded-full bg-white"></div>
+                                <p>For for the course</p>
+                            </li>
+                            <li className="flex gap-2 lg:gap-8 items-center">
+                                <div className="h-4 w-4 rounded-full bg-white"></div>
                                 <p>Take assessment</p>
                             </li>
                             <li className="flex gap-2 lg:gap-8 items-center">

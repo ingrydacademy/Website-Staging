@@ -30,10 +30,10 @@ const Hero = () => {
                             </Link>
                         </Button>
                         
-                        <Button className='flex items-center bg-white border-2 border-primary text-primary font-semibold text-sm' asChild>
-                            <Link href={''} className='py-3 px-5'>
+                        <Button className='flex items-center bg-white border-2 border-primary cursor-pointer text-primary font-semibold text-sm' asChild>
+                            <p className='py-3 px-5'>
                                 Hire Talents
-                            </Link>
+                            </p>
                         </Button>
 
                     </div>

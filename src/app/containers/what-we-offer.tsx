@@ -18,7 +18,7 @@ const WhatWeOffer = () => {
                     <Image className="w-10" src={StaffImg} alt="staff icon" />
                     <p className="font-semibold">Talent Outsourcing</p>
                     <p>
-                        Our tech staffing services offer companies access to a larger pool of talent, flexibility, reduced risk cost effectiveness and expertise they need to stay competitive and innovative
+                    Our tech staffing services offers companies access to a large pool of talent, with the added advantage of flexibility, reduced risk, cost effectiveness and the training they need to stay competitive and innovative.
                     </p>
 
                     <p className="text-primary font-semibold">
@@ -50,7 +50,7 @@ const WhatWeOffer = () => {
                     </p>
 
                     <p className="text-primary font-semibold">
-                        Coming soon
+                        Coming soon!
                     </p>
                 </li>
             </ul>

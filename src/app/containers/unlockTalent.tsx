@@ -7,7 +7,7 @@ const UnlockTalent = () => {
             <h1 className="text-2xl lg:text-5xl font-bold">
                 Boost <span className="text-gray-500"> Your </span> Tech Journey
             </h1>                       
-            <p className='text-sm lg:text-xl text-center lg:px-52'>Welcome to INGRYD Academy, your premier tech talent partner in Africa. We're here to bridge the gap between recent tech graduates and the evolving needs of today's dynamic workforce.</p>
+            <p className='text-sm lg:text-xl text-center lg:px-52'>Welcome to INGRYD Academy, your premier tech talent partner in Africa. We're here to bridge the gap between beginner-level tech professionals and the evolving needs of today's dynamic workforce.</p>
 
             <CourseHighllight />
         </section>

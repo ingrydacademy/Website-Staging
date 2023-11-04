@@ -23,9 +23,7 @@ const TrainingMethod = () => {
                         <p className="">Fully instructor-led virtual classes</p>
                     </div>
             </div>
-                    <p className="text-sm lg:text-xl  lg:text-medium lg:pr-6">
-                    Full time classes will only apply to a select few finalists  or in cases where customers have pre-selected and pre-paid for full physical training delivery. </p>
-
+                   
         </section>
     )
 }

@@ -127,14 +127,7 @@ const TechHighlights = () => {
                                 <div className='flex justify-between p-2'>
                                     <p className='text-lg lg:text-xl font-semibold'>{'Cybersecurity Talents: Safeguarding the Digital World'}</p>
                                 </div>
-                                    <div className='flex flex-col gap-4 mt-auto'>
-
-                                    <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center">3 Months | Virtual</p>
-                                    </div>
-                                   
-                                </div>
-
+                                    
                             </div>
                         </li>
                     </SwiperSlide>
@@ -148,14 +141,7 @@ const TechHighlights = () => {
                                 <div className='flex justify-between p-2'>
                                     <p className='text-lg lg:text-xl font-semibold'>{'Linux Experts : Fueling Open Source Innovation '}</p>
                                 </div>
-                                    <div className='flex flex-col gap-4 mt-auto'>
-
-                                    <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center">3 Months | Virtual</p>
-                                    </div>
-                                   
-                                </div>
-
+                                    
                             </div>
                         </li>
                     </SwiperSlide>
@@ -166,16 +152,9 @@ const TechHighlights = () => {
                             </div>
                             <div className='flex flex-col justify-between gap-3 grow p-2'>
                                 <div className='flex justify-between p-2'>
-                                    <p className='text-lg lg:text-xl font-semibold'>{'Java & Spring Boot Pros: Boosting Your Software evelopment Team'}</p>
+                                    <p className='text-lg lg:text-xl font-semibold'>{'Java & Spring Boot Pros: Boosting Your Software Development Team'}</p>
                                 </div>
-                                    <div className='flex flex-col gap-4 mt-auto'>
-
-                                    <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center">3 Months | Hybrid</p>
-                                    </div>
-                                   
-                                </div>
-
+                                    
                             </div>
                         </li>
                     </SwiperSlide>
@@ -188,14 +167,7 @@ const TechHighlights = () => {
                                 <div className='flex justify-between p-2'>
                                     <p className='text-lg lg:text-xl font-semibold'>{'Data Science Aces: Supercharge Your Data-Driven Team'}</p>
                                 </div>
-                                    <div className='flex flex-col gap-4 mt-auto'>
-
-                                    <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center">3 Months | Hybrid</p>
-                                    </div>
-                                   
-                                </div>
-
+                                    
                             </div>
                         </li>
                     </SwiperSlide>
@@ -209,14 +181,7 @@ const TechHighlights = () => {
                                 <div className='flex justify-between p-2'>
                                     <p className='text-lg lg:text-xl font-semibold'>{'React Rockstars: Ignite Your Web Development Squad'}</p>
                                 </div>
-                                    <div className='flex flex-col gap-4 mt-auto'>
-
-                                    <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center">3 Months | Hybrid</p>
-                                    </div>
-                                   
-                                </div>
-
+                                    
                             </div>
                         </li>
                     </SwiperSlide>
@@ -229,14 +194,7 @@ const TechHighlights = () => {
                                 <div className='flex justify-between p-2'>
                                     <p className='text-lg lg:text-xl font-semibold'>{'Node Gurus: Elevate Your Web Development Team'}</p>
                                 </div>
-                                    <div className='flex flex-col gap-4 mt-auto'>
-
-                                    <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center">3 Months | Hybrid</p>
-                                    </div>
-                                   
-                                </div>
-
+                                    
                             </div>
                         </li>
                     </SwiperSlide>
@@ -249,14 +207,7 @@ const TechHighlights = () => {
                                 <div className='flex justify-between p-2'>
                                     <p className='text-lg lg:text-xl font-semibold'>{'Product Visionaries: Transforming Your Product Lineup'}</p>
                                 </div>
-                                    <div className='flex flex-col gap-4 mt-auto'>
-
-                                    <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center">3 Months | Hybrid</p>
-                                    </div>
-                                   
-                                </div>
-
+                                    
                             </div>
                         </li>
                     </SwiperSlide>
@@ -269,14 +220,7 @@ const TechHighlights = () => {
                                 <div className='flex justify-between p-2'>
                                     <p className='text-lg lg:text-xl font-semibold'>{'Sales Pioneers: Drive IT Solutions to New Heights'}</p>
                                 </div>
-                                    <div className='flex flex-col gap-4 mt-auto'>
-
-                                    <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center">3 Months | Hybrid</p>
-                                    </div>
-                                   
-                                </div>
-
+                                    
                             </div>
                         </li>
                     </SwiperSlide>
@@ -291,14 +235,7 @@ const TechHighlights = () => {
                                 <div className='flex justify-between p-2'>
                                     <p className='text-lg lg:text-xl font-semibold'>{'DevOps Virtuosos: Streamline Your Software Delivery'}</p>
                                 </div>
-                                    <div className='flex flex-col gap-4 mt-auto'>
-
-                                    <div className='flex gap-8 text-sm px-2 justify-between'>
-                                        <p className="flex items-center">3 Months | Hybrid</p>
-                                    </div>
-                                   
-                                </div>
-
+                                    
                             </div>
                         </li>
                     </SwiperSlide>

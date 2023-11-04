@@ -15,7 +15,7 @@ const Why = () => {
             </figure>
             <div className="flex flex-col gap-5 lg:gap-10 items-center lg:w-1/2 lg:order-1">
             <p className="text-sm lg:text-2xl lg:text-medium">
-            INGRYD Academy offers advanced tech training, get you market-ready and connects you with top companies. Got what it takes to be an invaluable asset to these ready employers?
+            INGRYD Academy offers advanced tech training, gets you market-ready and connects you with top companies. Got what it takes to be an invaluable asset to these ready employers?
             </p>
             <Button className='flex items-center text-sm lg:text-lg w-2/5  lg:h-14' asChild>
                 <Link href={'https://lms.ingrydacademy.com/signup'} className='py-3 px-10'>
