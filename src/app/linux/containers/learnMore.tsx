@@ -4,7 +4,7 @@ import React from "react";
 
 const LearnMore = () => {
   return (
-    <section className="relative w-full aspect-video lg:h-[322px] h-[144px] flex flex-col justify-center items-center shrink-0 lg:py-20">
+    <section className="relative w-full aspect-video lg:h-[322px] h-[144px] flex flex-col justify-center items-center shrink-0 lg:py-20 overflow-x-hidden">
       <Image
         alt="image"
         src={schImg2}

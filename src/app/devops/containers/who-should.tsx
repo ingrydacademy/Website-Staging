@@ -10,7 +10,7 @@ const HowTo = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
   return (
     <>
-      <section className="bg-[#F4DCFF] bg-gradient-to-r from-[#1D63FE] to-[#FF00F8] flex flex-col gap-6 py-16 px-8">
+      <section className="overflow-x-hidden bg-[#F4DCFF] bg-gradient-to-r from-[#1D63FE] to-[#FF00F8] flex flex-col gap-6 py-16 px-8">
         <ul className="flex flex-col lg:flex-row gap-16">
           <li className="lg:w-2/6 aspect-square relative lg:flex flex-col items-center justify-center">
             <div className="hidden lg:flex bg-[#FF00F8] rounded-xl w-full h-full"></div>

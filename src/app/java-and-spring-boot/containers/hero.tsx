@@ -10,7 +10,7 @@ const Hero = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
   return (
-    <section className="flex flex-col shrink-0 grow h-full min-h-screen relative">
+    <section className="flex flex-col shrink-0 grow h-full min-h-screen relative overflow-x-hidden">
       <Image
         src={heroImage1}
         alt="hero image"
@@ -24,13 +24,13 @@ const Hero = () => {
           <h1 className="text-2xl lg:text-6xl font-semibold">
             Java and Spring Boot
           </h1>
-          <p className="text-base lg:text-2xl md:w-[640px] h-[116px] mb-0 lg:mb-10">
+          <p className="text-base lg:text-2xl md:w-[640px] h-[116px] mb-12 lg:mb-10">
             In this intensive Java and Spring Boot programming course, you'll
             learn the fundamentals of object-oriented programming and master the
             Java syntax. From variables and loops to classes and objects, you'll
             gain a deep understanding of the Java programming language.
           </p>
-          <div className="flex lg:flex-row flex-col gap-4 items-center">
+          <div className="flex lg:flex-row flex-col gap-4 items-center mb-12 lg:mb-0">
             <Button asChild className="bg-primary lg:w-1/2 w-full h-auto mt-6">
               <Link
                 href={`${baseUrl}/signup`}

@@ -11,7 +11,10 @@ import {
 const Faqs = () => {
   return (
     <section>
-      <article id="faq" className="flex flex-col py-24 px-6 lg:px-36 gap-8">
+      <article
+        id="faq"
+        className="flex flex-col py-24 px-6 lg:px-36 gap-8 overflow-x-hidden"
+      >
         <h1 className="text-xl lg:text-4xl text-center font-semibold">
           Frequently Asked Questions
         </h1>

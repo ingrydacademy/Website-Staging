@@ -10,7 +10,7 @@ const Hero = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
   return (
-    <section className="flex flex-col shrink-0 grow h-full min-h-screen relative">
+    <section className="flex flex-col shrink-0 grow h-full min-h-screen relative overflow-x-hidden">
       <Image
         src={heroImage1}
         alt="hero image"
@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="grid lg:grid-cols-3 shrink-0 grow h-full relative px-6 mx-auto">
         <div className="w-full h-full shrink-0 grow text-white lg:px-24 grid col-span-2 place-content-center gap-12 text-left">
           <h1 className="text-2xl lg:text-6xl font-semibold">Cybersecurity</h1>
-          <p className="text-base lg:text-2xl md:w-[640px] h-[116px]">
+          <p className="text-base lg:text-2xl">
             Gain expertise and ready-to-work experience in incident response,
             ethical hacking, and security architecture to safeguard critical
             infrastructure and sensitive data.

@@ -9,7 +9,7 @@ import vector3 from "@/assets/Vector (3).png";
 
 const AboutProgram = () => {
   return (
-    <section className="py-40 px-2 lg:px-48 flex flex-col gap-12 relative">
+    <section className="py-40 px-2 lg:px-48 flex flex-col gap-12 relative overflow-x-hidden">
       <div className="rounded-md bg-[#1A183E] lg:h-48 -mt-48 w-full max-w-screen lg:w-[1120px] lg:-ml-20 mb-12 text-white py-4 px-8 lg:flex lg:justify-evenly flex lg:flex-row flex-col">
         <div className="flex flex-1 flex-row border-b lg:border-r md:border-b-0 p-4 justify-start lg:justify-center">
           <div className="w-11 h-11 border rounded-full flex justify-center items-center mr-3">
@@ -67,7 +67,7 @@ const AboutProgram = () => {
       </div>
       <ul className="flex flex-col-reverse lg:flex-row gap-12 py-2 px-10">
         <li className="grow lg:py-2 leading-7">
-          <div className="md:text-center text-justify text-base lg:text-xl font-normal text-[#1A183E]">
+          <div className="md:text-center text-center text-base lg:text-xl font-normal text-[#1A183E]">
             <p>
               In this intensive 12-week Product Management course, you'll embark
               on a transformative journey to elevate your skills in product
@@ -76,7 +76,7 @@ const AboutProgram = () => {
               learning how to take an idea from conception to market success.
             </p>
           </div>
-          <div className="md:text-center text-justify mt-8 text-base lg:text-xl font-normal text-[#1A183E]">
+          <div className="md:text-center text-center mt-8 text-base lg:text-xl font-normal text-[#1A183E]">
             <p>
               As you progress, you'll unravel the intricacies of product
               lifecycle management and explore various strategies for building
