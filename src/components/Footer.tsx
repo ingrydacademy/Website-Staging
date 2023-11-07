@@ -45,7 +45,7 @@ const Footer = () => {
                             <Link href={'/scholarships'} className=" hover:text-primary">Scholarships</Link>
                         </li>
                         <li>
-                            <Link href={''} className=" hover:text-primary">Contact us</Link>
+                            <Link href={'/contact-us'} className=" hover:text-primary">Contact us</Link>
                         </li>
                         <li>
                             <Link href={'/faq'} className=" hover:text-primary">FAQS</Link>
@@ -56,7 +56,7 @@ const Footer = () => {
                     <p className="text-lg font-semibold">Legals</p>
                     <nav className="list-none flex flex-col gap-3">
                         <li>
-                            <Link href={''} className=" hover:text-primary">Privacy</Link>
+                            <Link href={'/privacy-policy'} className=" hover:text-primary">Privacy</Link>
                         </li>
                         <li>
                             <Link href={'/terms-and-conditions'} className=" hover:text-primary">Terms and Conditions</Link>
