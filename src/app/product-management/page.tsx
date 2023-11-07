@@ -11,8 +11,8 @@ import Faqs from "./containers/faqs";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Ingryd | Product-Management",
-  description: "Acquire Borderless Tech Skills & Get Job Placements",
+  title: "Project Management Course at Ingryd Academy - Advanced Training & Certification",
+  description: "Enroll in our Project Management course at Ingryd Academy. Receive advanced training and certification to excel in project management. Elevate your career in tech.",
 };
 
 const ProductManagement = () => {
