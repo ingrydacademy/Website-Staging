@@ -1,17 +1,17 @@
 import Footer from '@/components/Footer'
 import Hero from './containers/hero'
-import Terms from './containers/terms'
+import Privacy from './containers/privacy'
 
 
 
-const TermsAndConditions = () => {
+const PrivacyPolicy = () => {
   return (
     <main className="flex h-full flex-col">
         <Hero />
-        <Terms/>
+        <Privacy/>
         <Footer />
     </main>
   )
 }
 
-export default TermsAndConditions
+export default PrivacyPolicy
