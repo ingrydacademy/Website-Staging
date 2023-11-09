@@ -11,15 +11,10 @@ import LearnMore from "./containers/learnMore";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Cybersecurity Course at Ingryd Academy - Advanced Training & Certification",
-  description: "Explore our Cybersecurity course at Ingryd Academy. Gain advanced training, skills, and certification to excel in the world of cybersecurity. Secure your tech career today",
+  title: "Cybersecurity Course - Advanced Training & Certification",
+  description: "Explore our Cybersecurity course at Ingryd Academy. Gain advanced training, skills, and certification to excel in the world of cybersecurity.",
 };
 
-
-// export const metadata: Metadata = {
-//   title: 'About Ingryd Academy - Premier Tech Training & Talent Outsourcing',
-//   description: 'Learn about Ingryd Academy, your premier destination for advanced tech training and talent outsourcing. Discover how we can help you elevate your tech career or find top tech talent for your business.',
-// };
 
 const CyberSecurity = () => {
   return (

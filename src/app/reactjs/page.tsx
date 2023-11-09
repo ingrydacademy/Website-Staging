@@ -11,8 +11,8 @@ import Footer from "@/components/Footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: " ReactJs Course at Ingryd Academy - Advanced Frontend Development Training",
-  description: " Enroll in our ReactJs course at Ingryd Academy. Gain advanced frontend development skills using React. Stay ahead in the tech industry with ReactJs expertise.",
+  title: "ReactJs Course at Ingryd Academy - Advanced Frontend Development Training",
+  description: "Enroll in our ReactJs course at Ingryd Academy. Gain advanced frontend development skills using React.",
 };
 
 const ReactJs = () => {

@@ -12,8 +12,8 @@ import Faqs from "./containers/faqs";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Enroll in IT Solution Sales Course at INGRYD - Advanced Training",
-  description: " Explore our IT Solution Sales course at Ingryd Academy. Acquire advanced skills in IT sales and unlock career opportunities in tech sales and business growth.",
+  title: "Enroll in IT Solution Sales Course at INGRYD - Advanced Training  ",
+  description: "Explore our IT Solution Sales course at Ingryd Academy. Acquire advanced skills in IT sales and unlock success in tech sales and business growth.",
 };
 
 const ItSolution = () => {

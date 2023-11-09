@@ -11,8 +11,8 @@ import Note from './container/note'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Request Staffing Services from Ingryd Academy - Access Top Tech Talent',
-  description: 'Partner with Ingryd Academy to request staffing services. Access top tech talent for your business. Fuel innovation and growth with our skilled tech professionals.',
+  title: 'Request Staffing Services from Ingryd Academy - Access Top Tech Talent  ',
+  description: 'Partner with Ingryd for top tech talent staffing. Fuel growth with skilled professionals.',
 }
 
 const RequestTraining = () => {
