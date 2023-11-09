@@ -1,6 +1,5 @@
 "use client"
 
-import { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
@@ -60,22 +59,8 @@ const StackHighlight = () => {
     const handleDotClick = (index: number) => {
         setCurrentIndex(index); // Update the current index in your component's state
         swiper?.slideTo(index); // Update the active slide index on dot click
-        console.log(index)
+      
     };
-
-    const swiperRef = useRef(null);
-
-    useEffect(() => {
-      const swiper = swiperRef?.current.swiper;
-  
-      swiper.el.addEventListener('mouseenter', () => {
-        swiper.autoplay.stop();
-      });
-  
-      swiper.el.addEventListener('mouseleave', () => {
-        swiper.autoplay.start();
-      });
-    }, []);
 
     return (
         <>
@@ -92,8 +77,7 @@ const StackHighlight = () => {
 
 
                 <Swiper
-                    // install Swiper modules
-                    ref={swiperRef}
+                    
                     // install Swiper modules
                     modules={[Pagination, Navigation, A11y, Grid,Autoplay]}
                     spaceBetween={30}
@@ -101,6 +85,7 @@ const StackHighlight = () => {
                     autoplay={{
                         delay: 1000,
                         disableOnInteraction: false,
+                        pauseOnMouseEnter: true
                       }}
                     navigation={{
                         nextEl: '.swiper-button-n',

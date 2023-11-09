@@ -12,9 +12,6 @@ import DevOps from '@/assets/devops.png'
 
 import Image from 'next/image'
 
-import {ChevronLeft, ChevronRight } from 'lucide-react'
-import { Button } from '@/components/ui/button'
-
 import { Grid, Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -27,7 +24,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { useState, useEffect, useRef } from 'react'
+import { useState } from 'react'
 
 const TechHighlights = () => {
 
@@ -62,22 +59,9 @@ const TechHighlights = () => {
       const handleDotClick = (index: number) => {
           setCurrentIndex(index); // Update the current index in your component's state
           swiper?.slideTo(index); // Update the active slide index on dot click
-          console.log(index)
+         
       };
     
-      const swiperRef = useRef(null);
-
-      useEffect(() => {
-        const swiper = swiperRef?.current.swiper;
-    
-        swiper.el.addEventListener('mouseenter', () => {
-          swiper.autoplay.stop();
-        });
-    
-        swiper.el.addEventListener('mouseleave', () => {
-          swiper.autoplay.start();
-        });
-      }, []);
 
     return (
         <>
@@ -85,8 +69,7 @@ const TechHighlights = () => {
             <section className='flex flex-row items-center gap-8 px-0 lg:px-16 mt-2 lg:py-6 max-w-full'>
                 
                 <Swiper
-                    // install Swiper modules
-                    ref={swiperRef}
+                    
                     // install Swiper modules
                     modules={[Pagination, Navigation, A11y, Grid,Autoplay]}
                     spaceBetween={30}
@@ -94,6 +77,7 @@ const TechHighlights = () => {
                     autoplay={{
                         delay: 1000,
                         disableOnInteraction: false,
+                        pauseOnMouseEnter: true
                       }}
                     onSlideChange={(swiper) => {
                         setCurrentIndex(swiper.activeIndex);
