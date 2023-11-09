@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Enroll in Data Science with Python Course - Advanced Training",
   description:
-    "Join our Data Science with Python course at Ingryd Academy. Acquire advanced data science skills using Python. Unlock new career prospects in data analytics and beyond.",
+    "Join our Data Science with Python course at Ingryd Academy. Acquire advanced data science skills using Python. Unlock new career prospects.",
 };
 
 const PythonForDataScience = () => {

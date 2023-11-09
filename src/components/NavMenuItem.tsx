@@ -16,11 +16,11 @@ interface NavMenuItemProps {
 
 const NavMenuItem: React.FC<NavMenuItemProps> = ({ href, label, dropdown, links }) => {
 
-  const linkClasses = "text-lg cursor-pointer link";
+  const linkClasses = "text-lg lg:text-2xl cursor-pointer link";
   const dropLinks = "flex items-center gap-3 lg:gap-1  ";
   const pathname = usePathname()
-  const linkList = links?.map(link => {
-    return <Link className={`text-secondary ${pathname === link.url ? 'active' : ''}`} href={link.url}>{link.name}</Link>
+  const linkList = links?.map((link, i) => {
+    return <Link key={i} className={`text-secondary ${pathname === link.url ? 'active' : ''}`} href={link.url}>{link.name}</Link>
 
   })
  

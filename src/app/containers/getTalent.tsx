@@ -6,7 +6,7 @@ const GetTalent = () => {
         <section className="my-10 px-6 lg:px-16 flex flex-col gap-10 items-center relative">
             <div className="text-center flex flex-col gap-4">
                 <h1 className="text-xl lg:text-5xl font-semibold">
-                    How we get the top tech talents
+                    How we get top tech talents
                 </h1>
                 <p className="text-sm lg:text-xl text-foreground">
                 We undergo a 4-stage process to get the most suitable talents in different fields

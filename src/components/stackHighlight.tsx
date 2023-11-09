@@ -1,20 +1,7 @@
 "use client"
 
-import ch1 from '@/assets/ch-1.png'
-import ch2 from '@/assets/ch-2.png'
-import ch3 from '@/assets/ch-3.png'
-import ch4 from '@/assets/crs_DatSci.png'
-import ch5 from '@/assets/crs_React.png'
-import ch6 from '@/assets/crs_Product.png'
-import ch7 from '@/assets/crs_IT.png'
-import Node from '@/assets/nodejs.png'
-import DevOps from '@/assets/devops.png'
-
-import iconHand from '@/assets/icons8-swipe.gif'
-
 import Image from 'next/image'
 import Link from 'next/link'
-import { Book, Calendar, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 import { Grid, Navigation, Pagination, A11y, } from 'swiper/modules';
@@ -43,8 +30,6 @@ import 'swiper/css/scrollbar';
 import { useState } from 'react'
 
 const StackHighlight = () => {
-
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
     const swiper = useSwiper();
 
@@ -83,7 +68,7 @@ const StackHighlight = () => {
     return (
         <>
 
-            <section className='flex lg:hidden flex-row items-center gap-8 px-0 lg:px-16 mt-2 py-6 max-w-full'>
+            <section className='flex flex-row items-center gap-8 px-0 lg:px-16 mt-2 py-6 max-w-full'>
                 <Swiper
                     // install Swiper modules
                     modules={[Pagination, Navigation, A11y, Grid]}

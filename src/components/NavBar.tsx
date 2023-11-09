@@ -2,9 +2,8 @@
 
 
 import { useState } from 'react'
-import { Transition } from '@headlessui/react'
 import iconBar from '@/assets/Group 845.svg'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import {XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import Link from "next/link"
 import { Button } from './ui/button'

@@ -13,8 +13,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Advanced Java and Spring Boot Training - Get Trained and Get Placed.",
-  description:
-    "Discover our Java and Spring Boot course at Ingryd Academy. Get advanced Java training and Spring Boot expertise. Enhance your tech skills and career opportunities.",
+  description: "Discover our Java and Spring Boot course at Ingryd Academy. Enhance your tech skills and career opportunities.",
 };
 
 const Java = () => {

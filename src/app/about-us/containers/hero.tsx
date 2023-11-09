@@ -24,20 +24,16 @@ const Hero = () => {
                     <p className="text-xs lg:hidden lg:text-2xl lg:w-1/2">Empowering Tech Careers, Bridging the Skills Gap, and Fuelling Business Innovation Through Talent Solutions</p>
                     <p className="hidden lg:block text-sm lg:text-2xl lg:w-1/2">Empowering Tech Careers, Bridging the Skills Gap, and Fuelling Business Innovation Through Talent Solutions</p>
                     <div className='mb-10 w-full flex flex-col lg:flex-row lg:justify-center lg:gap-10 gap-2 lg:mb-0'>
-                        <Button className='hidden lg:flex text-white text-sm font-semibold' asChild>
-                            <Link href={'/signup'} className='py-3 px-5'>
+                        <Button className='flex text-white text-sm font-semibold' asChild>
+                            <Link href={'https://lms.ingrydacademy.com/signup'} className='py-3 px-5'>
                                 Get Trained
                             </Link>
                         </Button>
-                        <Button className='lg:hidden text-white text-sm font-semibold' asChild>
-                            <Link href={'/signup'} className='py-3 px-5'>
-                                Register
-                            </Link>
-                        </Button>
-                        <Button className='flex items-center bg-white border-2 border-primary text-primary font-semibold text-sm' asChild>
-                            <Link href={'/signup'} className='py-3 px-5'>
+                        
+                        <Button className='flex items-center bg-white border-2 border-primary cursor-pointer text-primary font-semibold text-sm' asChild>
+                            <p className='py-3 px-5'>
                                 Hire Talents
-                            </Link>
+                            </p>
                         </Button>
 
                     </div>

@@ -12,8 +12,8 @@ import TrainingMethod from './containers/trainingMethod'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Join Ingryd Academy for Advanced Tech Training and Job placement.',
-  description: 'Join Ingryd Academy for advanced tech training and real-world job opportunities. Elevate your skills and career prospects with our specialised programs.',
+  title: 'Join Ingryd Academy for Advanced Tech Training and Job placement.' ,
+  description: 'Join Ingryd Academy for advanced tech training and real-world job opportunities. Elevate your skills and career with our specialised programs'
 }
 
 const TechiesForTraining = () => {

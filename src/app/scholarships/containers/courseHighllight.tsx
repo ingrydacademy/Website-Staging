@@ -7,8 +7,8 @@ import ch4 from "@/assets/crs_DatSci.png";
 import ch5 from "@/assets/crs_React.png";
 import ch6 from "@/assets/crs_Product.png";
 import ch7 from "@/assets/crs_IT.png";
-import node from "@/assets/Rectangle 277.png";
-import devops from "@/assets/Rectangle 278.png";
+import Node from "@/assets/nodejs.png";
+import DevOps from "@/assets/devops.png";
 
 import iconHand from "@/assets/icons8-swipe.gif";
 
@@ -27,8 +27,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { useSelector } from "react-redux";
-import { RootState } from "@/redux/store";
+import { useState } from "react";
 
 const CourseHighllight = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
@@ -42,9 +41,19 @@ const CourseHighllight = () => {
     swiper?.slideNext();
   };
 
+  const slides = ["", "", "", "", "", "", "", "", ""];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handleDotClick = (index: number) => {
+    setCurrentIndex(index); // Update the current index in your component's state
+    swiper?.slideTo(index); // Update the active slide index on dot click
+    console.log(index);
+  };
+
   return (
     <>
-      <section className="flex flex-row items-center gap-8 px-0 lg:px-16 py-6 max-w-full overflow-x-scroll">
+      <section className="flex flex-row items-center gap-8 px-0 lg:px-16 mt-2 lg:py-6 max-w-full">
         <div className="swiper-button-p">
           <Button
             variant={"ghost"}
@@ -66,12 +75,9 @@ const CourseHighllight = () => {
             prevEl: ".swiper-button-p",
             enabled: true,
           }}
-          // onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
-          // grid={{
-          //     rows: 1,
-          // }}
-
+          onSlideChange={(swiper) => {
+            setCurrentIndex(swiper.activeIndex);
+          }}
           breakpoints={{
             640: {
               slidesPerView: 2,
@@ -92,8 +98,8 @@ const CourseHighllight = () => {
           }}
           // navigation
         >
-          <SwiperSlide className="cursor-grab ">
-            <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+          <SwiperSlide className="cursor-grab">
+            <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
               <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                 <Image
                   src={ch3}
@@ -102,7 +108,7 @@ const CourseHighllight = () => {
                   fill
                 />
               </div>
-              <div className="flex flex-col justify-between gap-2 grow p-2">
+              <div className="flex flex-col justify-between gap-3 grow p-2">
                 <div className="flex justify-between p-2 border-b border-gray-100">
                   <p className="text-lg lg:text-xl font-semibold">
                     {"Cybersecurity "}
@@ -122,22 +128,26 @@ const CourseHighllight = () => {
                       <Book className="text-primary h-4" /> Virtual
                     </p>
                   </div>
-                  <div className="flex px-2 gap-4 items-center">
+                  <div className="flex px-2 lg:gap-4 justify-between ">
                     <Button className="bg-secondary" asChild>
-                      <Link href={`${baseUrl}/signup`}>Enroll</Link>
+                      <Link href={`/cybersecurity`}>Learn more</Link>
                     </Button>
-                    <p className="text-xl font-bold line-through">750,000</p>
-                    <p className="text-xs font-semibold text-right ml-auto">
-                      Free with scholarship
-                    </p>
+                    <div className="flex flex-col lg:gap-1 text-right">
+                      <p className="text-xl font-bold line-through">750,000</p>
+                      <div className="text-center">
+                        <p className="text-xs font-medium">
+                          Free with scholarship
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </li>
           </SwiperSlide>
           {/* card2 */}
-          <SwiperSlide className="cursor-grab ">
-            <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+          <SwiperSlide className="cursor-grab">
+            <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
               <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                 <Image
                   src={ch2}
@@ -146,7 +156,7 @@ const CourseHighllight = () => {
                   fill
                 />
               </div>
-              <div className="flex flex-col justify-between gap-2 grow p-2">
+              <div className="flex flex-col justify-between gap-3 grow p-2">
                 <div className="flex justify-between p-2 border-b border-gray-100">
                   <p className="text-lg lg:text-xl font-semibold">{"Linux "}</p>
                 </div>
@@ -165,22 +175,25 @@ const CourseHighllight = () => {
                       <Book className="text-primary h-4" /> Virtual
                     </p>
                   </div>
-                  <div className="flex px-2 gap-4 items-center">
+                  <div className="flex px-2 lg:gap-4 justify-between ">
                     <Button className="bg-secondary" asChild>
-                      <Link href={`${baseUrl}/signup`}>Enroll</Link>
+                      <Link href={`/linux`}>Learn more</Link>
                     </Button>
-                    <p className="text-xl font-bold line-through">550,000</p>
-                    <p className="text-xs font-semibold text-right ml-auto">
-                      Free with scholarship
-                    </p>
+                    <div className="flex flex-col lg:gap-1 text-right">
+                      <p className="text-xl font-bold line-through">550,000</p>
+                      <div className="text-center">
+                        <p className="text-xs font-medium">
+                          Free with scholarship
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </li>
           </SwiperSlide>
-
-          <SwiperSlide className="cursor-grab ">
-            <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+          <SwiperSlide className="cursor-grab">
+            <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
               <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                 <Image
                   src={ch1}
@@ -189,15 +202,17 @@ const CourseHighllight = () => {
                   fill
                 />
               </div>
-              <div className="flex flex-col justify-between gap-2 grow p-2">
+              <div className="flex flex-col justify-between gap-3 grow p-2">
                 <div className="flex justify-between p-2 border-b border-gray-100">
-                  <p className="text-lg lg:text-xl font-semibold">{"Java "}</p>
+                  <p className="text-lg lg:text-xl font-semibold">
+                    {"Java and Spring Boot"}
+                  </p>
                 </div>
                 <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                  In this intensive Java programming course, you&apos;ll learn
-                  the fundamentals of object-oriented programming and master the
-                  Java syntax. From variables and loops to classes and objects,
-                  you&apos;ll gain a deep understanding of the Java...
+                  In this intensive Java and Spring Boot programming course,
+                  you'll learn the fundamentals of object-oriented programming
+                  and master the Java syntax. From variables and loops to
+                  classes and objects....
                 </p>
                 <div className="flex flex-col gap-4 mt-auto">
                   <div className="flex gap-8 text-sm px-2 justify-between">
@@ -208,22 +223,25 @@ const CourseHighllight = () => {
                       <Book className="text-primary h-4" /> Hybrid
                     </p>
                   </div>
-                  <div className="flex px-2 gap-4 items-center">
+                  <div className="flex px-2 lg:gap-4 justify-between ">
                     <Button className="bg-secondary" asChild>
-                      <Link href={`${baseUrl}/signup`}>Enroll</Link>
+                      <Link href={`/java-and-spring-boot`}>Learn more</Link>
                     </Button>
-                    <p className="text-xl font-bold line-through">450,000</p>
-                    <p className="text-xs font-semibold text-right ml-auto">
-                      Free with scholarship
-                    </p>
+                    <div className="flex flex-col lg:gap-1 text-right">
+                      <p className="text-xl font-bold line-through">450,000</p>
+                      <div className="text-center">
+                        <p className="text-xs font-medium">
+                          Free with scholarship
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </li>
           </SwiperSlide>
-
-          <SwiperSlide className="cursor-grab ">
-            <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+          <SwiperSlide className="cursor-grab">
+            <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
               <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                 <Image
                   src={ch4}
@@ -232,17 +250,17 @@ const CourseHighllight = () => {
                   fill
                 />
               </div>
-              <div className="flex flex-col justify-between gap-2 grow p-2">
+              <div className="flex flex-col justify-between gap-3 grow p-2">
                 <div className="flex justify-between p-2 border-b border-gray-100">
                   <p className="text-lg lg:text-xl font-semibold">
-                    {"Python for Data Science "}
+                    {"Data Science"}
                   </p>
                 </div>
                 <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                  In this comprehensive Python programming course, you&apos;ll
-                  dive into the world of object-oriented programming and become
-                  proficient in the Python syntax. Starting with the basics,
-                  you&apos;ll learn about variables, data types...
+                  This comprehensive program is designed to empower you with the
+                  skills and knowledge needed to harness the full potential of
+                  data. Whether you're an aspiring data scientist, a business
+                  analyst...
                 </p>
                 <div className="flex flex-col gap-4 mt-auto">
                   <div className="flex gap-8 text-sm px-2 justify-between">
@@ -253,22 +271,26 @@ const CourseHighllight = () => {
                       <Book className="text-primary h-4" /> Hybrid
                     </p>
                   </div>
-                  <div className="flex px-2 gap-4 items-center">
+                  <div className="flex px-2 lg:gap-4 justify-between ">
                     <Button className="bg-secondary" asChild>
-                      <Link href={`${baseUrl}/signup`}>Enroll</Link>
+                      <Link href={`/data-science`}>Learn more</Link>
                     </Button>
-                    <p className="text-xl font-bold line-through">250,000</p>
-                    <p className="text-xs font-semibold text-right ml-auto">
-                      Free with scholarship
-                    </p>
+                    <div className="flex flex-col lg:gap-1 text-right">
+                      <p className="text-xl font-bold line-through">550,000</p>
+                      <div className="text-center">
+                        <p className="text-xs font-medium">
+                          Free with scholarship
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </li>
           </SwiperSlide>
 
-          <SwiperSlide className="cursor-grab ">
-            <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+          <SwiperSlide className="cursor-grab">
+            <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
               <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                 <Image
                   src={ch5}
@@ -277,7 +299,7 @@ const CourseHighllight = () => {
                   fill
                 />
               </div>
-              <div className="flex flex-col justify-between gap-2 grow p-2">
+              <div className="flex flex-col justify-between gap-3 grow p-2">
                 <div className="flex justify-between p-2 border-b border-gray-100">
                   <p className="text-lg lg:text-xl font-semibold">
                     {"ReactJS "}
@@ -298,76 +320,34 @@ const CourseHighllight = () => {
                       <Book className="text-primary h-4" /> Hybrid
                     </p>
                   </div>
-                  <div className="flex px-2 gap-4 items-center">
+                  <div className="flex px-2 lg:gap-4 justify-between ">
                     <Button className="bg-secondary" asChild>
-                      <Link href={`${baseUrl}/signup`}>Enroll</Link>
+                      <Link href={`/reactjs`}>Learn more</Link>
                     </Button>
-                    <p className="text-xl font-bold line-through">150,000</p>
-                    <p className="text-xs font-semibold text-right ml-auto">
-                      Free with scholarship
-                    </p>
+                    <div className="flex flex-col lg:gap-1 text-right">
+                      <p className="text-xl font-bold line-through">350,000</p>
+                      <div className="text-center">
+                        <p className="text-xs font-medium">
+                          Free with scholarship
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </li>
           </SwiperSlide>
-
-          <SwiperSlide className="cursor-grab ">
-            <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+          <SwiperSlide className="cursor-grab">
+            <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
               <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                 <Image
-                  src={ch6}
+                  src={Node}
                   alt="course image"
                   className="object-cover"
                   fill
                 />
               </div>
-              <div className="flex flex-col justify-between gap-2 grow p-2">
-                <div className="flex justify-between p-2 border-b border-gray-100">
-                  <p className="text-lg lg:text-xl font-semibold">
-                    {"Product Management "}
-                  </p>
-                </div>
-                <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                  In this immersive product management course, you&apos;ll
-                  embark on a journey to master the art of managing products
-                  from ideation to launch. Starting with the foundational
-                  principles of product development...
-                </p>
-                <div className="flex flex-col gap-4 mt-auto">
-                  <div className="flex gap-8 text-sm px-2 justify-between">
-                    <p className="flex items-center">
-                      <Calendar className="text-primary h-4" /> 12 Weeks
-                    </p>
-                    <p className="flex items-center">
-                      <Book className="text-primary h-4" /> Hybrid
-                    </p>
-                  </div>
-                  <div className="flex px-2 gap-4 items-center">
-                    <Button className="bg-secondary" asChild>
-                      <Link href={`${baseUrl}/signup`}>Enroll</Link>
-                    </Button>
-                    <p className="text-xl font-bold line-through">150,000</p>
-                    <p className="text-xs font-semibold text-right ml-auto">
-                      Free with scholarship
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </SwiperSlide>
-
-          <SwiperSlide className="cursor-grab ">
-            <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
-              <div className="w-full shrink-0 bg-gray-100 h-32 relative">
-                <Image
-                  src={node}
-                  alt="course image"
-                  className="object-cover"
-                  fill
-                />
-              </div>
-              <div className="flex flex-col justify-between gap-2 grow p-2">
+              <div className="flex flex-col justify-between gap-3 grow p-2">
                 <div className="flex justify-between p-2 border-b border-gray-100">
                   <p className="text-lg lg:text-xl font-semibold">
                     {"NodeJS "}
@@ -388,41 +368,44 @@ const CourseHighllight = () => {
                       <Book className="text-primary h-4" /> Hybrid
                     </p>
                   </div>
-                  <div className="flex px-2 gap-4 items-center">
+                  <div className="flex px-2 lg:gap-4 justify-between ">
                     <Button className="bg-secondary" asChild>
-                      <Link href={`${baseUrl}/signup`}>Enroll</Link>
+                      <Link href={`nodejs`}>Learn more</Link>
                     </Button>
-                    <p className="text-xl font-bold line-through">250,000</p>
-                    <p className="text-xs font-semibold text-right ml-auto">
-                      Free with scholarship
-                    </p>
+                    <div className="flex flex-col lg:gap-1 text-right">
+                      <p className="text-xl font-bold line-through">450,000</p>
+                      <div className="text-center">
+                        <p className="text-xs font-medium">
+                          Free with scholarship
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </li>
           </SwiperSlide>
-
-          <SwiperSlide className="cursor-grab ">
-            <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+          <SwiperSlide className="cursor-grab">
+            <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
               <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                 <Image
-                  src={devops}
+                  src={ch6}
                   alt="course image"
                   className="object-cover"
                   fill
                 />
               </div>
-              <div className="flex flex-col justify-between gap-2 grow p-2">
+              <div className="flex flex-col justify-between gap-3 grow p-2">
                 <div className="flex justify-between p-2 border-b border-gray-100">
                   <p className="text-lg lg:text-xl font-semibold">
-                    {"DevOps "}
+                    {"Product Management "}
                   </p>
                 </div>
                 <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
-                  In this immersive DevOps course, you'll embark on a journey to
-                  master the art of managing products from ideation to launch.
-                  Starting with the foundational principles of product
-                  development...
+                  In this immersive product management course, you'll embark on
+                  a journey to master the art of managing products from ideation
+                  to launch. Starting with the foundational principles of
+                  product development...
                 </p>
                 <div className="flex flex-col gap-4 mt-auto">
                   <div className="flex gap-8 text-sm px-2 justify-between">
@@ -433,22 +416,25 @@ const CourseHighllight = () => {
                       <Book className="text-primary h-4" /> Hybrid
                     </p>
                   </div>
-                  <div className="flex px-2 gap-4 items-center">
+                  <div className="flex px-2 lg:gap-4 justify-between ">
                     <Button className="bg-secondary" asChild>
-                      <Link href={`${baseUrl}/signup`}>Enroll</Link>
+                      <Link href={`product-management`}>Learn more</Link>
                     </Button>
-                    <p className="text-xl font-bold line-through">450,000</p>
-                    <p className="text-xs font-semibold text-right ml-auto">
-                      Free with scholarship
-                    </p>
+                    <div className="flex flex-col lg:gap-1 text-right">
+                      <p className="text-xl font-bold line-through">250,000</p>
+                      <div className="text-center">
+                        <p className="text-xs font-medium">
+                          Free with scholarship
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </li>
           </SwiperSlide>
-
-          <SwiperSlide className="cursor-grab ">
-            <li className="flex flex-col w-full text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+          <SwiperSlide className="cursor-grab">
+            <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
               <div className="w-full shrink-0 bg-gray-100 h-32 relative">
                 <Image
                   src={ch7}
@@ -457,7 +443,7 @@ const CourseHighllight = () => {
                   fill
                 />
               </div>
-              <div className="flex flex-col justify-between gap-2 grow p-2">
+              <div className="flex flex-col justify-between gap-3 grow p-2">
                 <div className="flex justify-between p-2 border-b border-gray-100">
                   <p className="text-lg lg:text-xl font-semibold">
                     {"IT Solution Sales "}
@@ -478,14 +464,67 @@ const CourseHighllight = () => {
                       <Book className="text-primary h-4" /> Hybrid
                     </p>
                   </div>
-                  <div className="flex px-2 gap-4 items-center">
+                  <div className="flex px-2 lg:gap-4 justify-between ">
                     <Button className="bg-secondary" asChild>
-                      <Link href={`${baseUrl}/signup`}>Enroll</Link>
+                      <Link href={`IT-solution-sales`}>Learn more</Link>
                     </Button>
-                    <p className="text-xl font-bold line-through">350,000</p>
-                    <p className="text-xs font-semibold text-right ml-auto">
-                      Free with scholarship
+                    <div className="flex flex-col lg:gap-1 text-right">
+                      <p className="text-xl font-bold line-through">350,000</p>
+                      <div className="text-center">
+                        <p className="text-xs font-medium">
+                          Free with scholarship
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </SwiperSlide>
+
+          <SwiperSlide className="cursor-grab">
+            <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
+              <div className="w-full shrink-0 bg-gray-100 h-32 relative">
+                <Image
+                  src={DevOps}
+                  alt="course image"
+                  className="object-cover"
+                  fill
+                />
+              </div>
+              <div className="flex flex-col justify-between gap-3 grow p-2">
+                <div className="flex justify-between p-2 border-b border-gray-100">
+                  <p className="text-lg lg:text-xl font-semibold">
+                    {"DevOps "}
+                  </p>
+                </div>
+                <p className="overflow-clip line-clamp-5 text-ellipsis px-2 text-xs lg:text-sm text-left">
+                  In this immersive DevOps course, you'll embark on a journey to
+                  master the art of managing products from ideation to launch.
+                  Starting with the foundational principles of product
+                  development...
+                </p>
+                <div className="flex flex-col gap-4 mt-auto">
+                  <div className="flex gap-8 text-sm px-2 justify-between">
+                    <p className="flex items-center">
+                      <Calendar className="text-primary h-4" /> 12 Weeks
                     </p>
+                    <p className="flex items-center">
+                      <Book className="text-primary h-4" /> Hybrid
+                    </p>
+                  </div>
+                  <div className="flex px-2 lg:gap-4 justify-between ">
+                    <Button className="bg-secondary" asChild>
+                      <Link href={`devops`}>Learn more</Link>
+                    </Button>
+                    <div className="flex flex-col lg:gap-1 text-right">
+                      <p className="text-xl font-bold line-through">250,000</p>
+                      <div className="text-center">
+                        <p className="text-xs font-medium">
+                          Free with scholarship
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -503,9 +542,18 @@ const CourseHighllight = () => {
           </Button>
         </div>
       </section>
-      <div className="lg:hidden flex flex-col items-center gap-2">
-        <small className="font-light text-sm">swipe to view courses</small>
-        <Image src={iconHand} alt="desc" className="w-8 h-8" />
+      <div className="w-full lg:hidden flex justify-center gap-2 p-4">
+        {slides.map((slide, slideIndex) => (
+          <div
+            key={slideIndex}
+            className={`transition-all ease-in-out rounded-full h-3 cursor-pointer ${
+              slideIndex === currentIndex
+                ? "bg-gray-500 w-9"
+                : "bg-secondary w-3"
+            }`}
+            onClick={() => handleDotClick(slideIndex)}
+          ></div>
+        ))}
       </div>
     </>
   );

@@ -11,8 +11,8 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ingryd | Linux",
-  description: "Acquire Borderless Tech Skills & Get Job Placements",
+  title: "Linux Certification Course | Ingryd Academy",
+  description: "Elevate your career with our Linux course. Expert training for mid-level professionals.",
 };
 
 const Linux = () => {

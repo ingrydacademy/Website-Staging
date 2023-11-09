@@ -1,8 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import schImg2 from "@/assets/cyber-learn-more.png";
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Download from "@/components/Download";
 
 const LearnMore = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
@@ -29,6 +32,14 @@ const LearnMore = () => {
             Enrol Now
           </Link>
         </Button>
+        <button
+          className="px-5 py-2 text-white font-semibold text-base lg:text-xl shadow-md bg-[#FF00F8] lg:mt-12 mt-5 rounded-md text-center"
+          onClick={() =>
+            Download("/assets/cybersecurity.pdf", "cybersecurity.pdf")
+          }
+        >
+          Download Brochure
+        </button>
       </div>
     </section>
   );

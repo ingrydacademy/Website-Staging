@@ -10,13 +10,11 @@ import LearningOutcome from "./containers/learningOutcome";
 import Payment from "./containers/payment";
 import LearnMore from "./containers/learnMore";
 import Footer from "@/components/Footer";
-import CardFlip from "./containers/card";
 
 export const metadata: Metadata = {
-  title:
-    "Cybersecurity Course at Ingryd Academy - Advanced Training & Certification",
+  title: "Cybersecurity Course - Advanced Training & Certification",
   description:
-    "Explore our Cybersecurity course at Ingryd Academy. Gain advanced training, skills, and certification to excel in the world of cybersecurity. Secure your tech career today.",
+    "Explore our Cybersecurity course at Ingryd Academy. Gain advanced training, skills, and certification to excel in the world of cybersecurity.",
 };
 
 const CyberSecurity = () => {

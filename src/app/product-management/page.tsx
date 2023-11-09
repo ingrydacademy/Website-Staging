@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title:
     "Project Management Course at Ingryd Academy - Advanced Training & Certification",
   description:
-    "Enroll in our Project Management course at Ingryd Academy. Receive advanced training and certification to excel in project management. Elevate your career in tech.",
+    "Enroll in our Project Management course at Ingryd Academy. Receive advanced training and certification to excel in project management.",
 };
 
 const ProductManagement = () => {

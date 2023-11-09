@@ -1,10 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import heroImage1 from "@/assets/hero1.png";
 import ch3 from "@/assets/Rectangle 53.png";
-import imgConfetti from "@/assets/confetti-1.png";
 import NavBar from "@/components/NavBar";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Download from "@/components/Download";
 
 const Hero = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
@@ -36,19 +38,19 @@ const Hero = () => {
                 href={`${baseUrl}/signup`}
                 className="py-4 px-16 text-sm lg:text-xl font-semibold"
               >
-                Enrol Now
+                Enroll Now
               </Link>
             </Button>
             <Button
               asChild
               className="bg-white hover:bg-secondary hover:text-white transition-all duration-1000 ease-in-out text-[#FF00F8] lg:w-60 w-full h-auto mt-6"
+              onClick={() =>
+                Download("/assets/cybersecurity.pdf", "cybersecurity.pdf")
+              }
             >
-              <Link
-                href={`${baseUrl}/signup`}
-                className="py-4 px-16 text-sm lg:text-xl font-semibold"
-              >
+              <p className="py-4 px-16 text-sm lg:text-xl font-semibold">
                 Download Brochure
-              </Link>
+              </p>
             </Button>
           </div>
         </div>

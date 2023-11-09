@@ -116,7 +116,7 @@ const Hero = () => {
                                 transition={{ ease: "easeOut", duration: .8 }}
                                 className=''>
                                     <motion.h1 className='mb-10 text-xl lg:text-6xl font-semibold'>
-                                Building the next generation of <br /> Africa most competitive <span className=' text-blue-500 lg:text-primary'>Talent</span>
+                                Building the next generation of <br /> Africa's most competitive <span className=' text-blue-500 lg:text-primary'>Talent</span>
                                 </motion.h1>
                                 <motion.p className="text-xs px-2 lg:px-72 lg:text-2xl ">We build tech stars and connect them to a world of opportunities</motion.p>
                             </motion.div>

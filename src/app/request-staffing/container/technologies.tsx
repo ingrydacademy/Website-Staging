@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import TechHighlights from "./TechHighlights"
 
 
@@ -12,7 +13,12 @@ const Technologies = () => {
             </div>
 
             <TechHighlights />
-
+            <p className="text-center text-sm lg:text-lg">Need a custom solution?</p>
+            <Button asChild className="bg-primary w-1/12 mx-auto">
+                <p>
+                    Contact us
+                </p>
+            </Button>
         </section>
     )
 }

@@ -31,7 +31,7 @@ const Offers = () => {
                             <p className='font-light text-sm lg:text-base'>
                             Select special skills, empower your teams! Upgrade current staff or tap into our talent pool. Tailored programs, real results. Let's co-create excellence!
                             </p>
-                            <Link href={'/about-us'} className='flex gap-2 font-light underline items-center'>
+                            <Link href={'/request-training'} className='flex gap-2 font-light underline items-center'>
                                 <span> Learn More</span> 
                                 <ArrowRightIcon className='w-4  h-4' />
                             </Link>
@@ -46,7 +46,7 @@ const Offers = () => {
                             <p className='font-light text-sm lg:text-base'>
                             Need top-tier software engineers? Access our network of prepped professionals, available for flexible 3-6 month contracts or per your unique needs. Skill-matched and experience-aligned, we connect expert talent with your project demands. Hassle-free, quality guaranteed.
                             </p>
-                            <Link href={'/https://lms.ingrydacademy.com/signup'} className='flex gap-2 font-light underline items-center'>
+                            <Link href={'/request-staffing'} className='flex gap-2 font-light underline items-center'>
                                 <span> Learn More</span> 
                                 <ArrowRightIcon className='w-4  h-4' />
                             </Link>

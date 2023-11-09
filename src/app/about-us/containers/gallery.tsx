@@ -1,38 +1,146 @@
+"use client"
+
+import { useState } from "react"
 import Image from "next/image"
-import First from "../images/Rectangle 282.png"
-import Second from "../images/Rectangle 289.png"
-import Third from "../images/Rectangle 290.png"
-// import Second from "../../../assets/Rectangle 283.png"
-// import Third from "../../../assets/Rectangle 284.png"
-// import Fourth from "../../../assets/Rectangle 285.png"
-// import Fifth from "../../../assets/Rectangle 286.png"
-// import Sixth from "../../../assets/Rectangle 287.png"
-// import Seventh from "../../../assets/Rectangle 288.png"
-// import Eight from "../../../assets/Rectangle 289.png"
-// import Nineth from "../../../assets/Rectangle 290.png"
+import First from "../images/carousel/first.png"
+import Second from "../images/carousel/second.png"
+import Third from "../images/carousel/third.png"
+import Fourth from "../images/carousel/fourth.png"
+import Fifth from "../images/carousel/fifth.png"
+import Sixth from "../images/carousel/sixth.png"
+import Seventh from "../images/carousel/seventh.png"
+import Eighth from "../images/carousel/eighth.png"
+import Nineth from "../images/carousel/nineth.png"
+
+
+import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+
+import { Grid, Navigation, Pagination, A11y, } from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { useSwiper } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 const images = [
-    Third,Second, First
+    First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Nineth
 ]
-// const col2 = [
-//     Second, Fifth, Eight
-// ]
-
-// const col3 = [
-//     Third, Sixth, Nineth
-// ]
 
 const imageList = images.map((photo, index) => {
-    return <Image key={index} src={photo} alt="photo" className="rounded"/>
+    return (
+        <SwiperSlide key={index} className='cursor-grab text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg p-5 '>
+                <Image src={photo} alt="photo" className="rounded"/>
+    </SwiperSlide>
+    )
 }
 )
 
 
 const Gallery = () => {
+
+    const swiper = useSwiper();
+
+    const handlePrev = () => {
+
+        swiper?.slidePrev();
+    }
+    const handleNext = () => {
+        swiper?.slideNext();
+    }
+
+    const slides = [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+
+    ];
+
+    const [currentIndex, setCurrentIndex] = useState(0)
+
+
+   
     return (
-        <section className="grid grid-cols-3 gap-5 lg:gap-10 my-10 lg:my-20 mx-auto lg:w-90">
-            {imageList}
-        </section>
+        
+                    <section className=' lg:flex flex-row last: items-center gap-8 px-0 lg:px-16 mt-2 lg:py-6'>
+                   <div className="swiper-button-p">
+                    <Button variant={'ghost'} className=' hidden lg:flex text-forground rounded-full hover:bg-gray-200' size={'icon'}
+                        onClick={handlePrev}
+                    >
+                        <ChevronLeft className='w-32 h-32' />
+                    </Button>
+
+                </div>
+
+
+                <Swiper
+                    // install Swiper modules
+                    modules={[Pagination, Navigation, A11y, Grid]}
+                    spaceBetween={30}
+                    slidesPerView={1}
+                    navigation={{
+                        nextEl: '.swiper-button-n',
+                        prevEl: '.swiper-button-p',
+                        enabled: true,
+
+                    }}
+                    onSlideChange={(swiper) => {
+                        setCurrentIndex(swiper.activeIndex);
+                    }}
+
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 10,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 10,
+                        },
+                        1024: {
+                            slidesPerView: 2,
+                            spaceBetween: 10,
+                        },
+                        1280: {
+                            slidesPerView: 3,
+                            spaceBetween: 30,
+                        },
+                    }}
+                // navigation
+                >
+                   {imageList}
+                    
+
+                </Swiper>
+                <div className="swiper-button-n">
+                    <Button variant={'ghost'} className=' hidden lg:flex text-forground rounded-full hover:bg-gray-200' size={'icon'}
+                        onClick={handleNext}
+                    >
+                        <ChevronRight className='w-32 h-32' />
+                    </Button>
+
+                </div>
+            <div className="w-full lg:hidden flex justify-center gap-2 p-4">
+                {slides.map((slide, slideIndex) => (
+                    <div
+                    key={slideIndex}
+                    className={`transition-all ease-in-out rounded-full h-3 cursor-pointer ${slideIndex === currentIndex ? 'bg-gray-500 w-9' : 'bg-secondary w-3'
+                }`}
+                ></div>
+                ))}
+            </div>
+                </section>
+          
     )
 }
 

@@ -12,8 +12,8 @@ import Payment from "./containers/payment";
 import LearnMore from "./containers/learnMore";
 
 export const metadata: Metadata = {
-  title: "Ingryd | NodeJs",
-  description: "Acquire Borderless Tech Skills & Get Job Placements",
+  title: "Node.js Training in Lagos | Ingryd Academy",
+  description: "Join our Node.js course to build robust applications. Expert-led, practical training awaits!",
 };
 
 const NodeJs = () => {

@@ -4,8 +4,8 @@ import Link from "next/link"
 const skills = ["React.js", "Node.js", "JavaScript", "Java", "Spring Boot", "Python", "DevOps", "IT", "Data Science"]
 
 
-const skillList = skills.map(skill =>{
-    return <li className="bg-secondary text-white flex items-center justify-center rounded-full py-3 lg:py-5 lg:font-semibold text-lg lg:text-3xl">{skill}</li>
+const skillList = skills.map((skill, i) =>{
+    return <li key={i} className="bg-secondary text-white flex items-center justify-center rounded-full py-3 lg:py-5 lg:font-semibold text-lg lg:text-3xl">{skill}</li>
 })
 
 const Skills = () => {
@@ -22,7 +22,8 @@ const Skills = () => {
                 {skillList}
             </ul>
 
-            <Button className="lg:w-1/5 mx-auto"><Link href={"https://lms.ingrydacademy.com/signup"}>Empower Your Workforce</Link></Button>
+            <p className="text-sm text-center lg:text-lg ">We also offer custom trainings on request</p>
+            <Button className="lg:w-1/5 mx-auto"><Link href={"/request-for-training"}>Empower Your Workforce</Link></Button>
             
 
         </section>

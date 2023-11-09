@@ -14,12 +14,12 @@ import HowTo from "./containers/howTo";
 import Faqs from "./containers/faqs";
 
 import type { Metadata } from "next";
-import InstitutionTrust from "./containers/institutionThatTrustUs";
+import Institutions from "../about-us/containers/institutions";
 
 export const metadata: Metadata = {
-  title: "Tech Scholarships - Get Trained and Get employed For Free.",
+  title: "Tech Scholarships - Get Trained and Get employed.",
   description:
-    "Explore our Tech Scholarships program at Ingryd Academy. Unlock opportunities for advanced training in tech fields like Data Science, Cybersecurity, Java, and Linux. Kickstart your tech career today.",
+    "Explore our Tech Scholarships program. Unlock opportunities for advanced training in Data Science, Cybersecurity, Java, and Linux. ",
 };
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
       <Structure />
       <UnlockTalent />
       <HowTo />
-      <InstitutionTrust />
+      <Institutions />
       <Faqs />
       <Campaign />
       <Footer />

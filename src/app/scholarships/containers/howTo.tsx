@@ -76,7 +76,7 @@ const HowTo = () => {
           </li>
         </ul>
       </section>
-      <section className="flex flex-col mt-28 items-center gap-4 py-16 px-6 lg:px-24 bg-[#F4DCFF]">
+      <section className="flex flex-col mt-28 mb-10 lg:mb-20 items-center gap-4 py-16 px-6 lg:px-24 bg-[#F4DCFF]">
         <div className="flex flex-col items-center gap-4 mt-8">
           <h1 className="font-semibold text-center text-xl lg:text-3xl">
             Partnering for Success:

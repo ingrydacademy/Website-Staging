@@ -40,7 +40,7 @@ const Structure = () => {
           <li className="flex items-center gap-3 justify-between bg-[#1A183E] px-4 py-8 rounded-lg">
             <div className="">
               <h1 className="text-xl mb-4 font-semibold">Program Nature</h1>
-              <p>- Hybrid (Virtual and Physical)</p>
+              <p>- Hybrid <span className="text-xs">(Virtual and Physical)</span></p>
               <p>- Fully virtual</p>
             </div>
             <div className="shrink-0">
