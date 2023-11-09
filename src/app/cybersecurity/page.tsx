@@ -10,6 +10,7 @@ import LearningOutcome from "./containers/learningOutcome";
 import Payment from "./containers/payment";
 import LearnMore from "./containers/learnMore";
 import Footer from "@/components/Footer";
+import CardFlip from "./containers/card";
 
 export const metadata: Metadata = {
   title:

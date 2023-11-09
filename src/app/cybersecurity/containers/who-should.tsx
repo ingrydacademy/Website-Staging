@@ -23,7 +23,7 @@ const HowTo = () => {
           </li>
           <li className="lg:w-4/6 text-xl flex flex-col gap-6">
             <ul className="flex flex-col gap-6 text-white">
-              <p className="lg:text-5xl text-sm font-semibold">
+              <p className="text-xl lg:text-3xl font-semibold">
                 Who should take this course?
               </p>
               <p className="font-normal text-sm lg:text-xl">

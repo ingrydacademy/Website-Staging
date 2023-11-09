@@ -144,10 +144,10 @@ const ContactDetails = () => {
             Message
           </label>
           <textarea
-            className="w-full h-[200px] border border-gray-300 rounded p-2 mt-1"
+            className="w-full h-[200px] border border-gray-300 rounded p-2 mt-1 bg-[#ddd]"
             name="message"
             id="message"
-            placeholder="Add a message"
+            placeholder="Add a message <br /> Holla"
             onChange={handleTextAreaChange}
             value={formValues.message}
             style={{ resize: "none" }}

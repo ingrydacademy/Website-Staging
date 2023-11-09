@@ -21,14 +21,17 @@ const Hero = () => {
       <NavBar />
       <div className="grid lg:grid-cols-3 shrink-0 grow h-full relative px-6 mx-auto">
         <div className="w-full h-full shrink-0 grow text-white lg:px-24 grid col-span-2 place-content-center gap-12 text-left">
-          <h1 className="text-2xl lg:text-6xl font-semibold">Cybersecurity</h1>
+          <h1 className="text-xl lg:text-4xl font-semibold">Cybersecurity</h1>
           <p className="text-base lg:text-2xl">
             Gain expertise and ready-to-work experience in incident response,
             ethical hacking, and security architecture to safeguard critical
             infrastructure and sensitive data.
           </p>
           <div className="flex lg:flex-row flex-col gap-4 items-center">
-            <Button asChild className="bg-primary lg:w-1/2 w-full h-auto mt-6">
+            <Button
+              asChild
+              className="bg-primary hover:bg-secondary transition-all duration-1000 ease-in-out lg:w-1/4 w-full h-auto mt-6"
+            >
               <Link
                 href={`${baseUrl}/signup`}
                 className="py-4 px-16 text-sm lg:text-xl font-semibold"
@@ -38,7 +41,7 @@ const Hero = () => {
             </Button>
             <Button
               asChild
-              className="bg-white text-[#FF00F8] lg:w-1/2 w-full h-auto mt-6"
+              className="bg-white hover:bg-secondary hover:text-white transition-all duration-1000 ease-in-out text-[#FF00F8] lg:w-60 w-full h-auto mt-6"
             >
               <Link
                 href={`${baseUrl}/signup`}

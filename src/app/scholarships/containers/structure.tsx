@@ -17,7 +17,7 @@ const Structure = () => {
         fill
       />
       <div className="flex flex-col gap-3">
-        <h1 className="text-3xl lg:text-5xl text-center font-semibold">
+        <h1 className="text-xl lg:text-3xl text-center font-semibold">
           Program Structure
         </h1>
         <p className="text-base lg:text-xl text-center">

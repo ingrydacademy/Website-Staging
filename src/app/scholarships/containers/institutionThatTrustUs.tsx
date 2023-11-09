@@ -9,12 +9,12 @@ import Image from "next/image";
 
 const InstitutionTrust = () => {
   return (
-    <section className="flex flex-col items-center gap-4 pt-16 px-6">
-      <h1 className="font-semibold text-center text-3xl lg:text-5xl">
+    <section className="flex flex-col items-center gap-4 pt-16 px-6 pb-4">
+      <h1 className="font-semibold text-center text-xl lg:text-3xl">
         Institutions that trust us
       </h1>
-      <div className="py-16 lg:flex lg:gap-5 gap-20 gap-x-32 place-items-center px-20 grid grid-cols-2">
-        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] grid place-content-center">
+      <div className="py-16 lg:grid-cols-6 lg:gap-5 gap-20 lg:gap-x-36 gap-x-32 place-items-center px-20 grid grid-cols-2">
+        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] grid place-content-center col-span-1">
           <Image
             alt="another flag"
             src={img3}
@@ -22,7 +22,7 @@ const InstitutionTrust = () => {
           />
         </div>
 
-        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] grid place-content-center">
+        <div className="lg:w-[200px] lg:ml-10 lg:h-[63px] w-[120px] h-[38px] grid place-content-center col-span-1">
           <Image
             alt="lagos flag"
             src={img2}
@@ -30,7 +30,7 @@ const InstitutionTrust = () => {
           />
         </div>
 
-        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] grid place-content-center">
+        <div className="lg:w-[200px] lg:ml-10 lg:h-[63px] w-[120px] h-[38px] grid place-content-center col-span-1">
           <Image
             alt="lagos flag"
             src={img1}
@@ -38,7 +38,7 @@ const InstitutionTrust = () => {
           />
         </div>
 
-        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] grid place-content-center">
+        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] grid place-content-center col-span-1">
           <Image
             alt="lagos flag"
             src={img4}
@@ -46,7 +46,7 @@ const InstitutionTrust = () => {
           />
         </div>
 
-        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] grid place-content-center">
+        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] grid place-content-center col-span-1">
           <Image
             alt="lagos flag"
             src={img5}
@@ -54,7 +54,7 @@ const InstitutionTrust = () => {
           />
         </div>
 
-        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] grid place-content-center">
+        <div className="lg:w-[200px] lg:h-[63px] w-[120px] h-[38px] grid place-content-center col-span-1">
           <Image
             alt="lagos flag"
             src={img6}

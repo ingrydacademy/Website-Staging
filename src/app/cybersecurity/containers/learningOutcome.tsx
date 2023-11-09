@@ -8,8 +8,8 @@ import diploma from "@/assets/diploma 1.png";
 
 const LearningOutcome = () => {
   return (
-    <section className="py-16 px-12 bg-[#F4DCFF] overflow-x-hidden">
-      <h1 className="font-semibold text-center text-xl lg:text-5xl">
+    <section className="pt-16 px-12 bg-[#F4DCFF] overflow-x-hidden">
+      <h1 className="font-semibold text-center text-xl lg:text-3xl">
         Learning Outcomes
       </h1>
       <p className="lg:text-xl text-sm text-center mt-4 lg:mb-10 font-medium">
@@ -22,7 +22,7 @@ const LearningOutcome = () => {
             src={protection}
             className="rounded-lg lg:translate-x-8 lg:-translate-y-8 w-[80px] h-[80px] lg:mr-20"
           />
-          <p className="text-sm font-medium md:text-xl flex items-center justify-start">
+          <p className="text-sm font-medium md:text-base">
             Grasp network security <br /> principles and ethical hacking <br />{" "}
             fundamentals.
           </p>
@@ -35,7 +35,7 @@ const LearningOutcome = () => {
               className="rounded-lg lg:translate-x-8 lg:-translate-y-8 w-[80px] h-[80px] lg:mr-20"
             />
           </div>
-          <p className="text-sm font-medium md:text-xl">
+          <p className="text-sm font-medium md:text-base">
             Understand secure coding <br /> practices and encryption <br />{" "}
             techniques.
           </p>
@@ -46,7 +46,7 @@ const LearningOutcome = () => {
             src={bullseye}
             className="rounded-lg lg:translate-x-8 lg:-translate-y-8 w-[80px] h-[80px] lg:mr-20"
           />
-          <p className="text-sm font-medium md:text-xl">
+          <p className="text-sm font-medium md:text-base">
             Gain hands-on experience in <br /> penetration testing and <br />{" "}
             vulnerability assessment.
           </p>
@@ -57,7 +57,7 @@ const LearningOutcome = () => {
             src={cyber}
             className="rounded-lg lg:translate-x-8 lg:-translate-y-8 w-[80px] h-[80px] lg:mr-20"
           />
-          <p className="text-sm font-medium md:text-xl">
+          <p className="text-sm font-medium md:text-base">
             Gain expertise in implementing <br /> robust cybersecurity measures
             <br />
             to protect against evolving cyber threats.
@@ -67,9 +67,9 @@ const LearningOutcome = () => {
           <Image
             alt="image"
             src={diploma}
-            className="rounded-lg lg:translate-x-8 lg:-translate-y-8 w-[80px] h-[80px] lg:mr-20"
+            className="rounded-lg lg:translate-x-8 lg:-translate-y-8 w-[80px] h-[80px] lg:mr-24"
           />
-          <p className="text-sm font-medium md:text-xl">
+          <p className="text-sm  font-medium md:text-base">
             Learn about incident response, <br /> compliance, and cybersecurity{" "}
             <br /> regulations
           </p>
