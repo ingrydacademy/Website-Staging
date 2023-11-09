@@ -43,7 +43,7 @@ const Hero = () => {
             <Button
               asChild
               className={`lg:w-1/2 w-full h-auto cursor-pointer mt-6 bg-white text-primary`}
-              onClick={()=> Download("/assets/reactjs.pdf", "reactjs.pdf")}
+              // onClick={()=> Download("/assets/reactjs.pdf", "reactjs.pdf")}
             >
               <p className="py-4 px-16 text-sm lg:text-xl font-semibold">
                 Download Brochure

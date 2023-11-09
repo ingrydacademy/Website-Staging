@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import heroImage1 from "@/assets/hero1.png";
@@ -46,7 +46,7 @@ const Hero = () => {
             <Button
               asChild
               className={`lg:w-1/2 w-full h-auto cursor-pointer mt-6 bg-white text-primary`}
-              onClick={()=> Download("/assets/datascience.pdf", "datascience.pdf")}
+              // onClick={()=> Download("/assets/datascience.pdf", "datascience.pdf")}
             >
               <p className="py-4 px-16 text-sm lg:text-xl font-semibold">
                 Download Brochure

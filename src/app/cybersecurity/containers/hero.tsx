@@ -43,10 +43,10 @@ const Hero = () => {
             </Button>
             <Button
               asChild
-              className="bg-white hover:bg-secondary hover:text-white transition-all duration-1000 ease-in-out text-[#FF00F8] lg:w-60 w-full h-auto mt-6"
-              onClick={() =>
-                Download("/assets/cybersecurity.pdf", "cybersecurity.pdf")
-              }
+              className="bg-white cursor-pointer hover:bg-secondary hover:text-white transition-all duration-1000 ease-in-out text-[#FF00F8] lg:w-60 w-full h-auto mt-6"
+              // onClick={() =>
+              //   Download("/assets/cybersecurity.pdf", "cybersecurity.pdf")
+              // }
             >
               <p className="py-4 px-16 text-sm lg:text-xl font-semibold">
                 Download Brochure

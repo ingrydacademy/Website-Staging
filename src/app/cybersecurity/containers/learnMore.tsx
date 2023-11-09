@@ -29,17 +29,9 @@ const LearnMore = () => {
             href={`${baseUrl}/signup`}
             className="py-4 px-16 text-sm lg:text-xl font-semibold"
           >
-            Enrol Now
+            Download Brochure
           </Link>
         </Button>
-        <button
-          className="px-5 py-2 text-white font-semibold text-base lg:text-xl shadow-md bg-[#FF00F8] lg:mt-12 mt-5 rounded-md text-center"
-          onClick={() =>
-            Download("/assets/cybersecurity.pdf", "cybersecurity.pdf")
-          }
-        >
-          Download Brochure
-        </button>
       </div>
     </section>
   );
