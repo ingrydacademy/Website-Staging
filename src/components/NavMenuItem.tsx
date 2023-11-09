@@ -23,7 +23,7 @@ const NavMenuItem: React.FC<NavMenuItemProps> = ({ href, label, dropdown, links 
   const pathname = usePathname()
 
   const linkList = links?.map((link, i) => {
-    return <li><Link key={i} className={`text-white hover:text-primary hover:text-lg transition-all ${pathname === link.url ? 'active' : ''}`} href={link.url}>{link.name}</Link></li>
+    return <li key={i}><Link  className={`text-white hover:text-primary hover:text-lg transition-all ${pathname === link.url ? 'active' : ''}`} href={link.url}>{link.name}</Link></li>
 
   })
  
