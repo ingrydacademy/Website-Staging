@@ -28,7 +28,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { useEffect, useRef, useState } from 'react'
+import { useState } from 'react'
 
 
 // import cover images
@@ -78,19 +78,7 @@ const CourseHighllight = () => {
           console.log(index)
       };
     
-      const swiperRef = useRef(null);
-
-      useEffect(() => {
-        const swiper = swiperRef?.current.swiper;
-    
-        swiper.el.addEventListener('mouseenter', () => {
-          swiper.autoplay.stop();
-        });
-    
-        swiper.el.addEventListener('mouseleave', () => {
-          swiper.autoplay.start();
-        });
-      }, []);
+      
 
     return (
         <>
@@ -107,7 +95,6 @@ const CourseHighllight = () => {
 
 
                 <Swiper
-                ref={swiperRef}
                     // install Swiper modules
                     modules={[Pagination, Navigation, A11y, Grid,Autoplay]}
                     spaceBetween={30}
@@ -115,6 +102,7 @@ const CourseHighllight = () => {
                     autoplay={{
                         delay: 1000,
                         disableOnInteraction: false,
+                        pauseOnMouseEnter: true
                       }}
                     navigation={{
                         nextEl: '.swiper-button-n',
