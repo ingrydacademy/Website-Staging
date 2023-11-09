@@ -12,7 +12,7 @@ const NewsLetter = () => {
                 <input type="text" placeholder="Enter your name" className=" text-sm rounded-md py-3 lg:py-5 text-center" />
                 <input type="text" placeholder="Enter you email" className=" text-sm rounded-md py-3 lg:py-5 text-center" />
             </div>
-            <Button className="bg-primary text-white whitespace-nowrap lg:text-2xl rounded-md">Subscribe</Button>
+            <Button className="bg-primary text-white whitespace-nowrap lg:text-2xl rounded-md hover:bg-secondary transition-all duration-1000 ease-in-out">Subscribe</Button>
         </section>
     )
 }

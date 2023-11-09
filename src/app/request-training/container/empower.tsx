@@ -1,5 +1,8 @@
+"use client"
+
 import Image from "next/image"
 import StarIcon from "../assets/ph_star-fill.png"
+import "@/components/ui/animations.css"
 
 const Empower  = () => {
   return (
@@ -8,7 +11,7 @@ const Empower  = () => {
                 Empower your workforce 
             </h1>
 
-            <ul className='flex flex-col lg:flex-row gap-5 lg:gap-16 w-full'>
+            <ul className='flex flex-col lg:flex-row gap-5 lg:gap-16 w-full whatWeOffer'>
                 <li className='flex flex-col items-center gap-2 lg:gap-5 w-full py-5 px-10 lg:py-10 lg:px-14 rounded bg-white shadow-md'>
                         <figure className="flex items-center justify-center">
                             <Image src={StarIcon} alt="star icon"/>

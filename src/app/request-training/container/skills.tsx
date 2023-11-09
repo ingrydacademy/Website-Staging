@@ -23,7 +23,7 @@ const Skills = () => {
             </ul>
 
             <p className="text-sm text-center lg:text-lg ">We also offer custom trainings on request</p>
-            <Button className="lg:w-1/5 mx-auto"><Link href={"/request-for-training"}>Empower Your Workforce</Link></Button>
+            <Button className="lg:w-1/5 mx-auto  hover:bg-secondary transition-all duration-1000 ease-in-out"><Link href={"/request-for-training"}>Empower Your Workforce</Link></Button>
             
 
         </section>

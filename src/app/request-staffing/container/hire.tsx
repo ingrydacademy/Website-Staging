@@ -25,7 +25,7 @@ const HireTalents = () => {
                         <p className="">Our network has qualified specialists that cover a plethora of tools and frameworks.</p>
                     </div>
             </div>
-            <Button className="bg-primary translate-y-14"><Link href={"/request-for-staffing"}>Request Staffing</Link></Button>
+            <Button className="bg-primary translate-y-14 hover:bg-secondary transition-all duration-1000 ease-in-out"><Link href={"/request-for-staffing"}>Request Staffing</Link></Button>
                     
 
         </section>

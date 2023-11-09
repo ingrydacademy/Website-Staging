@@ -14,7 +14,7 @@ const Technologies = () => {
 
             <TechHighlights />
             <p className="text-center text-sm lg:text-lg">Need a custom solution?</p>
-            <Button asChild className="bg-primary w-1/12 mx-auto">
+            <Button asChild className="bg-primary w-1/12 mx-auto hover:bg-secondary transition-all duration-1000 ease-in-out cursor-pointer">
                 <p>
                     Contact us
                 </p>

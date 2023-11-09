@@ -18,8 +18,8 @@ const photos = [ First, Tenth, Nineth,   Fourth,Fifth, Sixth,Eleventh, Eight]
 
 const photoList = photos.map((photo, index) => {
     return (
-        <li key={index} className="">
-            <Image src={photo} alt="photos" className="mx-auto"/>
+        <li key={index} className="hover:scale-110 hover:shadow-2xl transition-all duration-100 ease-in-out">
+            <Image src={photo} alt="photos" className="mx-auto hover:shadow-2xl transition-all duration-100 ease-in-out" />
         </li>
     )
 })

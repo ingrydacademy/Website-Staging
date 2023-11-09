@@ -10,14 +10,12 @@ import ch7 from '@/assets/crs_IT.png'
 import Node from '@/assets/nodejs.png'
 import DevOps from '@/assets/devops.png'
 
-import iconHand from '@/assets/icons8-swipe.gif'
-
 import Image from 'next/image'
-import Link from 'next/link'
-import { ArrowBigRight, ArrowRight, Book, Calendar, ChevronLeft, ChevronRight } from 'lucide-react'
+
+import {ChevronLeft, ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
-import { Grid, Navigation, Pagination, A11y, } from 'swiper/modules';
+import { Grid, Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useSwiper } from 'swiper/react';
@@ -29,7 +27,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 const TechHighlights = () => {
 
@@ -67,33 +65,36 @@ const TechHighlights = () => {
           console.log(index)
       };
     
-      
+      const swiperRef = useRef(null);
+
+      useEffect(() => {
+        const swiper = swiperRef?.current.swiper;
+    
+        swiper.el.addEventListener('mouseenter', () => {
+          swiper.autoplay.stop();
+        });
+    
+        swiper.el.addEventListener('mouseleave', () => {
+          swiper.autoplay.start();
+        });
+      }, []);
 
     return (
         <>
 
             <section className='flex flex-row items-center gap-8 px-0 lg:px-16 mt-2 lg:py-6 max-w-full'>
-                <div className="swiper-button-p">
-                    <Button variant={'ghost'} className=' hidden lg:flex text-forground rounded-full hover:bg-gray-200' size={'icon'}
-                        onClick={handlePrev}
-                    >
-                        <ChevronLeft className='w-32 h-32' />
-                    </Button>
-
-                </div>
-
-
+                
                 <Swiper
                     // install Swiper modules
-                    modules={[Pagination, Navigation, A11y, Grid]}
+                    ref={swiperRef}
+                    // install Swiper modules
+                    modules={[Pagination, Navigation, A11y, Grid,Autoplay]}
                     spaceBetween={30}
                     slidesPerView={1}
-                    navigation={{
-                        nextEl: '.swiper-button-n',
-                        prevEl: '.swiper-button-p',
-                        enabled: true,
-                        
-                    }}
+                    autoplay={{
+                        delay: 1000,
+                        disableOnInteraction: false,
+                      }}
                     onSlideChange={(swiper) => {
                         setCurrentIndex(swiper.activeIndex);
                     }}
@@ -242,14 +243,7 @@ const TechHighlights = () => {
 
 
                 </Swiper>
-                <div className="swiper-button-n">
-                    <Button variant={'ghost'} className=' hidden lg:flex text-forground rounded-full hover:bg-gray-200' size={'icon'}
-                        onClick={handleNext}
-                    >
-                        <ChevronRight className='w-32 h-32' />
-                    </Button>
-
-                </div>
+               
             </section>
             <div className="w-full lg:hidden flex justify-center gap-2 p-4">
         {slides.map((slide, slideIndex) => (

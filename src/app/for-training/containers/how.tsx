@@ -28,7 +28,7 @@ const How = () => {
                             </li>
                             <li className="flex gap-2 lg:gap-8 items-center">
                                 <div className="h-4 w-4 rounded-full bg-white"></div>
-                                <p>For for the course</p>
+                                <p>Pay for the course</p>
                             </li>
                             <li className="flex gap-2 lg:gap-8 items-center">
                                 <div className="h-4 w-4 rounded-full bg-white"></div>
@@ -40,7 +40,7 @@ const How = () => {
                             </li>
                             
                         </ul>
-                        <button className='text-sm lg:text-xl bg-primary px-4 lg:px-0 lg:w-2/5 rounded py-2 lg:ml-12'>
+                        <button className='text-sm lg:text-xl bg-primary px-4 lg:px-0 lg:w-2/5 rounded border border-primary py-2 lg:ml-12 hover:bg-transparent transition-all duration-1000 ease-in-out'>
                             <Link href={'https://lms.ingrydacademy.com/signup'}>
                                 Get Trained
                             </Link>

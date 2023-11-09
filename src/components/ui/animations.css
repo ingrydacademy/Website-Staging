@@ -1,0 +1,31 @@
+
+/* what we offer */
+.whatWeOffer > li:hover {
+    animation: bounce 0.5s forwards linear;
+}
+
+.whatWeOffer > li > p >a:hover > img , .offers > li > div >a:hover > .arrow{
+    transition: all 0.5s linear;
+}
+.whatWeOffer > li > p >a:hover > img , .offers > li > div >a:hover > .arrow{
+    transform: translateX(10px);
+}
+
+@keyframes bounce {
+    0%{
+     transform: translateY(-10px);   
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    70%{
+        transform: translateY(0px);
+    }
+    90%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+

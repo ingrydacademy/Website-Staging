@@ -14,8 +14,8 @@ const reasons = [
 
 const reasonList = reasons.map((reason, i) => {
     return (
-        <div className="flex flex-col bg-secondary lg:bg-transparent gap-5 py-3 lg:py-7 px-2 lg:px-4 border rounded-lg relative text-white" key={i}>
-            <Image src={reason.img} alt="hero image" className="hidden lg:block object-cover absolute inset-0 -z-10" fill />
+        <div className="flex flex-col bg-secondary lg:bg-transparent gap-5 py-3 lg:py-7 px-2 lg:px-4 border rounded-xl relative text-white hover:scale-110 transition-all duration-100 ease-in-out" key={i}>
+            <Image src={reason.img} alt="hero image" className="hidden lg:block rounded-xl object-cover absolute inset-0 -z-10" fill />
             <h1 className="text-xs lg:text-xl lg:font-medium ">{reason.h1}</h1>
             <p className="text-8 lg:text-base">{reason.p}</p>
         </div>
@@ -24,7 +24,7 @@ const reasonList = reasons.map((reason, i) => {
 
 const Why = () => {
     return (
-        <section className='mb-10 lg:mb-24 flex flex-col gap-5 lg:gap-10 items-center '>
+        <section className='my-10 lg:mb-14 flex flex-col gap-5 lg:gap-10 items-center '>
 
             <div className='px-9 w-full lg:px-14  flex flex-col justify-center text-center'>
                 <h1 className='text-xl lg:text-5xl mb-4 lg:mb-10 font-semibold'>

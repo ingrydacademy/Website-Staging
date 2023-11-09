@@ -4,6 +4,7 @@ import StaffImg from "../../assets/image 9.png"
 import Outsourced from "../../assets/image 10.png"
 import Matching from "../../assets/Vector.png"
 import Arrow from "../../assets/bi_arrow-up.png"
+import "@/components/ui/animations.css"
 
 const WhatWeOffer = () => {
     return (
@@ -13,7 +14,7 @@ const WhatWeOffer = () => {
                 <p className=' text-sm lg:text-lg lg:w-3/4 mx-auto'>INGRYD offers advanced tech training and tech staffing services to businesses looking to upgrade their team and empower their workforce</p>
 
             </div>
-            <ul className="grid grid-cols-1 pt-8 lg:grid-cols-3 gap-8 lg:gap-20 lg:px-5 lg:text-sm">
+            <ul className="grid grid-cols-1 pt-8 lg:grid-cols-3 gap-8 lg:gap-20 lg:px-5 lg:text-sm whatWeOffer">
                 <li className="bg-white px-8 py-10 lg:py-16  flex flex-col gap-6 rounded-lg shadow-xl">
                     <Image className="w-10" src={StaffImg} alt="staff icon" />
                     <p className="font-semibold">Talent Outsourcing</p>

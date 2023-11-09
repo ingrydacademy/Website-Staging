@@ -18,7 +18,7 @@ const BreakThrough = () => {
             <p className="text-sm lg:text-base lg:font-medium">
             Empower your organization with a tailored tech curriculum, arming your team with the skills to meet your business needs and drive impactful results.
             </p>
-            <Button className='flex items-center text-sm lg:text-lg w-3/5 lg:h-14 text-center' asChild>
+            <Button className='flex items-center text-sm lg:text-lg w-3/5 lg:h-14 text-center hover:bg-secondary transition-all duration-1000 ease-in-out' asChild>
                 <Link href={'/request-for-training'} className='py-3 px-10'>
                 Request Training
                 </Link>

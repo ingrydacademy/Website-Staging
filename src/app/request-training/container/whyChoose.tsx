@@ -19,19 +19,19 @@ const WhyChooseUs = () => {
             </div>
 
             <ul className="grid grid-cols-2 gap-5 text-left  lg:w-3/5  ">
-               <li className="flex flex-col gap-5 px-3 lg:px-10 py-3 lg:py-5 lg:h-220 bg-secondary rounded-xl">
+               <li className="flex flex-col gap-5 px-3 lg:px-10 py-3 lg:py-5 lg:h-220 bg-secondary rounded-xl hover:scale-110 hover:bg-white hover:text-secondary transition-all duration-500 ease-in-out">
                 <h1 className="text-xs lg:text-xl font-semibold">Expertise</h1>
                 <p className="text-8 lg:text-base">Seasoned industry professionals with years of hands-on experience. Our instructors are experts in their respective fields, ensuring your team receives top-notch training.</p>
                </li>
-               <li className="flex flex-col gap-5 px-3 lg:px-10 py-3 lg:py-5 lg:h-220 bg-secondary rounded-xl">
+               <li className="flex flex-col gap-5 px-3 lg:px-10 py-3 lg:py-5 lg:h-220 bg-secondary rounded-xl hover:scale-110 hover:bg-white hover:text-secondary transition-all duration-500 ease-in-out">
                 <h1 className="text-xs lg:text-xl font-semibold">Customization</h1>
                 <p className="text-8 lg:text-base">Every company is unique. Our programs are customized to address your specific skill and knowledge requirements</p>
                </li>
-               <li className="flex flex-col gap-5 px-3 lg:px-10 py-3 lg:py-5 lg:h-220 bg-secondary rounded-xl">
+               <li className="flex flex-col gap-5 px-3 lg:px-10 py-3 lg:py-5 lg:h-220 bg-secondary rounded-xl hover:scale-110 hover:bg-white hover:text-secondary transition-all duration-500 ease-in-out">
                 <h1 className="text-xs lg:text-xl font-semibold">Innovation</h1>
                 <p className="text-8 lg:text-base">We invest in continuous learning and development opportunities for your talents, to ensure that they have the skills to tackle complex technical challenges.</p>
                </li>
-               <li className="flex flex-col gap-5 px-3 lg:px-10 py-3 lg:py-5 lg:h-220 bg-secondary rounded-xl">
+               <li className="flex flex-col gap-5 px-3 lg:px-10 py-3 lg:py-5 lg:h-220 bg-secondary rounded-xl hover:scale-110 hover:bg-white hover:text-secondary transition-all duration-500 ease-in-out">
                 <h1 className="text-xs lg:text-xl font-semibold">Competitive Pricing</h1>
                 <p className="text-8 lg:text-base">We provide high-quality training without breaking the bank, making us a cost-effective choice for businesses of all sizes.</p>
                </li>

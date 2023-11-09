@@ -3,8 +3,6 @@ import Hero from './container/hero'
 import NewsLetter from '@/components/newsLetter'
 import WhyChooseUs from './container/whyChoose'
 import Technologies from './container/technologies'
-import Institutions from '../about-us/containers/institutions'
-import Skills from './container/skills'
 import Quote from '../request-training/container/quote'
 import HireTalents from './container/hire'
 import Note from './container/note'
@@ -23,9 +21,7 @@ const RequestTraining = () => {
             <HireTalents />
             <WhyChooseUs />
             <Quote />
-            <Technologies />
-            {/* <Institutions /> */}
-            {/* <Skills /> */}
+            <Technologies /> 
             <NewsLetter />
             <Footer />
         </main>

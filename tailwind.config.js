@@ -88,6 +88,9 @@ module.exports = {
           "418": "418px",
           "358": "358px"
       },
+      margin:{
+          "104":"104px"
+      },
       fontSize:{
         "xxs": "10px",
         "11": "11px",

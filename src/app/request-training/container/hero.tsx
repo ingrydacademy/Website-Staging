@@ -14,7 +14,7 @@ const Hero = () => {
     <section className='flex flex-col shrink-0 grow pb-10 lg:pb-0 lg:h-full lg:min-h-screen relative'>
       <Image src={heroImage1} alt="hero image" className="object-cover absolute inset-0 -z-10" fill />
       <NavBar />
-      <div className='flex flex-col px-10 shrink-0 grow h-full lg:px-16 relative z-10'>
+      <div className='flex flex-col px-10 shrink-0 grow h-full mt-104 py-10 lg:px-16 relative z-10'>
 
         <div className='w-full h-full shrink-0 grow text-white text-center lg:text-left items-center justify-center flex flex-col gap-4 lg:gap-8 '>
           <div className='lg:flex items-center'>
@@ -28,7 +28,7 @@ const Hero = () => {
           Let INGRYD help you build a winning team with our well-tailored curriculum and industry standard technologies!
 
           </p>
-          <Button className='bg-white border-3 text-secondary font-semibold lg:w-1/3'><Link href={"/request-for-training"}>Request Training</Link></Button>
+          <Button className='bg-white border-3 text-secondary hover:bg-primary hover:text-white transition-all duration-1000 ease-in-out font-semibold lg:w-1/3'><Link href={"/request-for-training"}>Request Training</Link></Button>
           </div>
           <div className='hidden w-1/2 lg:flex justify-end'>
             <Image src={requestImage} alt='hero side image'/>

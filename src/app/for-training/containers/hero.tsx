@@ -14,7 +14,7 @@ const Hero = () => {
         <section className='flex flex-col shrink-0 grow pb-10 lg:pb-0 lg:h-full lg:min-h-screen relative'>
             <Image src={heroImage1} alt="hero image" className="object-cover absolute inset-0 -z-10" fill />
             <NavBar />
-            <div className='flex flex-col px-6 shrink-0 grow h-full relative z-10'>
+            <div className='flex flex-col px-6 shrink-0 grow mt-104 py-10 h-full relative z-10'>
 
                 <div className='w-full h-full shrink-0 grow text-white items-center justify-center flex flex-col gap-4 lg:gap-8 text-center'>
                     <h1 className='text-xl lg:text-5xl lg:w-4/5 font-semibold'>

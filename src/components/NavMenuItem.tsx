@@ -16,11 +16,14 @@ interface NavMenuItemProps {
 
 const NavMenuItem: React.FC<NavMenuItemProps> = ({ href, label, dropdown, links }) => {
 
-  const linkClasses = "text-lg lg:text-2xl cursor-pointer link";
+  const linkClasses = "text-sm lg:text-lg cursor-pointer link hover:text-primary";
+  
   const dropLinks = "flex items-center gap-3 lg:gap-1  ";
+
   const pathname = usePathname()
+
   const linkList = links?.map((link, i) => {
-    return <Link key={i} className={`text-secondary ${pathname === link.url ? 'active' : ''}`} href={link.url}>{link.name}</Link>
+    return <li><Link key={i} className={`text-white hover:text-primary hover:text-lg transition-all ${pathname === link.url ? 'active' : ''}`} href={link.url}>{link.name}</Link></li>
 
   })
  
@@ -32,7 +35,7 @@ const NavMenuItem: React.FC<NavMenuItemProps> = ({ href, label, dropdown, links 
             <div className={dropLinks} >
               {label} {<ChevronDown  className="icon"/>}
             </div>
-            <ul className={`sublink text-sm font-medium p-3 flex flex-col gap-3`}>
+            <ul className={`sublink text-sm  p-3 flex flex-col gap-3`}>
             {linkList}
             </ul>
           </li>

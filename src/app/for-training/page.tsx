@@ -1,11 +1,9 @@
 import Footer from '@/components/Footer'
 import Hero from './containers/hero'
-import WhoWeAre from '@/components/whoWeAre'
 import Why from './containers/why'
 import How from './containers/how'
 import Schedule from './containers/schedule'
 import Courses from '@/components/ui/courses'
-import FAQS from '../find-jobs/containers/faqs'
 import WhatOurStudentsSay from './containers/whatStudentsSay'
 import Flexibility from './containers/flexibility'
 import TrainingMethod from './containers/trainingMethod'
@@ -20,7 +18,6 @@ const TechiesForTraining = () => {
   return (
     <main className="flex h-full flex-col">
         <Hero />
-        <WhoWeAre />
         <Why />
         <Courses />
         <How />
@@ -28,7 +25,6 @@ const TechiesForTraining = () => {
         <TrainingMethod />
         <Flexibility />
         <WhatOurStudentsSay />
-        <FAQS />
         <Footer />
     </main>
   )

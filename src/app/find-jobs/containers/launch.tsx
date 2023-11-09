@@ -12,7 +12,8 @@ const Launch = () => {
       <div className="flex flex-col gap-16 items-center">
         <div className='text-center flex items-center flex-col gap-4 lg:gap-20'>
           <h1 className="text-2xl lg:text-5xl font-semibold text-white">Ready to Launch Your Tech Career?</h1>
-          <Button className="w-1/2 lg:w-1/6">
+          <Button className="w-1/2 lg:w-1/6  bg-primary hover:bg-secondary transition-all duration-1000 ease-in-out " 
+          >
             <Link href={"https://lms.ingrydacademy.com/signup"}>
               Join the waitlist
             </Link>

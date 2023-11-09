@@ -40,7 +40,7 @@ const How = () => {
                                 <p>Get Paid </p>
                             </li>
                         </ul>
-                        <button className='text-sm lg:text-xl bg-primary w-2/5 rounded py-2 lg:ml-12'>
+                        <button className='text-sm lg:text-xl border-2 border-primary bg-primary hover:bg-transparent transition-all duration-1000 ease-in-out w-2/5 rounded py-2 lg:ml-12'>
                                Coming soon   
                         </button>
                     </div>

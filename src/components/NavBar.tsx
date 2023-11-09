@@ -3,12 +3,13 @@
 
 import { useState } from 'react'
 import iconBar from '@/assets/Group 845.svg'
-import {XMarkIcon } from '@heroicons/react/24/outline'
+import { XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import Link from "next/link"
 import { Button } from './ui/button'
 import Logo from '@/assets/logo.png'
 import NavMenuItem from './NavMenuItem'
+import "../components/NavItem.css"
 
 
 const NavBar = () => {
@@ -32,7 +33,7 @@ const NavBar = () => {
 
     return (
         <header>
-            <nav className="bg-transparent relative text-white lg:grid grid-cols-6 items-center  block px-6 py-6 lg:py-5 lg:px-5 " aria-label="Global">
+            <nav className="bg-secondary z-50 text-white w-full lg:grid grid-cols-6 items-center fixed top-0 left-0 block px-6 py-5 lg:py-5 lg:px-5 " aria-label="Global">
                 <figure className='flex col-span-1 items-center justify-between'>
                     <Link href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Ingryd</span>
@@ -50,7 +51,7 @@ const NavBar = () => {
                     />
                 </figure>
 
-                <ul className={mobileMenuOpen ? `block absolute top-0 left-0 w-full p-10 z-50 col-span-5 bg-black lg:p-0 l lg:bg-transparent lg:static lg:flex items-center gap-10 md:justify-between lg:gap-5` : `hidden absolute top-0 left-0 w-full p-10 z-50 col-span-5 bg-black lg:p-0 l lg:bg-transparent lg:static lg:flex items-center gap-10 md:justify-between lg:gap-5`}>
+                <ul className={`${mobileMenuOpen ? "open" : ""} absolute top-0 left-0 w-full p-10 z-50 col-span-5 bg-secondary lg:p-0 l lg:bg-transparent lg:static lg:flex items-center gap-10 md:justify-between lg:gap-5 ul`}>
                     <XMarkIcon className='w-7 ml-auto cursor-pointer lg:hidden' onClick={handleXClick} />
                     <div className='flex flex-col gap-5 lg:flex-row lg:gap-10'>
                         {menuItems.map((item, index) => (
@@ -59,12 +60,12 @@ const NavBar = () => {
                     </div>
 
                     <div className="flex lg:justify-end lg:items-center gap-4 ml-auto mt-5 lg:mt-0 ">
-                        <Button asChild variant={'outline'} className='border-primary text-primary hover:text-primary'>
+                        <Button asChild variant={'outline'} className='border-primary text-primary hover:text-white hover:bg-primary  transition-all duration-1000 ease-in-out'>
                             <Link href={`${baseUrl}/login`} className="">
                                 Sign In
                             </Link>
                         </Button>
-                        <Button asChild className='bg-primary ml-3'>
+                        <Button asChild variant={'outline'} className='bg-primary ml-3 border-primary hover:bg-transparent hover:text-primary transition-all duration-1000 ease-in-out '>
                             <Link href={`${baseUrl}/signup`} className="">
                                 Sign up
                             </Link>

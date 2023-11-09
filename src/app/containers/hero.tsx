@@ -46,7 +46,7 @@ const Hero = () => {
     });
 
     return (
-        <section className='flex flex-col shrink-0 grow lg:h-full lg:min-h-screen relative'>
+        <section className='flex flex-col shrink-0 grow lg:h-full  lg:min-h-screen relative'>
             {
 
 
@@ -101,7 +101,7 @@ const Hero = () => {
 
             {/* <div className="object-cover absolute inset-0 -z-10 bg-[#1A183E]/80" /> */}
             <NavBar />
-            <div className='flex flex-col shrink-0 grow h-full relative px-6'>
+            <div className='flex flex-col shrink-0 grow mt-104 py-10 h-full relative px-6'>
 
                 <div className='w-full h-full shrink-0 grow text-white items-center justify-center flex flex-col gap-8 text-center'>
                     {
@@ -161,8 +161,8 @@ const Hero = () => {
 
 
                     
-                    <Button asChild className='bg-primary w-full lg:w-auto h-auto mt-6'>
-                        <Link href={`${baseUrl}/signup`} className="flex gap-8 items-center py-4 px-16 text-2xl font-semibold">
+                    <Button asChild variant={"outline"} className='bg-primary border-primary w-full lg:w-auto h-auto mt-6'>
+                        <Link href={`${baseUrl}/signup`} className="flex gap-8 items-center py-4 px-16 text-2xl hover:text-primary hover:bg-transparent transition-all duration-1000 ease-in-out font-semibold">
                         Get Started
                         </Link>
                     </Button>

@@ -10,17 +10,16 @@ import ch7 from '@/assets/crs_IT.png'
 import Node from '@/assets/nodejs.png'
 import DevOps from '@/assets/devops.png'
 
-import iconHand from '@/assets/icons8-swipe.gif'
-
 import Image from 'next/image'
 import Link from 'next/link'
 import { Book, Calendar, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
-import { Grid, Navigation, Pagination, A11y, } from 'swiper/modules';
+import { Grid, Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useSwiper } from 'swiper/react';
+import "./courseHighlight.css"
 
 
 
@@ -29,7 +28,19 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+
+
+// import cover images
+import cyberCov from "@/assets/coverimages/cyber.png";
+import linuxCov from "@/assets/coverimages/linux.png";
+import dataCov from "@/assets/coverimages/python.png";
+import javaCov from "@/assets/coverimages/java.png";
+import reactCov from "@/assets/coverimages/react.png";
+import nodeCov from "@/assets/coverimages/node.png";
+import productCov from "@/assets/coverimages/product.png";
+import itCov from "@/assets/coverimages/it.png";
+import devopsCov from "@/assets/coverimages/devops.png";
 
 const CourseHighllight = () => {
 
@@ -67,7 +78,19 @@ const CourseHighllight = () => {
           console.log(index)
       };
     
-      
+      const swiperRef = useRef(null);
+
+      useEffect(() => {
+        const swiper = swiperRef?.current.swiper;
+    
+        swiper.el.addEventListener('mouseenter', () => {
+          swiper.autoplay.stop();
+        });
+    
+        swiper.el.addEventListener('mouseleave', () => {
+          swiper.autoplay.start();
+        });
+      }, []);
 
     return (
         <>
@@ -84,10 +107,15 @@ const CourseHighllight = () => {
 
 
                 <Swiper
+                ref={swiperRef}
                     // install Swiper modules
-                    modules={[Pagination, Navigation, A11y, Grid]}
+                    modules={[Pagination, Navigation, A11y, Grid,Autoplay]}
                     spaceBetween={30}
                     slidesPerView={1}
+                    autoplay={{
+                        delay: 1000,
+                        disableOnInteraction: false,
+                      }}
                     navigation={{
                         nextEl: '.swiper-button-n',
                         prevEl: '.swiper-button-p',
@@ -118,7 +146,11 @@ const CourseHighllight = () => {
                     }}
                 // navigation
                 >
-                    <SwiperSlide className='cursor-grab'>
+                    <SwiperSlide className='cursor-grab slide relative'>
+                        <p className='text-white w-full h-full absolute z-10 lg:text-2xl font-semibold rounded-lg top-0 left-0 flex justify-center items-center'>
+                            <Image src={cyberCov} alt='cover' className='h-full w-full rounded-xl object-cover' />
+                            <span className='absolute'>Cybersecurity</span>
+                        </p>
                         <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch3} alt="course image" className='object-cover' fill />
@@ -137,7 +169,7 @@ const CourseHighllight = () => {
                                         <p className="flex items-center"><Book className='text-primary h-4' /> Virtual</p>
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                        <Button className="bg-secondary" asChild>
+                                        <Button className="bg-secondary hover:bg-primary" asChild>
                                             <Link href={`/cybersecurity`}>
                                                 Learn more
                                             </Link>
@@ -156,7 +188,11 @@ const CourseHighllight = () => {
                         </li>
                     </SwiperSlide>
                     {/* card2 */}
-                    <SwiperSlide className='cursor-grab'>
+                    <SwiperSlide className='cursor-grab slide relative'>
+                    <p className='text-white w-full h-full absolute z-10 lg:text-2xl font-semibold rounded-lg top-0 left-0 flex justify-center items-center'>
+                            <Image src={linuxCov} alt='cover' className='h-full w-full rounded-xl object-cover' />
+                            <span className='absolute'>Linux</span>
+                        </p>
                         <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch2} alt="course image" className='object-cover' fill />
@@ -175,7 +211,7 @@ const CourseHighllight = () => {
                                         <p className="flex items-center"><Book className='text-primary h-4' /> Virtual</p>
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                        <Button className="bg-secondary" asChild>
+                                        <Button className="bg-secondary hover:bg-primary" asChild>
                                             <Link href={`/linux`}>
                                                 Learn more
                                             </Link>
@@ -194,7 +230,11 @@ const CourseHighllight = () => {
                             </div>
                         </li>
                     </SwiperSlide>
-                    <SwiperSlide className='cursor-grab'>
+                    <SwiperSlide className='cursor-grab slide relative'>
+                    <p className='text-white w-full h-full absolute z-10 lg:text-2xl font-semibold rounded-lg top-0 left-0 flex justify-center items-center'>
+                            <Image src={javaCov} alt='cover' className='h-full w-full rounded-xl object-cover' />
+                            <span className='absolute'>Java and Spring Boot</span>
+                        </p>
                         <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch1} alt="course image" className='object-cover' fill />
@@ -213,7 +253,7 @@ const CourseHighllight = () => {
                                         <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                        <Button className="bg-secondary" asChild>
+                                        <Button className="bg-secondary hover:bg-primary" asChild>
                                             <Link href={`/java-and-spring-boot`}>
                                                 Learn more
                                             </Link>
@@ -232,7 +272,11 @@ const CourseHighllight = () => {
                             </div>
                         </li>
                     </SwiperSlide>
-                    <SwiperSlide className='cursor-grab'>
+                    <SwiperSlide className='cursor-grab slide relative'>
+                    <p className='text-white w-full h-full absolute z-10 lg:text-2xl font-semibold rounded-lg top-0 left-0 flex justify-center items-center'>
+                            <Image src={dataCov} alt='cover' className='h-full w-full rounded-xl object-cover' />
+                            <span className='absolute'>Data Science</span>
+                        </p>
                         <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch4} alt="course image" className='object-cover' fill />
@@ -251,7 +295,7 @@ const CourseHighllight = () => {
                                         <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                        <Button className="bg-secondary" asChild>
+                                        <Button className="bg-secondary hover:bg-primary" asChild>
                                             <Link href={`/data-science`}>
                                                 Learn more
                                             </Link>
@@ -272,7 +316,11 @@ const CourseHighllight = () => {
                         </li>
                     </SwiperSlide>
 
-                    <SwiperSlide className='cursor-grab'>
+                    <SwiperSlide className='cursor-grab slide relative'>
+                    <p className='text-white w-full h-full absolute z-10 lg:text-2xl font-semibold rounded-lg top-0 left-0 flex justify-center items-center'>
+                            <Image src={reactCov} alt='cover' className='h-full w-full rounded-xl object-cover' />
+                            <span className='absolute'>ReactJS</span>
+                        </p>
                         <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch5} alt="course image" className='object-cover' fill />
@@ -291,7 +339,7 @@ const CourseHighllight = () => {
                                         <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                        <Button className="bg-secondary" asChild>
+                                        <Button className="bg-secondary hover:bg-primary" asChild>
                                             <Link href={`/reactjs`}>
                                                 Learn more
                                             </Link>
@@ -310,7 +358,11 @@ const CourseHighllight = () => {
                             </div>
                         </li>
                     </SwiperSlide>
-                    <SwiperSlide className='cursor-grab'>
+                    <SwiperSlide className='cursor-grab slide relative'>
+                    <p className='text-white w-full h-full absolute z-10 lg:text-2xl font-semibold rounded-lg top-0 left-0 flex justify-center items-center'>
+                            <Image src={nodeCov} alt='cover' className='h-full w-full rounded-xl object-cover' />
+                            <span className='absolute'>NodeJS</span>
+                        </p>
                         <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={Node} alt="course image" className='object-cover' fill />
@@ -329,7 +381,7 @@ const CourseHighllight = () => {
                                         <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                        <Button className="bg-secondary" asChild>
+                                        <Button className="bg-secondary hover:bg-primary" asChild>
                                             <Link href={`nodejs`}>
                                                 Learn more
                                             </Link>
@@ -347,7 +399,11 @@ const CourseHighllight = () => {
                             </div>
                         </li>
                     </SwiperSlide>
-                    <SwiperSlide className='cursor-grab'>
+                    <SwiperSlide className='cursor-grab slide relative'>
+                    <p className='text-white w-full h-full absolute z-10 lg:text-2xl font-semibold rounded-lg top-0 left-0 flex justify-center items-center'>
+                            <Image src={productCov} alt='cover' className='h-full w-full rounded-xl object-cover' />
+                            <span className='absolute'>Product Management</span>
+                        </p>
                         <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch6} alt="course image" className='object-cover' fill />
@@ -366,7 +422,7 @@ const CourseHighllight = () => {
                                         <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                        <Button className="bg-secondary" asChild>
+                                        <Button className="bg-secondary hover:bg-primary" asChild>
                                             <Link href={`product-management`}>
                                                 Learn more
                                             </Link>
@@ -385,7 +441,11 @@ const CourseHighllight = () => {
                             </div>
                         </li>
                     </SwiperSlide>
-                    <SwiperSlide className='cursor-grab'>
+                    <SwiperSlide className='cursor-grab slide relative'>
+                       <p className='text-white w-full h-full absolute z-10 lg:text-2xl font-semibold rounded-lg top-0 left-0 flex justify-center items-center'>
+                            <Image src={itCov} alt='cover' className='h-full w-full rounded-xl object-cover' />
+                            <span className='absolute'>IT Solution Sales</span>
+                        </p>
                         <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={ch7} alt="course image" className='object-cover' fill />
@@ -404,7 +464,7 @@ const CourseHighllight = () => {
                                         <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                        <Button className="bg-secondary" asChild>
+                                        <Button className="bg-secondary hover:bg-primary" asChild>
                                             <Link href={`IT-solution-sales`}>
                                                 Learn more
                                             </Link>
@@ -425,7 +485,11 @@ const CourseHighllight = () => {
                     </SwiperSlide>
 
                     
-                    <SwiperSlide className='cursor-grab'>
+                    <SwiperSlide className='cursor-grab slide relative'>
+                    <p className='text-white w-full h-full absolute z-10 lg:text-2xl font-semibold rounded-lg top-0 left-0 flex justify-center items-center'>
+                            <Image src={devopsCov} alt='cover' className='h-full w-full rounded-xl object-cover' />
+                            <span className='absolute'>DevOps</span>
+                        </p>
                         <li className="flex flex-col w-full  text-left select-none border border-gray-100 rounded-lg overflow-hidden shadow-lg">
                             <div className='w-full shrink-0 bg-gray-100 h-32 relative'>
                                 <Image src={DevOps} alt="course image" className='object-cover' fill />
@@ -444,7 +508,7 @@ const CourseHighllight = () => {
                                         <p className="flex items-center"><Book className='text-primary h-4' /> Hybrid</p>
                                     </div>
                                     <div className='flex px-2 lg:gap-4 justify-between lg:justify-normal items-center'>
-                                        <Button className="bg-secondary" asChild>
+                                        <Button className="bg-secondary hover:bg-primary" asChild>
                                             <Link href={`devops`}>
                                                 Learn more
                                             </Link>

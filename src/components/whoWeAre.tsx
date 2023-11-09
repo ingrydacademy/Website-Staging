@@ -3,7 +3,7 @@
 
 const WhoWeAre = () => {
   return (
-    <section className='my-10 lg:my-24 flex flex-col items-center text-center'>
+    <section className='my-10 lg:my-14 flex flex-col items-center text-center'>
               
                     <li className='px-9 w-full lg:px-12  flex flex-col justify-center'>
                         <h1 className='text-xl lg:text-5xl mb-4 lg:mb-10 font-semibold'>

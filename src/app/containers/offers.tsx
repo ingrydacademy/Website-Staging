@@ -4,8 +4,9 @@ import icon1 from '@/assets/training-online-icon 1.svg'
 import icon2 from '@/assets/share-group-member-icon 1.svg'
 
 import img1 from '@/assets/searchforImage.png'
-import { ArrowRight } from 'lucide-react'
 import { ArrowRightIcon } from '@heroicons/react/24/outline'
+
+import "@/components/ui/animations.css"
 
 const Offers = () => {
     return (
@@ -21,7 +22,7 @@ const Offers = () => {
             <div className='lg:w-1/2 lg:px-10'>
             <h1 className='text-xl hidden lg:block lg:text-4xl mb-10 font-semibold'><span className='text-primary'>Your search</span>  for the right <br /> tech talent <span className='text-primary'> ends here</span>
             </h1>
-            <ul className='flex flex-col gap-10'>
+            <ul className='flex flex-col gap-10 offers'>
                     <li className='flex gap-4'>
                         <Image src={icon1} alt='image' className="h-20 aspect-square rounded-lg bg-primary p-3" />
                         <div className='flex flex-col gap-1'>
@@ -33,7 +34,7 @@ const Offers = () => {
                             </p>
                             <Link href={'/request-training'} className='flex gap-2 font-light underline items-center'>
                                 <span> Learn More</span> 
-                                <ArrowRightIcon className='w-4  h-4' />
+                                <ArrowRightIcon className='w-4  h-4 arrow' />
                             </Link>
                         </div>
                     </li>
@@ -48,7 +49,7 @@ const Offers = () => {
                             </p>
                             <Link href={'/request-staffing'} className='flex gap-2 font-light underline items-center'>
                                 <span> Learn More</span> 
-                                <ArrowRightIcon className='w-4  h-4' />
+                                <ArrowRightIcon className='w-4  h-4 arrow' />
                             </Link>
                         </div>
                     </li>

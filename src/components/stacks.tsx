@@ -1,11 +1,12 @@
 "use client"
 
+import { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
-import { Grid, Navigation, Pagination, A11y, } from 'swiper/modules';
+import { Grid, Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useSwiper } from 'swiper/react';
@@ -30,9 +31,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { useState } from 'react'
 
-const CourseHighllight = () => {
-
-
+const StackHighlight = () => {
 
     const swiper = useSwiper();
 
@@ -54,11 +53,9 @@ const CourseHighllight = () => {
         "",
         "",
         ""
-
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0)
-
 
     const handleDotClick = (index: number) => {
         setCurrentIndex(index); // Update the current index in your component's state
@@ -66,7 +63,19 @@ const CourseHighllight = () => {
         console.log(index)
     };
 
+    const swiperRef = useRef(null);
 
+    useEffect(() => {
+      const swiper = swiperRef?.current.swiper;
+  
+      swiper.el.addEventListener('mouseenter', () => {
+        swiper.autoplay.stop();
+      });
+  
+      swiper.el.addEventListener('mouseleave', () => {
+        swiper.autoplay.start();
+      });
+    }, []);
 
     return (
         <>
@@ -84,14 +93,20 @@ const CourseHighllight = () => {
 
                 <Swiper
                     // install Swiper modules
-                    modules={[Pagination, Navigation, A11y, Grid]}
+                    ref={swiperRef}
+                    // install Swiper modules
+                    modules={[Pagination, Navigation, A11y, Grid,Autoplay]}
                     spaceBetween={30}
                     slidesPerView={1}
+                    autoplay={{
+                        delay: 1000,
+                        disableOnInteraction: false,
+                      }}
                     navigation={{
                         nextEl: '.swiper-button-n',
                         prevEl: '.swiper-button-p',
                         enabled: true,
-
+                        
                     }}
                     onSlideChange={(swiper) => {
                         setCurrentIndex(swiper.activeIndex);
@@ -141,7 +156,7 @@ const CourseHighllight = () => {
                                 </ul>
 
 
-                                <Button className="bg-secondary" asChild>
+                                <Button className="bg-secondary hover:bg-primary transition-all duration-1000 ease-in-out" asChild>
                                     <Link href={`https://lms.ingrydacademy.com/signup`}>
                                         APPLY NOW
                                     </Link>
@@ -176,7 +191,7 @@ const CourseHighllight = () => {
                                 </ul>
 
 
-                                <Button className="bg-secondary" asChild>
+                                <Button className="bg-secondary hover:bg-primary transition-all duration-1000 ease-in-out" asChild>
                                     <Link href={`https://lms.ingrydacademy.com/signup`}>
                                         APPLY NOW
                                     </Link>
@@ -212,7 +227,7 @@ const CourseHighllight = () => {
                                 </ul>
 
 
-                                <Button className="bg-secondary" asChild>
+                                <Button className="bg-secondary hover:bg-primary transition-all duration-1000 ease-in-out" asChild>
                                     <Link href={`https://lms.ingrydacademy.com/signup`}>
                                         APPLY NOW
                                     </Link>
@@ -248,7 +263,7 @@ const CourseHighllight = () => {
                                 </ul>
 
 
-                                <Button className="bg-secondary" asChild>
+                                <Button className="bg-secondary hover:bg-primary transition-all duration-1000 ease-in-out" asChild>
                                     <Link href={`https://lms.ingrydacademy.com/signup`}>
                                         APPLY NOW
                                     </Link>
@@ -284,7 +299,7 @@ const CourseHighllight = () => {
                                 </ul>
 
 
-                                <Button className="bg-secondary" asChild>
+                                <Button className="bg-secondary hover:bg-primary transition-all duration-1000 ease-in-out" asChild>
                                     <Link href={`https://lms.ingrydacademy.com/signup`}>
                                         APPLY NOW
                                     </Link>
@@ -319,7 +334,7 @@ const CourseHighllight = () => {
                                 </ul>
 
 
-                                <Button className="bg-secondary" asChild>
+                                <Button className="bg-secondary hover:bg-primary transition-all duration-1000 ease-in-out" asChild>
                                     <Link href={`https://lms.ingrydacademy.com/signup`}>
                                         APPLY NOW
                                     </Link>
@@ -355,7 +370,7 @@ const CourseHighllight = () => {
                                 </ul>
 
 
-                                <Button className="bg-secondary" asChild>
+                                <Button className="bg-secondary hover:bg-primary transition-all duration-1000 ease-in-out" asChild>
                                     <Link href={`https://lms.ingrydacademy.com/signup`}>
                                         APPLY NOW
                                     </Link>
@@ -391,7 +406,7 @@ const CourseHighllight = () => {
                                 </ul>
 
 
-                                <Button className="bg-secondary" asChild>
+                                <Button className="bg-secondary hover:bg-primary transition-all duration-1000 ease-in-out" asChild>
                                     <Link href={`https://lms.ingrydacademy.com/signup`}>
                                         APPLY NOW
                                     </Link>
@@ -428,7 +443,7 @@ const CourseHighllight = () => {
                                 </ul>
 
 
-                                <Button className="bg-secondary" asChild>
+                                <Button className="bg-secondary hover:bg-primary transition-all duration-1000 ease-in-out" asChild>
                                     <Link href={`https://lms.ingrydacademy.com/signup`}>
                                         APPLY NOW
                                     </Link>
@@ -465,4 +480,4 @@ const CourseHighllight = () => {
     )
 }
 
-export default CourseHighllight
+export default StackHighlight

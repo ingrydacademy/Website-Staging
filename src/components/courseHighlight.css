@@ -1,0 +1,17 @@
+.slide > p{
+    transition: all 0.3s ease-in-out;
+    text-shadow: -3px 1px 2px rgba(6, 5, 48, 0.6);
+}
+
+.slide:hover > p{
+    transform: rotateX(90deg);
+}
+
+.slide > li{
+    transform: rotateX(90deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.slide:hover > li{
+    transform: rotateX(0deg);
+}

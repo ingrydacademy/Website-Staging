@@ -15,23 +15,23 @@ const Benefit = () => {
 
                 </div>
                 <ul className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16">
-                    <li className="bg-white p-8 text-center flex flex-col gap-6 rounded-lg">
+                    <li className="bg-white hover:text-white hover:bg-secondary p-8 text-center flex flex-col gap-6 rounded-lg hover:scale-110 transform transition-all duration-300">
                         <h1 className="font-semibold text-xl lg:text-2xl">For the participants</h1>
-                        <p className='text-sm lg:text-base font-medium'>
+                        <p className='text-sm lg:text-base font-medium text-justify'>
                             Easier and quicker job placements.
                             A chance to learn in-demand & borderless tech skills and get employed. Become a more competitive & seasoned software engineer with access to endless opportunities around the world.
                         </p>
                     </li>
-                    <li className="bg-white p-8 text-center flex flex-col gap-6 rounded-lg">
+                    <li className="bg-white hover:text-white hover:bg-secondary p-8 text-center flex flex-col gap-6 rounded-lg hover:scale-110 transform transition-all duration-300">
                         <h1 className="font-semibold text-xl lg:text-2xl">For the Organization</h1>
-                        <p className='text-sm lg:text-base font-medium'>
+                        <p className='text-sm lg:text-base font-medium text-justify'>
                             A workforce you can trust. Tap into our talent pool to gain and retain talents. Enjoy a smooth onboarding process and keep pace with the changes in the tech industry.
                             Minimise cost of recruitment.
                         </p>
                     </li>
-                    <li className="bg-white p-8 text-center flex flex-col gap-6 rounded-lg">
+                    <li className="bg-white hover:text-white hover:bg-secondary p-8 text-center flex flex-col gap-6 rounded-lg hover:scale-110 transform transition-all duration-300">
                         <h1 className="font-semibold text-xl lg:text-2xl">For the Ecosystem</h1>
-                        <p className='text-sm lg:text-base font-medium'>
+                        <p className='text-sm lg:text-base font-medium text-justify'>
                             Build a large talent pipeline. Accelerated growth and work readiness. Innovation potential.
                             Improve economic and welfare stability. Develop a robust network of partnerships and collaboration.
                         </p>
