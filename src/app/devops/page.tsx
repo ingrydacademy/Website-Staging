@@ -12,8 +12,8 @@ import Payment from "./containers/payment";
 import LearnMore from "./containers/learnMore";
 
 export const metadata: Metadata = {
-  title: "Ingryd | Dev-ops",
-  description: "Acquire Borderless Tech Skills & Get Job Placements",
+  title: " DevOps Course at Ingryd Academy - Advanced Training & Certification",
+  description: "Join our DevOps course at Ingryd Academy. Get advanced training and certification in DevOps practices. ",
 };
 
 const DevOps = () => {

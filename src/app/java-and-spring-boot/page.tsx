@@ -12,8 +12,8 @@ import Faqs from "./containers/faqs";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Ingryd | Java",
-  description: "Acquire Borderless Tech Skills & Get Job Placements",
+  title: "Advanced Java and Spring Boot Training - Get Trained and Get Placed.",
+  description: "Discover our Java and Spring Boot course at Ingryd Academy. Enhance your tech skills and career opportunities.",
 };
 
 const Java = () => {

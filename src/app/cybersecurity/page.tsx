@@ -11,9 +11,10 @@ import LearnMore from "./containers/learnMore";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Ingryd | Cybersecurity",
-  description: "Acquire Borderless Tech Skills & Get Job Placements",
+  title: "Cybersecurity Course - Advanced Training & Certification",
+  description: "Explore our Cybersecurity course at Ingryd Academy. Gain advanced training, skills, and certification to excel in the world of cybersecurity.",
 };
+
 
 const CyberSecurity = () => {
   return (
