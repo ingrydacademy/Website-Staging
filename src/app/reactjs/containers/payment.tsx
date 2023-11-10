@@ -1,10 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import React from "react";
 
 const Payment = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
   return (
-    <section className="py-14 px-8 flex flex-col lg:px-36 gap-8">
+    <section className="py-14 px-8 flex flex-col lg:px-36 gap-8 overflow-x-hidden">
       <div className="flex flex-col mb-10">
         <h1 className="font-semibold text-center text-lg lg:text-5xl">
           Payment Options

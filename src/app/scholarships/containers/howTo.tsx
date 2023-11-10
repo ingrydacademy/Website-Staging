@@ -10,9 +10,9 @@ const HowTo = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
   return (
     <>
-      <section className="bg-[#F4DCFF] bg-gradient-to-r  from-[#1D63FE] to-[#FF00F8] flex flex-col gap-6 py-16 px-8 text-white">
-        <h1 className="text-3xl lg:text-5xl text-center font-semibold mb-12">
-          How to get started with the INGRYD <br /> scholarship program
+      <section className="bg-[#F4DCFF] bg-gradient-to-r from-[#1D63FE] to-[#FF00F8] flex flex-col gap-6 py-16 px-8 text-white">
+        <h1 className="text-xl lg:text-3xl text-center font-semibold mb-12">
+          How to get started with the INGRYD scholarship program
         </h1>
         <ul className="flex flex-col lg:flex-row gap-16">
           <li className="lg:w-2/6 aspect-square relative lg:flex flex-col items-center justify-center">
@@ -65,7 +65,10 @@ const HowTo = () => {
                 </p>
               </li>
             </ul>
-            <Button className="bg-[#1A183E] flex h-fit w-fit" asChild>
+            <Button
+              className="bg-secondary hover:bg-primary transition-all duration-1000 ease-in-out flex h-fit w-fit"
+              asChild
+            >
               <Link href={`${baseUrl}/signup`} className="text-xl py-3 px-6">
                 Start Now
               </Link>
@@ -75,7 +78,7 @@ const HowTo = () => {
       </section>
       <section className="flex flex-col mt-28 mb-10 lg:mb-20 items-center gap-4 py-16 px-6 lg:px-24 bg-[#F4DCFF]">
         <div className="flex flex-col items-center gap-4 mt-8">
-          <h1 className="font-semibold text-center text-3xl lg:text-5xl">
+          <h1 className="font-semibold text-center text-xl lg:text-3xl">
             Partnering for Success:
           </h1>
           <p className="text-base lg:text-xl text-center">
@@ -87,10 +90,13 @@ const HowTo = () => {
             professional realm, working on projects that matter and contributing
             to their innovative initiatives.
           </p>
-          <Button className="bg-[#1A183E] mt-6 flex h-fit w-fit" asChild>
-            <p className="text-xl py-3 px-6">
+          <Button
+            className="bg-secondary hover:bg-primary transition-all duration-1000 ease-in-out mt-6 flex h-fit w-fit"
+            asChild
+          >
+            <Link href={`${baseUrl}/signup`} className="text-xl py-3 px-6">
               Partner with us
-            </p>
+            </Link>
           </Button>
         </div>
       </section>

@@ -10,18 +10,14 @@ const WhyShould = () => {
   return (
     <section
       id="cyber"
-      className="flex flex-col items-center gap-4 py-16 px-6 lg:px-24"
+      className="flex flex-col items-center gap-4 py-16 px-6 lg:px-24 overflow-x-hidden"
     >
-      <div className="flex flex-col items-center gap-4 mt-8">
-        <div className="w-[855px] h-[887.13px] absolute -right-10 -mt-28">
-          <Image
-            alt="Ingryd pattern"
-            src={pattern}
-            className="-z-10 top-0 right-5"
-          />
+      <div className="flex flex-col items-center gap-4 mt-8 overflow-x-hidden">
+        <div className="w-[855px] h-[887.13px] absolute right-0 -mt-28">
+          <Image alt="Ingryd pattern" src={pattern} className="-z-10" />
         </div>
 
-        <h1 className="font-semibold text-center text-xl lg:text-5xl">
+        <h1 className="font-semibold text-center text-xl lg:text-3xl">
           Why you should take this course?
         </h1>
         <p className="text-base lg:text-xl text-center mb-10 font-medium">
@@ -29,7 +25,7 @@ const WhyShould = () => {
         </p>
       </div>
       <section className="grid sm:grid-cols-2 gap-20 mt-10 place-content-center">
-        <div className="lg:w-[400px] lg:h-[460px] w-[283px] h-[260px] flex flex-col items-center relative shadow-xl">
+        <div className="lg:w-[350px] lg:h-[360px] w-[283px] h-[260px] hover:bg-transparent flex flex-col items-center relative shadow-lg transition ease-in-out delay-150 hover:scale-110 cursor-pointer duration-300 rounded-xl bg-[whitesmoke]">
           <div className="lg:w-28 lg:h-28 w-20 h-20 bg-black rounded-full absolute -top-10 flex items-center justify-center">
             <Image
               alt="image"
@@ -41,7 +37,7 @@ const WhyShould = () => {
             <p className="lg:text-2xl text-sm font-semibold">
               Hands-on Experience
             </p>
-            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-8 leading-4 text-sm lg:text-lg py-4">
+            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-6 leading-4 lg:text-base text-sm py-4">
               Our academy offers a practical approach to learning technology,
               providing students with hands-on experience and real-world
               scenarios to enhance their understanding and retention of
@@ -50,7 +46,7 @@ const WhyShould = () => {
           </div>
         </div>
 
-        <div className="lg:w-[400px] lg:h-[460px] w-[283px] h-[260px] flex flex-col items-center relative shadow-xl">
+        <div className="lg:w-[350px] lg:h-[360px] w-[283px] h-[260px] hover:bg-transparent flex flex-col items-center relative shadow-lg transition ease-in-out delay-150 hover:scale-110 cursor-pointer duration-300 rounded-xl bg-[whitesmoke]">
           <div className="lg:w-28 lg:h-28 w-20 h-20 bg-black rounded-full absolute -top-10 flex items-center justify-center">
             <Image
               alt="image"
@@ -62,7 +58,7 @@ const WhyShould = () => {
             <p className="lg:text-2xl text-sm font-semibold">
               Industry-Leading Faculty
             </p>
-            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-8 leading-4 text-sm lg:text-lg py-4">
+            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-6 leading-4 text-sm lg:text-base py-4">
               Our faculty members are industry experts with years of experience
               in the field, ensuring that students receive the highest quality
               education and guidance throughout their academic journey.
@@ -70,7 +66,7 @@ const WhyShould = () => {
           </div>
         </div>
 
-        <div className="lg:w-[400px] lg:h-[460px] w-[283px] h-[260px] flex flex-col items-center relative shadow-xl">
+        <div className="lg:w-[350px] lg:h-[360px] w-[283px] h-[260px] hover:bg-transparent flex flex-col items-center relative shadow-lg transition ease-in-out delay-150 hover:scale-110 cursor-pointer duration-300 rounded-xl bg-[whitesmoke]">
           <div className="lg:w-28 lg:h-28 w-20 h-20 bg-black rounded-full absolute -top-10 flex items-center justify-center">
             <Image
               alt="image"
@@ -82,7 +78,7 @@ const WhyShould = () => {
             <p className="lg:text-2xl text-sm font-semibold">
               Flexible Schedule
             </p>
-            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-8 leading-4 text-sm lg:text-lg py-4">
+            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-6 leading-4 text-sm lg:text-base py-4">
               Our academy offers flexible scheduling options to accommodate
               various learning preferences and busy schedules, allowing students
               to learn at their own pace and convenience..
@@ -90,7 +86,7 @@ const WhyShould = () => {
           </div>
         </div>
 
-        <div className="lg:w-[400px] lg:h-[460px] w-[283px] h-[260px] flex flex-col items-center relative shadow-xl">
+        <div className="lg:w-[350px] lg:h-[360px] w-[283px] h-[260px] flex flex-col items-center relative shadow-lg transition ease-in-out delay-150 hover:bg-transparent hover:scale-110 cursor-pointer duration-300 rounded-xl bg-[whitesmoke]">
           <div className="lg:w-28 lg:h-28 w-20 h-20 bg-black rounded-full absolute -top-10 flex items-center justify-center">
             <Image
               alt="image"
@@ -102,7 +98,7 @@ const WhyShould = () => {
             <p className="lg:text-2xl text-sm font-semibold">
               Network Opportunities
             </p>
-            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-8 leading-4 text-sm lg:text-lg py-4">
+            <p className="text-center font-medium text-[#1A183E] px-8 lg:leading-6 leading-4 text-sm lg:text-base py-4">
               Opportunities to connect with other students who share similar
               interests and career goals. You can collaborate, exchange ideas,
               and learn from each other's experiences, which can lead to

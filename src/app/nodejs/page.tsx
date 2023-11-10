@@ -3,7 +3,7 @@ import React from "react";
 import type { Metadata } from "next";
 import Hero from "./containers/hero";
 import AboutProgram from "./containers/about";
-import Footer from "./containers/footer";
+import Footer from "@/components/Footer";
 import Faqs from "./containers/faqs";
 import HowTo from "./containers/who-should";
 import WhyShould from "./containers/whyShould";
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const NodeJs = () => {
   return (
-    <main className="flex min-h-screen h-full flex-col">
+    <main className="flex min-h-screen h-full flex-col w-full">
       <Hero />
       <AboutProgram />
       <HowTo />

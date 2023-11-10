@@ -1,18 +1,20 @@
-import Footer from '@/components/Footer'
-import Benefit from './containers/benefit'
-import Campaign from './containers/campaign'
-import GetTalent from './containers/getTalent'
-import Hero from './containers/hero'
-import Offers from './containers/offers'
-import UnlockTalent from './containers/unlockTalent'
-import WhatWeOffer from "./containers/what-we-offer"
-import type { Metadata } from 'next'
-import NewsLetter from '../components/newsLetter'
+import Footer from "@/components/Footer";
+import Benefit from "./containers/benefit";
+import Campaign from "./containers/campaign";
+import GetTalent from "./containers/getTalent";
+import Hero from "./containers/hero";
+import Offers from "./containers/offers";
+import UnlockTalent from "./containers/unlockTalent";
+import WhatWeOffer from "./containers/what-we-offer";
+import type { Metadata } from "next";
+import NewsLetter from "../components/newsLetter";
 
 export const metadata: Metadata = {
-  title: 'Ingryd Academy, Lagos | Premier Tech Training & Real-World Outsourcing',
-  description: 'Elevate your tech career. Experience advanced tech training and real-world outsourcing opportunities, regardless of location. Request tech talents and staff training to grow your business.',
-}
+  title:
+    "Ingryd Academy, Lagos | Premier Tech Training & Real-World Outsourcing",
+  description:
+    "Elevate your tech career. Experience advanced tech training and real-world outsourcing opportunities, regardless of location. Request tech talents and staff training to grow your business.",
+};
 
 export default function Home() {
   return (
@@ -27,5 +29,5 @@ export default function Home() {
       <NewsLetter />
       <Footer />
     </main>
-  )
+  );
 }

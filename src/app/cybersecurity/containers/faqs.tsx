@@ -10,9 +10,9 @@ import {
 
 const Faqs = () => {
   return (
-    <section>
+    <section className="overflow-x-hidden">
       <article id="faq" className="flex flex-col py-24 px-6 lg:px-36 gap-8">
-        <h1 className="text-xl lg:text-4xl text-center font-semibold">
+        <h1 className="text-xl lg:text-3xl text-center font-semibold">
           Frequently Asked Questions
         </h1>
         <ul className="w-full flex flex-col lg:flex-row gap-0 lg:gap-32">
@@ -23,7 +23,7 @@ const Faqs = () => {
               className="w-full text-left flex flex-wrap gap-6 justify-between"
             >
               <AccordionItem value="item-1" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   Who is INGRYD Academy?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -37,7 +37,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-2" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   How do I apply to INGRYD Academy's programs?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -48,7 +48,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-3" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   What are the payment options available for the programs?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -66,7 +66,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-4" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   What happens if I cannot afford to pay for the training?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -79,7 +79,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-5" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   How does the assessment process work?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -92,7 +92,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-6" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   What is the duration of a program?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -104,7 +104,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-7" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   What are the available learning styles at INGRYD Academy?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -127,7 +127,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-8" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   What happens after I complete the program?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -140,7 +140,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-9" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   Are there any prerequisites for applying to the programs?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -191,7 +191,7 @@ const Faqs = () => {
               className="w-full text-left flex flex-wrap gap-6 justify-between"
             >
               <AccordionItem value="item-10" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   How can I get more information about a specific program?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -203,7 +203,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-11" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   Can I switch programs after enrollment?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -215,7 +215,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-12" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   Are the hands-on-experience collaborative or individual?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -227,7 +227,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-13" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   Will I receive a certification upon completing the program?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -239,7 +239,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-14" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   What kind of support is available after graduation?
                 </AccordionTrigger>
                 <AccordionContent className="lg:text-lg text-sm">
@@ -251,7 +251,7 @@ const Faqs = () => {
               </AccordionItem>
 
               <AccordionItem value="item-15" className="border-gray-300 w-full">
-                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-xl text-left">
+                <AccordionTrigger className="hover:no-underline text-sm font-semibold lg:text-lg text-left">
                   What types of industry partners do you collaborate with for
                   hands-on experience?
                 </AccordionTrigger>

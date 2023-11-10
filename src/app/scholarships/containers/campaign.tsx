@@ -11,7 +11,10 @@ const Campaign = () => {
           Got what it takes to be an INGRYD Scholarship Award Recipient?
         </h1>
         <section className="flex gap-6 ">
-          <Button className="bg-[#FF00F8] w-fit" asChild>
+          <Button
+            className="bg-primary hover:bg-secondary transition-all duration-1000 ease-in-out w-fit"
+            asChild
+          >
             <Link
               href={`${baseUrl}/signup`}
               className="flex gap-3 items-center py-6 px-8"

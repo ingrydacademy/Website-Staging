@@ -10,7 +10,7 @@ const Hero = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
   return (
-    <section className="flex flex-col shrink-0 grow h-full min-h-screen relative">
+    <section className="flex overflow-x-hidden flex-col shrink-0 grow h-full min-h-screen relative">
       <Image
         src={heroImage1}
         alt="hero image"

@@ -10,10 +10,10 @@ const WhyShould = () => {
   return (
     <section
       id="cyber"
-      className="flex flex-col items-center gap-4 py-16 px-6 lg:px-24"
+      className="overflow-x-hidden flex flex-col items-center gap-4 py-16 px-6 lg:px-24"
     >
-      <div className="flex flex-col items-center gap-4 mt-8">
-        <div className="w-[855px] h-[887.13px] absolute -right-10 -mt-28">
+      <div className="flex flex-col items-center gap-4 mt-8 overflow-x-hidden">
+        <div className="w-[855px] h-[887.13px] absolute right-0 -mt-28">
           <Image
             alt="Ingryd pattern"
             src={pattern}

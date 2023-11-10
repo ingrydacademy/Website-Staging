@@ -9,7 +9,7 @@ import last from "@/assets/python 1.png";
 
 const LearningOutcome = () => {
   return (
-    <section className="py-16 px-12 bg-[#F4DCFF]">
+    <section className="py-16 px-12 bg-[#F4DCFF] overflow-x-hidden">
       <h1 className="font-semibold text-center text-xl lg:text-5xl">
         Learning Outcomes
       </h1>

@@ -20,14 +20,17 @@ const Hero = () => {
       <NavBar />
       <div className="flex flex-col shrink-0 grow h-full relative px-6">
         <div className="w-full h-full shrink-0 grow text-white lg:px-24 items-center justify-center flex flex-col gap-12 text-center">
-          <h1 className="text-2xl lg:text-6xl font-semibold">
+          <h1 className="text-xl lg:text-4xl font-semibold">
             INGRYD Scholarship Program
           </h1>
           <p className="text-base lg:text-2xl ">
             Equipping top tech talents with advanced training and job placement
             at the global level.
           </p>
-          <Button asChild className="bg-primary w-fit h-auto mt-6">
+          <Button
+            asChild
+            className="bg-primary hover:bg-secondary transition-all duration-1000 ease-in-out w-fit h-auto mt-6"
+          >
             <Link
               href={`${baseUrl}/signup`}
               className="py-4 px-16 text-base lg:text-xl font-semibold w-3/4 lg:w-40"

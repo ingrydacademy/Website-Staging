@@ -10,7 +10,7 @@ const HowTo = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
   return (
     <>
-      <section className="bg-[#F4DCFF] bg-gradient-to-r from-[#1D63FE] to-[#FF00F8] flex flex-col gap-6 py-16 px-8">
+      <section className="bg-[#F4DCFF] bg-gradient-to-r from-[#1D63FE] to-[#FF00F8] flex flex-col gap-6 py-16 px-8 overflow-x-hidden">
         <ul className="flex flex-col lg:flex-row gap-16">
           <li className="lg:w-2/6 aspect-square relative lg:flex flex-col items-center justify-center">
             <div className="hidden lg:flex bg-[#FF00F8] rounded-xl w-full h-full"></div>
@@ -23,7 +23,7 @@ const HowTo = () => {
           </li>
           <li className="lg:w-4/6 text-xl flex flex-col gap-6">
             <ul className="flex flex-col gap-6 text-white">
-              <p className="lg:text-5xl text-sm font-semibold">
+              <p className="text-xl lg:text-3xl font-semibold">
                 Who should take this course?
               </p>
               <p className="font-normal text-sm lg:text-xl">

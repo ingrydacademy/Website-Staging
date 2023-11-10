@@ -1,3 +1,6 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React from "react";
 
@@ -5,9 +8,9 @@ const Payment = () => {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
   return (
-    <section className="py-14 px-8 flex flex-col lg:px-36 gap-8">
+    <section className="py-14 px-8 flex flex-col lg:px-36 gap-8 overflow-x-hidden">
       <div className="flex flex-col mb-10">
-        <h1 className="font-semibold text-center text-lg lg:text-5xl">
+        <h1 className="font-semibold text-center text-xl lg:text-3xl">
           Payment Options
         </h1>
         <p className="md:text-xl text-center mt-4 font-medium text-sm text-[#1A183E]">
@@ -17,25 +20,23 @@ const Payment = () => {
         </p>
       </div>
       <section className="grid gap-10 items-center md:grid-cols-2 place-content-center">
-        <div className="w-[347px] h-[336px] lg:w-[500px] lg:h-[470px] rounded-md shadow-lg text-left p-5 lg:py-7">
-          <p className="text-center  font-semibold text-lg lg:text-4xl mt-4 mb-6 text-[#1A183E]">
+        <div className="w-[347px] h-[350px] lg:w-[400px] lg:h-[430px] rounded-lg shadow-lg text-left p-5 lg:py-7 transition ease-in-out delay-150 hover:scale-110 cursor-pointer duration-300">
+          <p className="text-center  font-semibold text-lg lg:text-xl mt-4 mb-6 text-[#1A183E]">
             <span className="border-b-2 border-[#ea6ed7]">One-Tim</span>e
             Payment
           </p>
-          <p className="lg:text-xl text-sm text-[#1A183E] text-left font-medium lg:leading-8 leading-5">
-            With a one-time payment, you'll get <br /> immediate and complete
-            access to the <br /> entire course content, including all <br />{" "}
-            modules, lessons, and resources.
+          <p className="text-sm lg:text-base text-[#1A183E] text-center font-medium lg:leading-8 leading-5">
+            With a one-time payment, you'll get immediate and complete access to
+            the entire course content, including all modules, lessons, and
+            resources.
           </p>
-          <div className="flex lg:gap-40 mt-10 gap-20 lg:mt-20 font-semibold lg:text-lg">
+          <div className="flex lg:gap-40 mt-10 gap-20 lg:mt-20 font-semibold text-sm lg:text-base">
             <p className="text-base lg:text-lg">Payment Date:</p>
             <p>Amount:</p>
           </div>
           <div className="flex mt-4 gap-10 lg:gap-1">
             <p className="font-semibold text-sm">Immediately</p>
-            <span className="hidden lg:block">
-              ........................................................
-            </span>
+            <span className="hidden lg:block">..................</span>
             <p className="font-semibold">
               <span className="line-through font-normal">&#8358;750,000 </span>{" "}
               &#8358; 550,000
@@ -43,47 +44,44 @@ const Payment = () => {
           </div>
         </div>
 
-        <div className="w-[347px] h-[336px] lg:w-[500px] lg:h-[470px] rounded-md shadow-lg text-left p-5 lg:py-7">
-          <p className="text-center font-semibold text-lg lg:text-4xl lg:mt-4 lg:mb-6 mb-3 mt-2 text-[#1A183E]">
+        <div className="w-[347px] h-[350px] lg:w-[400px] lg:h-[430px] rounded-lg shadow-lg text-left p-5 lg:py-7 transition ease-in-out delay-150 hover:scale-110 cursor-pointer duration-300">
+          <p className="text-center font-semibold text-lg lg:text-xl lg:mt-4 lg:mb-6 mb-3 mt-2 text-[#1A183E]">
             <span className="border-b-2 border-[#ea6ed7]">Installm</span>ents
           </p>
-          <p className="lg:text-xl text-sm text-[#1A183E] text-left font-medium lg:leading-8 leading-5">
-            Paying in instalments makes the course <br /> more affordable by
-            spreading the cost <br /> over 3 months, ensuring it fits your
-            budget.
+          <p className="lg:text-base text-sm text-[#1A183E] text-center font-medium lg:leading-8 leading-5">
+            Paying in instalments makes the course more affordable by spreading
+            the cost over 3 months, ensuring it fits your budget.
           </p>
 
-          <div className="flex lg:gap-40 mt-10 gap-20 lg:mt-10 font-semibold lg:text-lg">
+          <div className="flex lg:gap-40 mt-10 gap-20 lg:mt-10 font-semibold text-sm lg:text-base">
             <p>Payment Date:</p>
             <p>Amount:</p>
           </div>
           <div className="flex mt-4 gap-10 lg:gap-1">
-            <p className="font-semibold text-sm mr-3"> On Starting </p>
-            <span className="hidden lg:block">
-              .....................................................
-            </span>
+            <p className="font-semibold text-sm mr-4 md:mr-0"> On Starting </p>
+            <span className="hidden lg:block">....................</span>
             <p className="font-semibold">
               <span className="line-through font-normal">&#8358;300,000 </span>
               &#8358; 220,000
             </p>
           </div>
+
           <div className="flex mt-4 gap-10 lg:gap-1">
-            <p className="font-semibold text-sm">30 Days Later</p>
-            <span className="hidden lg:block">
-              .....................................................
-            </span>
+            <p className="font-semibold text-sm mr-10 md:mr-0">
+              30 Days <br /> Later
+            </p>
+            <span className="hidden lg:block">................</span>
             <p className="font-semibold">
               <span className="line-through font-normal">&#8358;225,000 </span>
               &#8358; 165,000
             </p>
           </div>
+
           <div className="flex mt-4 gap-10 lg:gap-1">
             <p className="font-semibold text-sm">
               Before <br /> Training Ends
             </p>
-            <span className="hidden lg:block">
-              ....................................................
-            </span>
+            <span className="hidden lg:block">................</span>
             <p className="font-semibold">
               <span className="line-through font-normal">&#8358;225,000 </span>
               &#8358; 165,000
@@ -92,9 +90,17 @@ const Payment = () => {
         </div>
       </section>
       <div className="grid place-content-center py-10">
-        <button className="bg-[rgb(26,24,62)] py-3 hover:opacity-90 px-6 text-white font-medium text-base shadow-md rounded-sm">
-          <Link href={`${baseUrl}/signup`}>Enroll Now</Link>
-        </button>
+        <Button
+          asChild
+          className="bg-secondary hover:bg-primary hover:text-white transition-all duration-1000 ease-in-out text-white w-full h-auto mt-6"
+        >
+          <Link
+            href={`${baseUrl}/signup`}
+            className="py-4 px-16 text-sm lg:text-xl font-semibold"
+          >
+            Enrol Now
+          </Link>
+        </Button>
       </div>
     </section>
   );

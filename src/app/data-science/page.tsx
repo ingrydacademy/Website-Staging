@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import React from "react";
 import Hero from "./containers/hero";
 import AboutProgram from "./containers/about";
@@ -12,7 +12,8 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Enroll in Data Science with Python Course - Advanced Training",
-  description: "Join our Data Science with Python course at Ingryd Academy. Acquire advanced data science skills using Python. Unlock new career prospects.",
+  description:
+    "Join our Data Science with Python course at Ingryd Academy. Acquire advanced data science skills using Python. Unlock new career prospects.",
 };
 
 const PythonForDataScience = () => {
