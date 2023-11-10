@@ -70,7 +70,7 @@ const Payment = () => {
             <p className="font-semibold text-sm mr-10 md:mr-0">
               30 Days <br /> Later
             </p>
-            <span className="hidden lg:block">................</span>
+            <span className="hidden lg:block">........................</span>
             <p className="font-semibold">
               <span className="line-through font-normal">&#8358;225,000 </span>
               &#8358; 165,000
