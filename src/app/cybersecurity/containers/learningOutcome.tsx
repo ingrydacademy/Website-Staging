@@ -55,7 +55,7 @@ const LearningOutcome = () => {
           <Image
             alt="image"
             src={cyber}
-            className="rounded-lg lg:translate-x-8 lg:-translate-y-8 w-[80px] h-[80px] lg:mr-20"
+            className="rounded-lg lg:translate-x-8 lg:-translate-y-8 w-[80px] h-[80px] lg:mr-36"
           />
           <p className="text-sm font-medium md:text-base">
             Gain expertise in implementing <br /> robust cybersecurity measures

@@ -20,7 +20,7 @@ const Payment = () => {
         </p>
       </div>
       <section className="grid gap-10 items-center md:grid-cols-2 place-content-center">
-        <div className="w-[347px] h-[336px] lg:w-[400px] lg:h-[430px] rounded-lg shadow-lg text-left p-5 lg:py-7 transition ease-in-out delay-150 hover:scale-110 cursor-pointer duration-300">
+        <div className="w-[347px] h-[350px] lg:w-[400px] lg:h-[430px] rounded-lg shadow-lg text-left p-5 lg:py-7 transition ease-in-out delay-150 hover:scale-110 cursor-pointer duration-300">
           <p className="text-center  font-semibold text-lg lg:text-xl mt-4 mb-6 text-[#1A183E]">
             <span className="border-b-2 border-[#ea6ed7]">One-Tim</span>e
             Payment
@@ -30,13 +30,13 @@ const Payment = () => {
             the entire course content, including all modules, lessons, and
             resources.
           </p>
-          <div className="flex lg:gap-40 mt-10 gap-20 lg:mt-20 font-semibold lg:text-lg">
+          <div className="flex lg:gap-40 mt-10 gap-20 lg:mt-20 font-semibold text-sm lg:text-base">
             <p className="text-base lg:text-lg">Payment Date:</p>
             <p>Amount:</p>
           </div>
           <div className="flex mt-4 gap-10 lg:gap-1">
             <p className="font-semibold text-sm">Immediately</p>
-            <span className="hidden lg:block">..........................</span>
+            <span className="hidden lg:block">..................</span>
             <p className="font-semibold">
               <span className="line-through font-normal">&#8358;750,000 </span>{" "}
               &#8358; 550,000
@@ -44,7 +44,7 @@ const Payment = () => {
           </div>
         </div>
 
-        <div className="w-[347px] h-[336px] lg:w-[400px] lg:h-[430px] rounded-lg shadow-lg text-left p-5 lg:py-7 transition ease-in-out delay-150 hover:scale-110 cursor-pointer duration-300">
+        <div className="w-[347px] h-[350px] lg:w-[400px] lg:h-[430px] rounded-lg shadow-lg text-left p-5 lg:py-7 transition ease-in-out delay-150 hover:scale-110 cursor-pointer duration-300">
           <p className="text-center font-semibold text-lg lg:text-xl lg:mt-4 lg:mb-6 mb-3 mt-2 text-[#1A183E]">
             <span className="border-b-2 border-[#ea6ed7]">Installm</span>ents
           </p>
@@ -53,31 +53,35 @@ const Payment = () => {
             the cost over 3 months, ensuring it fits your budget.
           </p>
 
-          <div className="flex lg:gap-40 mt-10 gap-20 lg:mt-10 font-semibold lg:text-lg">
+          <div className="flex lg:gap-40 mt-10 gap-20 lg:mt-10 font-semibold text-sm lg:text-base">
             <p>Payment Date:</p>
             <p>Amount:</p>
           </div>
           <div className="flex mt-4 gap-10 lg:gap-1">
-            <p className="font-semibold text-sm mr-3"> On Starting </p>
-            <span className="hidden lg:block">..........................</span>
+            <p className="font-semibold text-sm mr-4 md:mr-0"> On Starting </p>
+            <span className="hidden lg:block">....................</span>
             <p className="font-semibold">
               <span className="line-through font-normal">&#8358;300,000 </span>
               &#8358; 220,000
             </p>
           </div>
+
           <div className="flex mt-4 gap-10 lg:gap-1">
-            <p className="font-semibold text-sm">30 Days Later</p>
-            <span className="hidden lg:block">..........................</span>
+            <p className="font-semibold text-sm mr-10 md:mr-0">
+              30 Days <br /> Later
+            </p>
+            <span className="hidden lg:block">................</span>
             <p className="font-semibold">
               <span className="line-through font-normal">&#8358;225,000 </span>
               &#8358; 165,000
             </p>
           </div>
+
           <div className="flex mt-4 gap-10 lg:gap-1">
             <p className="font-semibold text-sm">
               Before <br /> Training Ends
             </p>
-            <span className="hidden lg:block">..........................</span>
+            <span className="hidden lg:block">................</span>
             <p className="font-semibold">
               <span className="line-through font-normal">&#8358;225,000 </span>
               &#8358; 165,000
