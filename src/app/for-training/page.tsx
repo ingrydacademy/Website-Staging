@@ -27,7 +27,7 @@ const TechiesForTraining = () => {
         <WhatOurStudentsSay />
         <Footer />
     </main>
-  )
-}
+  );
+};
 
-export default TechiesForTraining
+export default TechiesForTraining;

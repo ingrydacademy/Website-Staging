@@ -8,11 +8,13 @@ import Payment from "./containers/payment";
 import LearnMore from "./containers/learnMore";
 import Faqs from "./containers/faqs";
 import Footer from "@/components/Footer";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ReactJs Course at Ingryd Academy - Advanced Frontend Development Training",
-  description: "Enroll in our ReactJs course at Ingryd Academy. Gain advanced frontend development skills using React.",
+  title:
+    "ReactJs Course at Ingryd Academy - Advanced Frontend Development Training",
+  description:
+    "Enroll in our ReactJs course at Ingryd Academy. Gain advanced frontend development skills using React.",
 };
 
 const ReactJs = () => {

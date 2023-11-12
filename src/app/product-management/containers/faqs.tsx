@@ -10,7 +10,7 @@ import {
 
 const Faqs = () => {
   return (
-    <section>
+    <section className="overflow-x-hidden">
       <article id="faq" className="flex flex-col py-24 px-6 lg:px-36 gap-8">
         <h1 className="text-xl lg:text-4xl text-center font-semibold">
           Frequently Asked Questions

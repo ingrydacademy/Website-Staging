@@ -1,9 +1,7 @@
-import { saveAs } from 'file-saver';
+import { saveAs } from "file-saver";
 
-const Download = (filePath, fileName) =>{
- 
-        saveAs(filePath, fileName);
-    
-}
+const Download = (filePath, fileName) => {
+  saveAs(filePath, fileName);
+};
 
-export default Download
+export default Download;
